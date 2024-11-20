@@ -27,7 +27,6 @@ public class RSSMDB {
             while (rs.next()) {
                 String userId = rs.getString(1);
                 String passcode = rs.getString(2);
-                System.out.println(username+" "+password);
                 if(userId.equals(username) && passcode.equals(password)){
                     return true;
                 }
