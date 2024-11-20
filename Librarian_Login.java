@@ -181,14 +181,19 @@ public class Librarian_Login extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-
-        if(jTextField1.getText().equals("Rssm") && jPasswordField1.getText().equals("123456")){
-            setVisible(false);
+        RSSMDB rssm=new RSSMDB();
+        boolean b=rssm.checkdata(jTextField1.getText(),jPasswordField1.getText());
+        if(b){
             new Librarian_Home().setVisible(true);
+            setVisible(false);
+  
         }
         else{
-            JOptionPane.showMessageDialog(null, "Incorrect Username or Password");
+            JOptionPane.showMessageDialog(null, "Incorrect Detalis");
+
         }
+
+        
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
