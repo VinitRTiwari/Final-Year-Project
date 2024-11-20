@@ -1,0 +1,54 @@
+import java.sql.*;
+
+
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
+/**
+ *
+ * @author gupta
+ */
+public class RSSMDB {
+    String db="jdbc:mysql://localhost:3306/RSSMLIB";
+    String user="root";
+    String pass="root";
+    public boolean checkdata(String username,String password){
+        try{
+            Class.forName("com.mysql.jdbc.driver");
+            Connection con = DriverManager.getConnection(db,user,pass);
+            String s="select _username,_password from Admin_Tbl where _isActive=1 and _profile='librarian'";
+            Statement st=con.createStatement();
+            System.out.println("1");
+
+            ResultSet rs=st.executeQuery(s);
+            System.out.println("2");
+
+            while(rs.next()){
+                String userId=rs.getString(1);
+                String passcode=rs.getString(2);
+                System.out.println(userId);
+                System.out.println(passcode);
+
+                //if(userId==username&&passcode==password){
+                //    return true;
+                //}
+                //else{
+                 //   return false;
+                //}
+                
+            }
+            
+            rs.close();
+            st.close();
+            con.close();
+            
+        }
+        catch(Exception e){
+             return false;
+        }
+        return false;
+        }
+    }
+
