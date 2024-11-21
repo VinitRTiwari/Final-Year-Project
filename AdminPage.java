@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package loginform;
+
 
 import javax.swing.*;
 
@@ -575,7 +575,7 @@ public class AdminPage extends javax.swing.JFrame {
     }//GEN-LAST:event_jTextField13ActionPerformed
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-        RssmDb rssm = new RssmDb();
+        RSSMDB rssm = new RSSMDB();
         boolean temp = rssm.InsertData(jTextField1.getText(),jTextField2.getText(),jTextField3.getText(),jTextField4.getText(),new String(jPasswordField2.getPassword()),Integer.parseInt(jTextField5.getText()),Integer.parseInt(jTextField13.getText()),"admin");
         if(temp){
             System.out.println("Successfully.....");
@@ -586,7 +586,7 @@ public class AdminPage extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton6ActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-        RssmDb rssm = new RssmDb();
+        RSSMDB rssm = new RSSMDB();
         boolean temp = rssm.InsertData(jTextField7.getText(),jTextField8.getText(),jTextField9.getText(),jTextField10.getText(),jPasswordField1.getSelectedText(),Integer.parseInt(jTextField11.getText()),Integer.parseInt(jTextField14.getText()),"librarian");
         if(temp){
             System.out.println("Successfully.....");

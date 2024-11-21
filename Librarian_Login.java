@@ -182,7 +182,7 @@ public class Librarian_Login extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
         RSSMDB rssm=new RSSMDB();
-        boolean b=rssm.checkdata(jTextField1.getText(),jPasswordField1.getText());
+        boolean b=rssm.checkdata(jTextField1.getText(),new String(jPasswordField1.getPassword()),"librarian");
         if(b){
             new Librarian_Home().setVisible(true);
             setVisible(false);

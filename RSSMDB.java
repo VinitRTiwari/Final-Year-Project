@@ -2,13 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package loginform;
+
 import java.sql.*;
 /**
  *
  * @author vinit
  */
-public class RssmDb {
+public class RSSMDB {
         String url = "jdbc:mysql://localhost:3306/RSSMLIB";
         String user = "root";
         String pass = "root";

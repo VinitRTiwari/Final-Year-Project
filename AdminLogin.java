@@ -1,4 +1,3 @@
-package loginform;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -131,7 +130,7 @@ public class AdminLogin extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        RssmDb rssm = new RssmDb();
+        RSSMDB rssm = new RSSMDB();
         boolean temp = rssm.checkdata(jTextField1.getText(),new String(jPasswordField1.getPassword()),"admin");
         System.out.println(temp);
         if(temp){            
