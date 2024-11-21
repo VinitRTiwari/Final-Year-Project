@@ -1,3 +1,4 @@
+package loginform;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -103,8 +104,7 @@ public class Login extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        new Librarian_Login().setVisible(true);
-        setVisible(false);
+        
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**

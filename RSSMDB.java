@@ -1,54 +1,64 @@
-import java.sql.*;
-
-
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-
+package loginform;
+import java.sql.*;
 /**
  *
- * @author gupta
+ * @author vinit
  */
-public class RSSMDB {
-    String db="jdbc:mysql://localhost:3306/RSSMLIB";
-    String user="root";
-    String pass="root";
-    public boolean checkdata(String username,String password){
+public class RssmDb {
+        String url = "jdbc:mysql://localhost:3306/RSSMLIB";
+        String user = "root";
+        String pass = "root";
+        //String name,String mobile,String email,String username,String password,int dob,int doj
+        public boolean InsertData(String name,String mobile,String email,String username,String password,int dob,int doj,String profile){
+        try {
+            Class.forName("com.mysql.jdbc.Driver");
+            // Establish the connection
+            Connection conn = DriverManager.getConnection(url, user, pass);
+
+            // Create a statement
+            Statement stmt = conn.createStatement();
+            //(_id,_name,_mobile,_email,_username,_password,_dob,_Jdate,_profile,_isActive)
+            String query = "update table Admin_Tbl set _isActive = 0 where _profile = '"+profile+"' ";
+            stmt.executeUpdate(query);
+            // Execute the insert query
+            String sql = "insert into Admin_Tbl(_name,_mobile,_email,_username,_password,_dob,_Jdate,_profile,_isActive) values('"+name+"','"+mobile+"','"+email+"','"+username+"','"+password+"','"+dob+"','"+doj+"','"+profile+"',1);";
+            stmt.executeUpdate(sql);
+            stmt.close();
+            conn.close();
+            return true;
+        } catch (Exception e) {
+            return false;
+        }}
+        public boolean checkdata(String username,String password,String profile){
         try{
-            Class.forName("com.mysql.jdbc.driver");
-            Connection con = DriverManager.getConnection(db,user,pass);
-            String s="select _username,_password from Admin_Tbl where _isActive=1 and _profile='librarian'";
+            
+            Class.forName("com.mysql.jdbc.Driver");
+            
+            Connection con = DriverManager.getConnection(url,user,pass);
+            
             Statement st=con.createStatement();
-            System.out.println("1");
-
-            ResultSet rs=st.executeQuery(s);
-            System.out.println("2");
-
+            
+            String query="select _username,_password from Admin_Tbl where _isActive=1 and _profile='"+profile+"'";
+            ResultSet rs=st.executeQuery(query);
+            
             while(rs.next()){
                 String userId=rs.getString(1);
                 String passcode=rs.getString(2);
-                System.out.println(userId);
-                System.out.println(passcode);
-
-                //if(userId==username&&passcode==password){
-                //    return true;
-                //}
-                //else{
-                 //   return false;
-                //}
-                
+                if(passcode.equalsIgnoreCase(password) && userId.equalsIgnoreCase(username)){
+                        return true;
+                }
             }
-            
             rs.close();
             st.close();
             con.close();
-            
+            return false;
         }
         catch(Exception e){
              return false;
         }
-        return false;
-        }
-    }
-
+}
+}
