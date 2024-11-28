@@ -87,6 +87,8 @@ public class New_Login extends javax.swing.JFrame {
         jRadioButton2 = new javax.swing.JRadioButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
+        jLabel72 = new javax.swing.JLabel();
+        jComboBox5 = new javax.swing.JComboBox<>();
         buttonGroup1 = new javax.swing.ButtonGroup();
         jFrame7 = new javax.swing.JFrame();
         jPanel8 = new javax.swing.JPanel();
@@ -678,7 +680,7 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
-        gridBagConstraints.gridwidth = 6;
+        gridBagConstraints.gridwidth = 9;
         gridBagConstraints.ipadx = 65;
         gridBagConstraints.ipady = -3;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
@@ -690,23 +692,22 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 3;
-        gridBagConstraints.gridwidth = 2;
         gridBagConstraints.ipadx = 55;
         gridBagConstraints.ipady = 6;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(36, 374, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(39, 374, 0, 0);
         jPanel6.add(jLabel10, gridBagConstraints);
 
         jLabel11.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
         jLabel11.setText("Father's Name");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 8;
-        gridBagConstraints.gridwidth = 2;
+        gridBagConstraints.gridy = 9;
+        gridBagConstraints.gridwidth = 3;
         gridBagConstraints.ipadx = 23;
         gridBagConstraints.ipady = 6;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(50, 374, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(38, 374, 0, 0);
         jPanel6.add(jLabel11, gridBagConstraints);
 
         jLabel12.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
@@ -714,75 +715,75 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 2;
-        gridBagConstraints.gridwidth = 2;
+        gridBagConstraints.gridwidth = 3;
         gridBagConstraints.ipadx = 93;
         gridBagConstraints.ipady = 6;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(20, 374, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(18, 374, 0, 0);
         jPanel6.add(jLabel12, gridBagConstraints);
 
         jLabel13.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
         jLabel13.setText("Address");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 6;
-        gridBagConstraints.gridwidth = 2;
+        gridBagConstraints.gridy = 7;
+        gridBagConstraints.gridwidth = 3;
         gridBagConstraints.ipadx = 84;
         gridBagConstraints.ipady = 6;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(44, 374, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(18, 374, 0, 0);
         jPanel6.add(jLabel13, gridBagConstraints);
 
         jLabel14.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
         jLabel14.setText("Course");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 9;
-        gridBagConstraints.gridwidth = 2;
+        gridBagConstraints.gridy = 10;
+        gridBagConstraints.gridwidth = 3;
         gridBagConstraints.ipadx = 94;
         gridBagConstraints.ipady = 6;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(48, 374, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(47, 374, 0, 0);
         jPanel6.add(jLabel14, gridBagConstraints);
 
         jTextField3.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 5;
         gridBagConstraints.gridy = 3;
-        gridBagConstraints.gridwidth = 9;
+        gridBagConstraints.gridwidth = 11;
         gridBagConstraints.ipadx = 191;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(36, 22, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(39, 95, 0, 0);
         jPanel6.add(jTextField3, gridBagConstraints);
 
         jTextField4.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 5;
         gridBagConstraints.gridy = 4;
-        gridBagConstraints.gridwidth = 9;
+        gridBagConstraints.gridwidth = 11;
         gridBagConstraints.ipadx = 191;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(29, 22, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(33, 95, 0, 0);
         jPanel6.add(jTextField4, gridBagConstraints);
 
         jTextField6.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 5;
         gridBagConstraints.gridy = 2;
-        gridBagConstraints.gridwidth = 9;
+        gridBagConstraints.gridwidth = 11;
         gridBagConstraints.ipadx = 191;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(20, 22, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(18, 95, 0, 0);
         jPanel6.add(jTextField6, gridBagConstraints);
 
         jTextField7.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 5;
         gridBagConstraints.gridy = 5;
-        gridBagConstraints.gridwidth = 9;
+        gridBagConstraints.gridwidth = 11;
         gridBagConstraints.ipadx = 191;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(35, 22, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(39, 95, 0, 0);
         jPanel6.add(jTextField7, gridBagConstraints);
 
         jLabel15.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
@@ -790,11 +791,11 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 5;
-        gridBagConstraints.gridwidth = 2;
+        gridBagConstraints.gridwidth = 3;
         gridBagConstraints.ipadx = 9;
         gridBagConstraints.ipady = 6;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(35, 374, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(39, 374, 0, 0);
         jPanel6.add(jLabel15, gridBagConstraints);
 
         jLabel16.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
@@ -802,45 +803,46 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 4;
-        gridBagConstraints.gridwidth = 2;
+        gridBagConstraints.gridwidth = 3;
         gridBagConstraints.ipadx = 85;
         gridBagConstraints.ipady = 6;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(29, 374, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(33, 374, 0, 0);
         jPanel6.add(jLabel16, gridBagConstraints);
 
         jTextField9.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 5;
-        gridBagConstraints.gridy = 8;
-        gridBagConstraints.gridwidth = 9;
+        gridBagConstraints.gridy = 9;
+        gridBagConstraints.gridwidth = 11;
         gridBagConstraints.ipadx = 191;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(50, 22, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(38, 95, 0, 0);
         jPanel6.add(jTextField9, gridBagConstraints);
 
         jButton24.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
         jButton24.setText("ADD");
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 10;
-        gridBagConstraints.gridwidth = 3;
-        gridBagConstraints.ipadx = 9;
+        gridBagConstraints.gridx = 2;
+        gridBagConstraints.gridy = 11;
+        gridBagConstraints.gridwidth = 4;
+        gridBagConstraints.ipadx = 35;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(44, 4, 40, 0);
+        gridBagConstraints.insets = new java.awt.Insets(35, 6, 19, 0);
         jPanel6.add(jButton24, gridBagConstraints);
 
         jComboBox2.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "--Select Stream--", "B.C.A", "B.A", "B.SC." ,"B.COM.","M.SC(PHYSICS)","M.SC(CHEMISTRY)","M.SC(MATHEMATICS)","PGDCA" }));
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 5;
-        gridBagConstraints.gridy = 9;
-        gridBagConstraints.gridwidth = 9;
+        gridBagConstraints.gridy = 10;
+        gridBagConstraints.gridwidth = 11;
         gridBagConstraints.ipadx = 183;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(48, 22, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(47, 95, 0, 0);
         jPanel6.add(jComboBox2, gridBagConstraints);
 
+        jRadioButton1.setSelected(true);
         jRadioButton1.setText("Student");
         jRadioButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -850,9 +852,10 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 1;
+        gridBagConstraints.gridwidth = 2;
         gridBagConstraints.ipadx = 34;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(27, 422, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(12, 424, 0, 0);
         jPanel6.add(jRadioButton1, gridBagConstraints);
 
         jRadioButton2.setText("Faculty");
@@ -862,12 +865,12 @@ public class New_Login extends javax.swing.JFrame {
             }
         });
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 3;
+        gridBagConstraints.gridx = 5;
         gridBagConstraints.gridy = 1;
-        gridBagConstraints.gridwidth = 8;
+        gridBagConstraints.gridwidth = 10;
         gridBagConstraints.ipadx = 38;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(27, 48, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(12, 44, 0, 0);
         jPanel6.add(jRadioButton2, gridBagConstraints);
 
         jTextArea1.setBorder(null);
@@ -875,25 +878,49 @@ public class New_Login extends javax.swing.JFrame {
 
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 5;
-        gridBagConstraints.gridy = 6;
-        gridBagConstraints.gridwidth = 10;
+        gridBagConstraints.gridy = 7;
+        gridBagConstraints.gridwidth = 12;
         gridBagConstraints.gridheight = 2;
         gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
-        gridBagConstraints.ipadx = 293;
-        gridBagConstraints.ipady = 104;
+        gridBagConstraints.ipadx = 412;
+        gridBagConstraints.ipady = 57;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.weightx = 1.0;
         gridBagConstraints.weighty = 1.0;
-        gridBagConstraints.insets = new java.awt.Insets(44, 22, 0, 160);
+        gridBagConstraints.insets = new java.awt.Insets(18, 95, 0, 175);
         jPanel6.add(jScrollPane1, gridBagConstraints);
+
+        jLabel72.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel72.setText("Department");
+        jLabel72.setVisible(false);
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 6;
+        gridBagConstraints.gridwidth = 3;
+        gridBagConstraints.ipadx = 45;
+        gridBagConstraints.ipady = 6;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(18, 374, 0, 0);
+        jPanel6.add(jLabel72, gridBagConstraints);
+
+        jComboBox5.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
+        jComboBox5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Science", "Arts", "Commerce", "Computer" }));
+        jComboBox5.setVisible(false);
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 5;
+        gridBagConstraints.gridy = 6;
+        gridBagConstraints.gridwidth = 11;
+        gridBagConstraints.ipadx = 183;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(18, 95, 0, 0);
+        jPanel6.add(jComboBox5, gridBagConstraints);
 
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
-        gridBagConstraints.ipadx = 154;
-        gridBagConstraints.ipady = 38;
+        gridBagConstraints.ipadx = 48;
+        gridBagConstraints.ipady = -2;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(0, 0, 61, 0);
         jFrame6.getContentPane().add(jPanel6, gridBagConstraints);
 
         buttonGroup1.add(jRadioButton1);
@@ -2359,6 +2386,8 @@ public class New_Login extends javax.swing.JFrame {
         jLabel14.setVisible(true);
         jComboBox2.setVisible(true);
         jScrollPane1.setVisible(true);
+        jLabel72.setVisible(false);
+        jComboBox5.setVisible(false);
         
     }//GEN-LAST:event_jRadioButton1ActionPerformed
 
@@ -2371,6 +2400,8 @@ public class New_Login extends javax.swing.JFrame {
         jLabel14.setVisible(false);
         jComboBox2.setVisible(false);
         jScrollPane1.setVisible(false);
+        jLabel72.setVisible(true);
+        jComboBox5.setVisible(true);
 
         
         
@@ -2519,6 +2550,7 @@ public class New_Login extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> jComboBox2;
     private javax.swing.JComboBox<String> jComboBox3;
     private javax.swing.JComboBox<String> jComboBox4;
+    private javax.swing.JComboBox<String> jComboBox5;
     private javax.swing.JFrame jFrame1;
     private javax.swing.JFrame jFrame10;
     private javax.swing.JFrame jFrame11;
@@ -2604,6 +2636,7 @@ public class New_Login extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel70;
     private javax.swing.JLabel jLabel71;
+    private javax.swing.JLabel jLabel72;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
