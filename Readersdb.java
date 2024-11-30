@@ -36,18 +36,12 @@ public class Readersdb {
             return false;
         }
     }
-    public boolean AddBook(int bid,String title,String author,String isbn, String publisher, String price, String status){
+    public boolean Add(String query){
         try{
             Class.forName("com.mysql.jdbc.Driver");
-            System.out.println("1");
             Connection conn = DriverManager.getConnection(db,user,pass);
-            System.out.println("2");
-            String s = "insert into bookinfo(_id, _title,_author,_isbn,_publisher,_price,_status,_active) values('"+ bid +"','"+ title +"','"+ author +"','"+ isbn +"','"+ publisher +"','"+ price +"','"+ status +"',1);";
-            System.out.println("3");
             Statement stmt = conn.createStatement();
-            System.out.println("4");
-            stmt.executeUpdate(s);
-            System.out.println("5");
+            stmt.executeUpdate(query);
             stmt.close();
             conn.close();
             return true;        
@@ -56,20 +50,32 @@ public class Readersdb {
         return false;
     }
     }
-    public String deletebook(String test){
+    public boolean delete(String query,int cell){
         try{
             Class.forName("com.mysql.jdbc.Driver");
             Connection conn = DriverManager.getConnection(db,user,pass);
-            String s = "select _id,_title,_author from bookinfo";
+            PreparedStatement stmt = conn.prepareStatement(query);
+            stmt.setInt(1, cell);
+            stmt.execute();
+            stmt.close();
+            conn.close();
+            return true;        
+    }
+    catch(Exception e){
+        return false;
+    }}
+    public String test(String query,String check){
+        try{
+            Class.forName("com.mysql.jdbc.Driver");
+            Connection conn = DriverManager.getConnection(db,user,pass);
             Statement stmt = conn.createStatement();
-            ResultSet rs = stmt.executeQuery(s);
+            ResultSet rs = stmt.executeQuery(query);
             String show = " ";
             while(rs.next()){
                 String temp1 = rs.getString(1);
                 String temp2 = rs.getString(2);
-                String temp3 = rs.getString(3);
-                if(temp1.equals(test)){
-                    show = temp1 + "\n" + temp2 + "\n"+ temp3;
+                if(temp1.equals(check)){
+                    show = temp1 + "\n" + temp2;
                     break;
                 }
             }
