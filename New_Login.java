@@ -169,7 +169,6 @@ public class New_Login extends javax.swing.JFrame {
         jTextField29 = new javax.swing.JTextField();
         jComboBox1 = new javax.swing.JComboBox<>();
         jButton32 = new javax.swing.JButton();
-        jLabel71 = new javax.swing.JLabel();
         jButton40 = new javax.swing.JButton();
         jFrame13 = new javax.swing.JFrame();
         jPanel14 = new javax.swing.JPanel();
@@ -1574,6 +1573,11 @@ public class New_Login extends javax.swing.JFrame {
 
         jButton31.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jButton31.setText("DELETE");
+        jButton31.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton31ActionPerformed(evt);
+            }
+        });
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 5;
@@ -1673,16 +1677,13 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(57, 315, 21, 0);
         jPanel13.add(jButton32, gridBagConstraints);
 
-        jLabel71.setText("jLabel71");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 3;
-        gridBagConstraints.gridy = 3;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(18, 0, 0, 0);
-        jPanel13.add(jLabel71, gridBagConstraints);
-
         jButton40.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton40.setText("GET");
+        jButton40.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton40ActionPerformed(evt);
+            }
+        });
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 9;
         gridBagConstraints.gridy = 1;
@@ -2463,7 +2464,8 @@ public class New_Login extends javax.swing.JFrame {
         // TODO add your handling code here:
         Readersdb rd = new Readersdb();
         String radio = buttonGroup2.getSelection().getActionCommand();
-        boolean temp = rd.AddBook(Integer.parseInt(jTextField8.getText()) , jTextField10.getText(), jTextField12.getText(), jTextField13.getText(), jTextField20.getText(),jTextField21.getText(),radio);
+        String q = "insert into bookinfo(_id, _title,_author,_isbn,_publisher,_price,_status,_active) values('" + Integer.parseInt(jTextField8.getText()) +"','"+ jTextField10.getText() + "' ,' " + jTextField12.getText() +"','"+ jTextField13.getText() +"','"+ jTextField20.getText() +"','"+ jTextField21.getText() +"','"+ radio +"',1);";
+        boolean temp = rd.Add(q);
         if(temp){
             JOptionPane.showMessageDialog(this, "Record Added Successfully");
         }
@@ -2475,9 +2477,33 @@ public class New_Login extends javax.swing.JFrame {
     private void jButton41ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton41ActionPerformed
         // TODO add your handling code here:
         Readersdb rd = new Readersdb();
-        String temp = rd.deletebook(jTextField28.getText());
+        String q = "select _id,_title from bookinfo";
+        String temp = rd.test(q,jTextField28.getText());
         JOptionPane.showMessageDialog(this, temp);
     }//GEN-LAST:event_jButton41ActionPerformed
+
+    private void jButton31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton31ActionPerformed
+        // TODO add your handling code here:
+        Readersdb rd = new Readersdb();
+        //System.out.println(Integer.parseInt(jTextField8.getText()));
+        String q = "DELETE FROM Student where RollNo = ?";
+        boolean temp = rd.delete(q,Integer.parseInt(jTextField28.getText()));
+
+        if(temp){
+            JOptionPane.showMessageDialog(this, "Delete Successfully....!");
+        }
+        else{
+            JOptionPane.showMessageDialog(this, "Invalid Details");
+        }
+    }//GEN-LAST:event_jButton31ActionPerformed
+
+    private void jButton40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton40ActionPerformed
+        // TODO add your handling code here:
+        Readersdb rd = new Readersdb();
+        String q = "select _id,_title from bookinfo";
+        String temp = rd.test(q,jTextField29.getText());
+        JOptionPane.showMessageDialog(this, temp);
+    }//GEN-LAST:event_jButton40ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -2648,7 +2674,6 @@ public class New_Login extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel68;
     private javax.swing.JLabel jLabel69;
     private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel71;
     private javax.swing.JLabel jLabel72;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
