@@ -1,4 +1,6 @@
+package highjosh;
 import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -157,7 +159,6 @@ public class New_Login extends javax.swing.JFrame {
         jLabel37 = new javax.swing.JLabel();
         jTextField28 = new javax.swing.JTextField();
         jButton31 = new javax.swing.JButton();
-        jLabel70 = new javax.swing.JLabel();
         jButton41 = new javax.swing.JButton();
         buttonGroup2 = new javax.swing.ButtonGroup();
         jFrame12 = new javax.swing.JFrame();
@@ -1282,6 +1283,11 @@ public class New_Login extends javax.swing.JFrame {
 
         jButton25.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jButton25.setText("ADD");
+        jButton25.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton25ActionPerformed(evt);
+            }
+        });
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 6;
         gridBagConstraints.gridy = 15;
@@ -1345,8 +1351,8 @@ public class New_Login extends javax.swing.JFrame {
         jPanel10.add(jTextField21, gridBagConstraints);
 
         jRadioButton3.setText("Borrowable");
+        jRadioButton3.setActionCommand("Borrowable");
         buttonGroup2.add(jRadioButton3);
-        buttonGroup2.add(jRadioButton4);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 13;
         gridBagConstraints.gridy = 13;
@@ -1357,6 +1363,8 @@ public class New_Login extends javax.swing.JFrame {
         jPanel10.add(jRadioButton3, gridBagConstraints);
 
         jRadioButton4.setText("Restricted");
+        jRadioButton4.setActionCommand("Restricted");
+        buttonGroup2.add(jRadioButton4);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 32;
         gridBagConstraints.gridy = 13;
@@ -1574,16 +1582,13 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(80, 2, 0, 0);
         jPanel12.add(jButton31, gridBagConstraints);
 
-        jLabel70.setText("jLabel70");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 4;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(18, 35, 0, 0);
-        jPanel12.add(jLabel70, gridBagConstraints);
-
         jButton41.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton41.setText("GET");
+        jButton41.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton41ActionPerformed(evt);
+            }
+        });
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 6;
         gridBagConstraints.gridy = 1;
@@ -2286,8 +2291,12 @@ public class New_Login extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        jFrame1.setExtendedState(MAXIMIZED_BOTH);
-        jFrame1.setVisible(true);
+        Readersdb rd = new Readersdb();
+        boolean temp = rd.checkdata(jTextField2.getText(),jTextField1.getText());
+        if(temp){
+            jFrame1.setExtendedState(MAXIMIZED_BOTH);
+            jFrame1.setVisible(true);   
+        }
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
@@ -2449,6 +2458,26 @@ public class New_Login extends javax.swing.JFrame {
     private void jButton38ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton38ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton38ActionPerformed
+
+    private void jButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton25ActionPerformed
+        // TODO add your handling code here:
+        Readersdb rd = new Readersdb();
+        String radio = buttonGroup2.getSelection().getActionCommand();
+        boolean temp = rd.AddBook(Integer.parseInt(jTextField8.getText()) , jTextField10.getText(), jTextField12.getText(), jTextField13.getText(), jTextField20.getText(),jTextField21.getText(),radio);
+        if(temp){
+            JOptionPane.showMessageDialog(this, "Record Added Successfully");
+        }
+        else{
+            JOptionPane.showMessageDialog(this, "Please fill appropriate details");
+        }
+    }//GEN-LAST:event_jButton25ActionPerformed
+
+    private void jButton41ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton41ActionPerformed
+        // TODO add your handling code here:
+        Readersdb rd = new Readersdb();
+        String temp = rd.deletebook(jTextField28.getText());
+        JOptionPane.showMessageDialog(this, temp);
+    }//GEN-LAST:event_jButton41ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -2619,7 +2648,6 @@ public class New_Login extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel68;
     private javax.swing.JLabel jLabel69;
     private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel70;
     private javax.swing.JLabel jLabel71;
     private javax.swing.JLabel jLabel72;
     private javax.swing.JLabel jLabel8;
