@@ -1,6 +1,6 @@
-package highjosh;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
+import java.sql.*;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -182,6 +182,8 @@ public class New_Login extends javax.swing.JFrame {
         jButton23 = new javax.swing.JButton();
         jDateChooser1 = new com.toedter.calendar.JDateChooser();
         jDateChooser2 = new com.toedter.calendar.JDateChooser();
+        jButton42 = new javax.swing.JButton();
+        jButton43 = new javax.swing.JButton();
         jFrame14 = new javax.swing.JFrame();
         jPanel15 = new javax.swing.JPanel();
         jLabel52 = new javax.swing.JLabel();
@@ -822,6 +824,11 @@ public class New_Login extends javax.swing.JFrame {
 
         jButton24.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
         jButton24.setText("ADD");
+        jButton24.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton24ActionPerformed(evt);
+            }
+        });
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 2;
         gridBagConstraints.gridy = 11;
@@ -924,7 +931,9 @@ public class New_Login extends javax.swing.JFrame {
         jFrame6.getContentPane().add(jPanel6, gridBagConstraints);
 
         buttonGroup1.add(jRadioButton1);
+        jRadioButton1.setActionCommand("Student");
         buttonGroup1.add(jRadioButton2);
+        jRadioButton2.setActionCommand("Faculty");
 
         jFrame7.setResizable(false);
         jFrame7.getContentPane().setLayout(new java.awt.GridBagLayout());
@@ -992,6 +1001,11 @@ public class New_Login extends javax.swing.JFrame {
 
         jButton27.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
         jButton27.setText("FIND");
+        jButton27.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton27ActionPerformed(evt);
+            }
+        });
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 12;
         gridBagConstraints.gridy = 1;
@@ -1048,6 +1062,11 @@ public class New_Login extends javax.swing.JFrame {
 
         jButton28.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
         jButton28.setText("EDIT");
+        jButton28.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton28ActionPerformed(evt);
+            }
+        });
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 3;
         gridBagConstraints.gridy = 8;
@@ -1177,6 +1196,11 @@ public class New_Login extends javax.swing.JFrame {
 
         jButton26.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
         jButton26.setText("DELETE");
+        jButton26.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton26ActionPerformed(evt);
+            }
+        });
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 2;
@@ -1708,23 +1732,22 @@ public class New_Login extends javax.swing.JFrame {
         jLabel47.setFont(new java.awt.Font("Segoe UI", 3, 30)); // NOI18N
         jLabel47.setText("ISSUE BOOK");
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
         gridBagConstraints.gridwidth = 3;
-        gridBagConstraints.ipadx = 17;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(61, 10, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(0, 149, 0, 0);
         jPanel14.add(jLabel47, gridBagConstraints);
 
         jLabel48.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
         jLabel48.setText("Book ID");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 2;
+        gridBagConstraints.gridy = 3;
         gridBagConstraints.ipadx = 50;
         gridBagConstraints.ipady = 6;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(30, 261, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(29, 38, 0, 0);
         jPanel14.add(jLabel48, gridBagConstraints);
 
         jTextField30.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
@@ -1734,7 +1757,7 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.gridwidth = 4;
         gridBagConstraints.ipadx = 188;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(86, 83, 0, 581);
+        gridBagConstraints.insets = new java.awt.Insets(28, 83, 0, 0);
         jPanel14.add(jTextField30, gridBagConstraints);
 
         jLabel49.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
@@ -1745,7 +1768,7 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.ipadx = 49;
         gridBagConstraints.ipady = 6;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(86, 261, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(28, 38, 0, 0);
         jPanel14.add(jLabel49, gridBagConstraints);
 
         jTextField31.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
@@ -1756,72 +1779,112 @@ public class New_Login extends javax.swing.JFrame {
         });
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 2;
+        gridBagConstraints.gridy = 3;
         gridBagConstraints.gridwidth = 4;
         gridBagConstraints.ipadx = 188;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(30, 83, 0, 581);
+        gridBagConstraints.insets = new java.awt.Insets(29, 83, 0, 0);
         jPanel14.add(jTextField31, gridBagConstraints);
 
         jLabel50.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
         jLabel50.setText("Issue Date");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 3;
+        gridBagConstraints.gridy = 5;
         gridBagConstraints.ipadx = 27;
         gridBagConstraints.ipady = 6;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(36, 261, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(35, 38, 0, 0);
         jPanel14.add(jLabel50, gridBagConstraints);
 
         jLabel51.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
         jLabel51.setText("Return Date");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 4;
+        gridBagConstraints.gridy = 7;
         gridBagConstraints.ipadx = 10;
         gridBagConstraints.ipady = 6;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(35, 261, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(35, 38, 0, 0);
         jPanel14.add(jLabel51, gridBagConstraints);
 
         jButton23.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
         jButton23.setText("ISSUE");
+        jButton23.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton23ActionPerformed(evt);
+            }
+        });
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 5;
+        gridBagConstraints.gridy = 9;
         gridBagConstraints.gridwidth = 2;
         gridBagConstraints.ipadx = 11;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(80, 381, 222, 0);
+        gridBagConstraints.insets = new java.awt.Insets(80, 158, 102, 0);
         jPanel14.add(jButton23, gridBagConstraints);
 
         jDateChooser1.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 3;
+        gridBagConstraints.gridy = 5;
         gridBagConstraints.gridwidth = 4;
+        gridBagConstraints.gridheight = 2;
         gridBagConstraints.ipadx = 170;
         gridBagConstraints.ipady = 11;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(36, 83, 0, 581);
+        gridBagConstraints.insets = new java.awt.Insets(35, 83, 0, 0);
         jPanel14.add(jDateChooser1, gridBagConstraints);
 
         jDateChooser2.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 4;
+        gridBagConstraints.gridy = 7;
         gridBagConstraints.gridwidth = 4;
+        gridBagConstraints.gridheight = 2;
         gridBagConstraints.ipadx = 170;
         gridBagConstraints.ipady = 11;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(35, 83, 0, 581);
+        gridBagConstraints.insets = new java.awt.Insets(35, 83, 0, 0);
         jPanel14.add(jDateChooser2, gridBagConstraints);
+
+        jButton42.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton42.setText("FETCH");
+        jButton42.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton42ActionPerformed(evt);
+            }
+        });
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 5;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.ipadx = 4;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(28, 28, 0, 234);
+        jPanel14.add(jButton42, gridBagConstraints);
+
+        jButton43.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton43.setText("FETCH");
+        jButton43.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton43ActionPerformed(evt);
+            }
+        });
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 5;
+        gridBagConstraints.gridy = 3;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.ipadx = 4;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(29, 28, 0, 234);
+        jPanel14.add(jButton43, gridBagConstraints);
 
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
-        gridBagConstraints.ipadx = 6;
+        gridBagConstraints.ipadx = 228;
+        gridBagConstraints.ipady = 96;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         jFrame13.getContentPane().add(jPanel14, gridBagConstraints);
 
@@ -2484,11 +2547,11 @@ public class New_Login extends javax.swing.JFrame {
 
     private void jButton31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton31ActionPerformed
         // TODO add your handling code here:
-        Readersdb rd = new Readersdb();
-        //System.out.println(Integer.parseInt(jTextField8.getText()));
-        String q = "DELETE FROM Student where RollNo = ?";
-        boolean temp = rd.delete(q,Integer.parseInt(jTextField28.getText()));
-
+       Readersdb rd = new Readersdb();
+       
+        String q = "delete from bookinfo where _id = '"+Integer.parseInt(jTextField28.getText())+"';  ";
+        
+        boolean temp = rd.delete(q);
         if(temp){
             JOptionPane.showMessageDialog(this, "Delete Successfully....!");
         }
@@ -2504,6 +2567,144 @@ public class New_Login extends javax.swing.JFrame {
         String temp = rd.test(q,jTextField29.getText());
         JOptionPane.showMessageDialog(this, temp);
     }//GEN-LAST:event_jButton40ActionPerformed
+
+    private void jButton24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton24ActionPerformed
+        // TODO add your handling code here:
+        Readersdb rd = new Readersdb();
+        String radio = buttonGroup1.getSelection().getActionCommand();
+        String q;
+        if(radio.equals("Student")){
+            q = "insert into user(_userid, _name,_email,_mobile,_address,_father,_department,_role,_active) values('" + Integer.parseInt(jTextField6.getText()) +"','"+ jTextField3.getText() + "' ,' " + jTextField4.getText() +"','"+ jTextField7.getText() +"','"+ jTextArea1.getText() +"','"+ jTextField9.getText() +"', '"+ jComboBox2.getSelectedItem() +"' , '"+ radio +"',1);";
+            
+        }
+        else{
+           q = "insert into user(_userid, _name,_email,_mobile,_department,_role,_active) values('" + Integer.parseInt(jTextField6.getText()) +"','"+ jTextField3.getText() + "' ,' " + jTextField4.getText() +"','"+ jTextField7.getText() +"','"+ jComboBox5.getSelectedItem() +"' , '"+ radio +"',1);";
+
+        }
+        
+        boolean temp = rd.Add(q);
+        if(temp){
+            JOptionPane.showMessageDialog(this, "Record Added Successfully");
+        }
+        else{
+           JOptionPane.showMessageDialog(this, "Please fill appropriate details");
+        }
+        
+        
+    }//GEN-LAST:event_jButton24ActionPerformed
+
+    private void jButton27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton27ActionPerformed
+        // TODO add your handling code here:
+        Readersdb rd = new Readersdb();
+        String q = "select _userid,_name,_father,_department,_address,_email,_mobile from user";
+        
+        try{
+            String db = "jdbc:mysql://localhost:3306/READERS_HAVEN";
+            String user = "root";
+            String pass = "root";
+            Class.forName("com.mysql.jdbc.Driver");
+            Connection conn = DriverManager.getConnection(db,user,pass);
+            Statement stmt = conn.createStatement();
+            ResultSet rs = stmt.executeQuery(q);
+            
+            while(rs.next()){
+                String temp1 = rs.getString(1);
+                String temp2 = rs.getString(2);
+                String temp3 = rs.getString(3);
+                String temp4 = rs.getString(4);
+                String temp5 = rs.getString(5);
+                String temp6 = rs.getString(6);
+                String temp7 = rs.getString(7);
+
+
+                if(temp1.equals(jTextField11.getText())){
+                    jTextField15.setText(temp2);
+                    jTextField16.setText(temp3);
+                    jTextField14.setText(temp4);
+                    jTextField17.setText(temp5);
+                    jTextField19.setText(temp6);
+                    jTextField18.setText(temp7);
+                    break;
+                }
+            }
+        }
+        catch(Exception e){
+            JOptionPane.showMessageDialog(null, "INcorrect details");
+        }
+        
+        
+    }//GEN-LAST:event_jButton27ActionPerformed
+
+    private void jButton26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton26ActionPerformed
+        // TODO add your handling code here:
+        Readersdb rd = new Readersdb();
+       
+        String q = "delete from user where _userid = '"+Integer.parseInt(jTextField5.getText())+"';  ";
+        
+        boolean temp = rd.delete(q);
+        if(temp){
+            JOptionPane.showMessageDialog(this, "Delete Successfully....!");
+        }
+        else{
+            JOptionPane.showMessageDialog(this, "Invalid Details");
+        }
+        
+    }//GEN-LAST:event_jButton26ActionPerformed
+
+    private void jButton28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton28ActionPerformed
+        // TODO add your handling code here:
+        
+        Readersdb rd = new Readersdb();
+        String q = "update user set _name='"+jTextField15.getText()+"',_father='"+jTextField16.getText()+"',_department='"+jTextField14.getText()+"',_address='"+jTextField17.getText()+"',_email='"+jTextField19.getText()+"',_mobile='"+jTextField18.getText()+"' where _userid= '"+jTextField11.getText()+"' ; ";
+        boolean temp=rd.editUser(q);
+        if(temp){
+            JOptionPane.showMessageDialog(null, "Edit Record Successfully..........");
+
+        }
+        else{
+            JOptionPane.showMessageDialog(null, "Incorrect Details....");
+
+        }
+        
+        
+    }//GEN-LAST:event_jButton28ActionPerformed
+
+    private void jButton42ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton42ActionPerformed
+        // TODO add your handling code here:
+        Readersdb rd = new Readersdb();
+        String q = "select _userid,_name from user";
+        String temp = rd.test(q,jTextField30.getText());
+        JOptionPane.showMessageDialog(this, temp);
+    }//GEN-LAST:event_jButton42ActionPerformed
+
+    private void jButton43ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton43ActionPerformed
+        // TODO add your handling code here:
+        Readersdb rd = new Readersdb();
+        String q = "select _id,_title from bookinfo";
+        String temp = rd.test(q,jTextField31.getText());
+        JOptionPane.showMessageDialog(this, temp);
+    }//GEN-LAST:event_jButton43ActionPerformed
+
+    private void jButton23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton23ActionPerformed
+        // TODO add your handling code here:
+        
+        Readersdb rd = new Readersdb();
+        String q = "insert into transaction(_tid,_bookid,_userid,_issue,_due) values(104,  '"+jTextField30.getText().toString()+"', '"+jTextField31.getText().toString()+"','"+jDateChooser1.getDateFormatString().toString()+"', '"+jDateChooser2.getDateFormatString().toString()+"',  );";
+        System.out.println(jTextField30.getText().toString());
+        System.out.println(jTextField31.getText().toString());
+        System.out.println(jDateChooser1.getDate().toString());
+        System.out.println(jDateChooser2.getDate().toString());
+
+        boolean temp=rd.issue(q);
+        if(temp){
+            JOptionPane.showMessageDialog(null, "Edit Record Successfully..........");
+
+        }
+        else{
+            JOptionPane.showMessageDialog(null, "Incorrect Details....");
+
+        }
+    }//GEN-LAST:event_jButton23ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -2579,6 +2780,8 @@ public class New_Login extends javax.swing.JFrame {
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton40;
     private javax.swing.JButton jButton41;
+    private javax.swing.JButton jButton42;
+    private javax.swing.JButton jButton43;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;

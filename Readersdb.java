@@ -50,20 +50,23 @@ public class Readersdb {
         return false;
     }
     }
-    public boolean delete(String query,int cell){
+    public boolean delete(String query){
         try{
             Class.forName("com.mysql.jdbc.Driver");
             Connection conn = DriverManager.getConnection(db,user,pass);
-            PreparedStatement stmt = conn.prepareStatement(query);
-            stmt.setInt(1, cell);
-            stmt.execute();
+            Statement stmt = conn.createStatement();
+            stmt.executeUpdate(query);
             stmt.close();
             conn.close();
-            return true;        
+            return true;  
+            
+            
+        }
+        catch(Exception e){
+            return false;
+        }
     }
-    catch(Exception e){
-        return false;
-    }}
+
     public String test(String query,String check){
         try{
             Class.forName("com.mysql.jdbc.Driver");
@@ -83,6 +86,42 @@ public class Readersdb {
         }
         catch(Exception e){
             return "";
+        }
+    }
+    
+    public boolean editUser(String query){
+        try{
+            
+            Class.forName("com.mysql.jdbc.Driver");
+            Connection conn = DriverManager.getConnection(db,user,pass);
+            Statement stmt = conn.createStatement();
+            stmt.executeUpdate(query);
+            stmt.close();
+            conn.close();
+            return true;
+
+            
+        }
+        catch(Exception e){
+            return false;
+        }
+    }
+    
+    public boolean issue(String query){
+        try{
+            
+            Class.forName("com.mysql.jdbc.Driver");
+            Connection conn = DriverManager.getConnection(db,user,pass);
+            Statement stmt = conn.createStatement();
+            stmt.executeUpdate(query);
+            stmt.close();
+            conn.close();
+            return true;
+
+            
+        }
+        catch(Exception e){
+            return false;
         }
     }
 }
