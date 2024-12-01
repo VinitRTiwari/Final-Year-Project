@@ -1,3 +1,5 @@
+package highjosh;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
@@ -5,6 +7,9 @@
 
 //import com.mysql.cj.protocol.Resultset;
 import java.sql.*;
+import java.util.Date;
+import java.text.SimpleDateFormat;
+
 /**
  *
  * @author vinit
@@ -89,7 +94,6 @@ public class Readersdb {
     
     public boolean editUser(String query){
         try{
-            
             Class.forName("com.mysql.jdbc.Driver");
             Connection conn = DriverManager.getConnection(db,user,pass);
             Statement stmt = conn.createStatement();
@@ -102,4 +106,74 @@ public class Readersdb {
             return false;
         }
     }
+    public int info(int amt){
+        try{
+            Class.forName("com.mysql.jdbc.Driver");
+            Connection conn = DriverManager.getConnection(db,user,pass);
+            Statement stmt = conn.createStatement();
+            String query = "select _totalFine from user;";
+            ResultSet rs = stmt.executeQuery(query);
+            int total = 0;
+            while(rs.next()){
+                int temp1 = rs.getInt(1);
+                total = temp1 - amt;
+                break;
+            }
+            stmt.close();
+            conn.close();
+            return total;
+        }
+        catch(Exception e){
+            return 0;
+        }
+    }
+    public int info2(int amt){
+        try{
+            Class.forName("com.mysql.jdbc.Driver");
+            Connection conn = DriverManager.getConnection(db,user,pass);
+            Statement stmt = conn.createStatement();
+            String query = "select _totalFine from user;";
+            ResultSet rs = stmt.executeQuery(query);
+            int total = 0;
+            while(rs.next()){
+                int temp1 = rs.getInt(1);
+                total = temp1 + amt;
+                break;
+            }
+            stmt.close();
+            conn.close();
+            return total;
+        }
+        catch(Exception e){
+            return 0;
+        }
+    }
+    public void overdue(){
+        try{
+            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+            Date currentDate = new Date();
+            String currentDateString = sdf.format(currentDate);
+            Class.forName("com.mysql.jdbc.Driver");
+            Connection conn = DriverManager.getConnection(db,user,pass);
+            Statement stmt = conn.createStatement();
+            String query = "select _tid,_due from transaction where _status = 'issued' ;";
+            ResultSet rs = stmt.executeQuery(query);
+            while(rs.next()){
+                int ttid = rs.getInt(1);
+                String storedDateString = rs.getString(2);
+                Date storedDate = sdf.parse(storedDateString);
+                if (currentDate.compareTo(storedDate) > 0) {
+                   String query1 = "update transaction set _status= 'overdue' where _tid= '"+ ttid +"' and _status = 'issued' ; " ;
+                   boolean t = editUser(query1);
+                }
+            }
+            rs.close();
+            stmt.close();
+            conn.close();
+        }
+        catch(Exception e){
+            e.printStackTrace();
+        }
+    }
+    
 }
