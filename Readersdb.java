@@ -59,8 +59,6 @@ public class Readersdb {
             stmt.close();
             conn.close();
             return true;  
-            
-            
         }
         catch(Exception e){
             return false;
@@ -99,26 +97,6 @@ public class Readersdb {
             stmt.close();
             conn.close();
             return true;
-
-            
-        }
-        catch(Exception e){
-            return false;
-        }
-    }
-    
-    public boolean issue(String query){
-        try{
-            
-            Class.forName("com.mysql.jdbc.Driver");
-            Connection conn = DriverManager.getConnection(db,user,pass);
-            Statement stmt = conn.createStatement();
-            stmt.executeUpdate(query);
-            stmt.close();
-            conn.close();
-            return true;
-
-            
         }
         catch(Exception e){
             return false;

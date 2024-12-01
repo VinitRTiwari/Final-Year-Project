@@ -1,6 +1,7 @@
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import java.sql.*;
+import java.text.SimpleDateFormat;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -922,13 +923,7 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(18, 95, 0, 0);
         jPanel6.add(jComboBox5, gridBagConstraints);
 
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 0;
-        gridBagConstraints.ipadx = 48;
-        gridBagConstraints.ipady = -2;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        jFrame6.getContentPane().add(jPanel6, gridBagConstraints);
+        jFrame6.getContentPane().add(jPanel6, new java.awt.GridBagConstraints());
 
         buttonGroup1.add(jRadioButton1);
         jRadioButton1.setActionCommand("Student");
@@ -1441,6 +1436,11 @@ public class New_Login extends javax.swing.JFrame {
 
         jButton29.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton29.setText("Find");
+        jButton29.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton29ActionPerformed(evt);
+            }
+        });
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 23;
         gridBagConstraints.gridy = 1;
@@ -1500,6 +1500,11 @@ public class New_Login extends javax.swing.JFrame {
 
         jButton30.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jButton30.setText("SAVE");
+        jButton30.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton30ActionPerformed(evt);
+            }
+        });
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 4;
         gridBagConstraints.gridy = 13;
@@ -1693,6 +1698,11 @@ public class New_Login extends javax.swing.JFrame {
 
         jButton32.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jButton32.setText("UPDATE");
+        jButton32.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton32ActionPerformed(evt);
+            }
+        });
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 5;
@@ -2689,15 +2699,13 @@ public class New_Login extends javax.swing.JFrame {
         // TODO add your handling code here:
         
         Readersdb rd = new Readersdb();
-        String q = "insert into transaction(_tid,_bookid,_userid,_issue,_due) values(104,  '"+jTextField30.getText().toString()+"', '"+jTextField31.getText().toString()+"','"+jDateChooser1.getDateFormatString().toString()+"', '"+jDateChooser2.getDateFormatString().toString()+"',  );";
-        System.out.println(jTextField30.getText().toString());
-        System.out.println(jTextField31.getText().toString());
-        System.out.println(jDateChooser1.getDate().toString());
-        System.out.println(jDateChooser2.getDate().toString());
-
-        boolean temp=rd.issue(q);
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd");
+        String date1 = sdf.format(jDateChooser1.getDate());
+        String date2 = sdf.format(jDateChooser2.getDate());
+        String q = "insert into transaction(_bookid,_userid,_issue,_due,_status) values('"+Integer.parseInt(jTextField31.getText())+"', '"+Integer.parseInt(jTextField30.getText())+"','"+ date1 +"', '"+ date2 +"','issued');";
+        boolean temp=rd.Add(q);
         if(temp){
-            JOptionPane.showMessageDialog(null, "Edit Record Successfully..........");
+            JOptionPane.showMessageDialog(null, "Added Record Successfully..........");
 
         }
         else{
@@ -2705,6 +2713,72 @@ public class New_Login extends javax.swing.JFrame {
 
         }
     }//GEN-LAST:event_jButton23ActionPerformed
+
+    private void jButton29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton29ActionPerformed
+        // TODO add your handling code here:
+        Readersdb rd = new Readersdb();
+        String q = "select _id,_title,_author,_isbn,_publisher,_price from bookinfo";
+        
+        try{
+            String db = "jdbc:mysql://localhost:3306/READERS_HAVEN";
+            String user = "root";
+            String pass = "root";
+            Class.forName("com.mysql.jdbc.Driver");
+            Connection conn = DriverManager.getConnection(db,user,pass);
+            Statement stmt = conn.createStatement();
+            ResultSet rs = stmt.executeQuery(q);
+            
+            while(rs.next()){
+                String temp1 = rs.getString(1);
+                String temp2 = rs.getString(2);
+                String temp3 = rs.getString(3);
+                String temp4 = rs.getString(4);
+                String temp5 = rs.getString(5);
+                String temp6 = rs.getString(6);
+                if(temp1.equals(jTextField22.getText())){
+                    jTextField23.setText(temp2);
+                    jTextField24.setText(temp3);
+                    jTextField25.setText(temp4);
+                    jTextField26.setText(temp5);
+                    jTextField27.setText(temp6);
+                    break;
+                }
+            }
+        }
+        catch(Exception e){
+            JOptionPane.showMessageDialog(null, "Imcorrect details");
+        }
+    }//GEN-LAST:event_jButton29ActionPerformed
+
+    private void jButton30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton30ActionPerformed
+        // TODO add your handling code here:
+        Readersdb rd = new Readersdb();
+        String q = "update bookinfo set _title='"+jTextField23.getText()+"',_author='"+jTextField24.getText()+"',_isbn='"+jTextField25.getText()+"',_publisher='"+jTextField26.getText()+"',_price='"+jTextField27.getText()+"' where _id= '"+jTextField22.getText()+"' ; ";
+        boolean temp=rd.editUser(q);
+        if(temp){
+            JOptionPane.showMessageDialog(null, "Record Saved Successfully..........");
+
+        }
+        else{
+            JOptionPane.showMessageDialog(null, "Incorrect Details....");
+
+        }
+    }//GEN-LAST:event_jButton30ActionPerformed
+
+    private void jButton32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton32ActionPerformed
+        // TODO add your handling code here:
+        Readersdb rd = new Readersdb();
+        String q = "update bookinfo set _status= '"+ jComboBox1.getSelectedItem() +"' where _id= '"+ jTextField29.getText() +"' ; " ;
+        boolean temp=rd.editUser(q);
+        if(temp){
+            JOptionPane.showMessageDialog(null, "Status changed Successfully..........");
+
+        }
+        else{
+            JOptionPane.showMessageDialog(null, "Incorrect Selection....");
+
+        }
+    }//GEN-LAST:event_jButton32ActionPerformed
 
     /**
      * @param args the command line arguments
