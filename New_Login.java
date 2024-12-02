@@ -9,9 +9,7 @@ import javax.swing.JFileChooser;
 import javax.swing.RowFilter;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableRowSorter;
-import javax.crypto.Cipher;
-import javax.crypto.KeyGenerator;
-import javax.crypto.SecretKey;
+
 
 
 /*
@@ -291,6 +289,7 @@ public class New_Login extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
 
         setExtendedState(jFrame1.MAXIMIZED_BOTH);
+        jFrame1.setDefaultCloseOperation(javax.swing.WindowConstants.DO_NOTHING_ON_CLOSE);
         jFrame1.setResizable(false);
         jFrame1.getContentPane().setLayout(new java.awt.GridBagLayout());
 
@@ -2955,8 +2954,15 @@ public class New_Login extends javax.swing.JFrame {
             jFrame1.setExtendedState(MAXIMIZED_BOTH);
             jFrame1.setVisible(true); 
             this.setVisible(false);
+            jTextField2.setText(" ");
+            jTextField1.setText(" ");
+
             
         }
+        else{
+            JOptionPane.showMessageDialog(null, "invaild");
+        }
+        
         
     }//GEN-LAST:event_jButton1ActionPerformed
 
@@ -3114,7 +3120,9 @@ public class New_Login extends javax.swing.JFrame {
         String q = "update transaction set _status= 'returned', _return = '"+ finalDate +"' where _bookid= '"+ jComboBox3.getSelectedItem() +"' and _status = 'issued' and _userid = '"+ jTextField34.getText() +"' ; " ;
         boolean temp1 = rd.editUser(q);
         if(temp1){
-            JOptionPane.showMessageDialog(null, "Status changed Successfully..........");
+            JOptionPane.showMessageDialog(null, "Returned Book Successfully..........");
+            jTextField34.setText(" ");
+            jComboBox3.setSelectedIndex(0);
         }
         else{
             JOptionPane.showMessageDialog(null, "Incorrect Selection....");
@@ -3140,7 +3148,10 @@ public class New_Login extends javax.swing.JFrame {
         String q = "update user set _status= '"+ jComboBox4.getSelectedItem() +"',_totalFine = '"+ temp +"' where _userid= '"+ jTextField38.getText() +"' ; " ;
         boolean temp1 = rd.editUser(q);
         if(temp1){
-            JOptionPane.showMessageDialog(null, "Status changed Successfully..........");
+            JOptionPane.showMessageDialog(null, "Successfully Completed..........");
+            jTextField38.setText(" ");
+            jTextField32.setText(" ");
+            jComboBox4.setSelectedIndex(0);
         }
         else{
             JOptionPane.showMessageDialog(null, "Incorrect Selection....");
@@ -3167,6 +3178,8 @@ public class New_Login extends javax.swing.JFrame {
             Statement stmt = conn.createStatement();
             String query = "select _tid,_bookid,_userid,_issue,_due from transaction where _status = 'issued';";
             ResultSet rs = stmt.executeQuery(query);
+            DefaultTableModel model = (DefaultTableModel)jTable1.getModel();
+            model.setRowCount(0);
             while(rs.next()){
                 String TransactionID = rs.getString(1);
                 String BookID = rs.getString(2);
@@ -3174,12 +3187,15 @@ public class New_Login extends javax.swing.JFrame {
                 String IssueDate = rs.getString(4);
                 String DueDate = rs.getString(5);
                 Object[] obj = {TransactionID,BookID,UserID,IssueDate,DueDate};
-                DefaultTableModel model = (DefaultTableModel)jTable1.getModel();
+                model = (DefaultTableModel)jTable1.getModel();
                 model.addRow(obj);
+                
             }
             rs.close();
             stmt.close();
             conn.close();
+            
+            
         }
         catch(Exception e){
             e.printStackTrace();
@@ -3201,6 +3217,8 @@ public class New_Login extends javax.swing.JFrame {
             Statement stmt = conn.createStatement();
             String query = "select _userid,_name,_email,_mobile,_totalfine from user where _status = 'unpaid';";
             ResultSet rs = stmt.executeQuery(query);
+            DefaultTableModel model = (DefaultTableModel)jTable6.getModel();
+            model.setRowCount(0);
             while(rs.next()){
                 String userid = rs.getString(1);
                 String name = rs.getString(2);
@@ -3208,7 +3226,7 @@ public class New_Login extends javax.swing.JFrame {
                 String mobile = rs.getString(4);
                 String totalFine = rs.getString(5);
                 Object[] obj = {userid,name,email,mobile,totalFine};
-                DefaultTableModel model = (DefaultTableModel)jTable6.getModel();
+                model = (DefaultTableModel)jTable6.getModel();
                 model.addRow(obj);
             }
             rs.close();
@@ -3227,7 +3245,18 @@ public class New_Login extends javax.swing.JFrame {
         String q = "insert into bookinfo(_id, _title,_author,_isbn,_publisher,_price,_status,_active) values('" + Integer.parseInt(jTextField8.getText()) +"','"+ jTextField10.getText() + "' ,' " + jTextField12.getText() +"','"+ jTextField13.getText() +"','"+ jTextField20.getText() +"','"+ jTextField21.getText() +"','"+ radio +"',1);";
         boolean temp = rd.Add(q);
         if(temp){
-            JOptionPane.showMessageDialog(null, "Record Added Successfully");
+            JOptionPane.showMessageDialog(null, "Book Added Successfully");
+            jTextField8.setText(" ");
+            jTextField10.setText(" ");
+            jTextField12.setText(" ");
+            jTextField13.setText(" ");
+            
+            jTextField20.setText(" ");
+            jTextField21.setText(" ");
+           
+
+          
+            
         }
         else{
             JOptionPane.showMessageDialog(null, "Please fill appropriate details");
@@ -3250,7 +3279,8 @@ public class New_Login extends javax.swing.JFrame {
         
         boolean temp = rd.delete(q);
         if(temp){
-            JOptionPane.showMessageDialog(null, "Delete Successfully....!");
+            JOptionPane.showMessageDialog(null, "Delete Book Successfully....!");
+            jTextField28.setText(" ");
         }
         else{
             JOptionPane.showMessageDialog(null, "Invalid Details");
@@ -3280,12 +3310,27 @@ public class New_Login extends javax.swing.JFrame {
         }
         
         boolean temp = rd.Add(q);
+        
         if(temp){
-            JOptionPane.showMessageDialog(null, "Record Added Successfully");
+            JOptionPane.showMessageDialog(null, "Added user Successfully");
+            
+            jTextField6.setText(" ");
+            jTextField3.setText(" ");
+            jTextField4.setText(" ");
+            jTextField7.setText(" ");
+            jComboBox5.setSelectedIndex(0);
+            jTextArea1.setText(" ");
+            jTextField9.setText(" ");
+            jComboBox2.setSelectedIndex(0);
+
+
+
+            
         }
         else{
            JOptionPane.showMessageDialog(null, "Please fill appropriate details");
         }
+        
         
         
     }//GEN-LAST:event_jButton24ActionPerformed
@@ -3341,6 +3386,7 @@ public class New_Login extends javax.swing.JFrame {
         boolean temp = rd.Add(q);
         if(temp){
             JOptionPane.showMessageDialog(null, "Delete Successfully....!");
+            jTextField5.setText(" ");
         }
         else{
             JOptionPane.showMessageDialog(null, "Invalid Details");
@@ -3356,6 +3402,15 @@ public class New_Login extends javax.swing.JFrame {
         boolean temp=rd.editUser(q);
         if(temp){
             JOptionPane.showMessageDialog(null, "Edit Record Successfully..........");
+            jTextField11.setText(" ");
+            jTextField15.setText(" ");
+            jTextField16.setText(" ");
+
+            jTextField14.setText(" ");
+            jTextField17.setText(" ");
+            jTextField18.setText(" ");
+            jTextField19.setText(" ");
+
 
         }
         else{
@@ -3392,7 +3447,10 @@ public class New_Login extends javax.swing.JFrame {
         String q = "insert into transaction(_bookid,_userid,_issue,_due,_status) values('"+Integer.parseInt(jTextField31.getText())+"', '"+Integer.parseInt(jTextField30.getText())+"','"+ date1 +"', '"+ date2 +"','issued');";
         boolean temp=rd.Add(q);
         if(temp){
-            JOptionPane.showMessageDialog(null, "Added Record Successfully..........");
+            JOptionPane.showMessageDialog(null, "Issued Book Successfully..........");
+            jTextField30.setText(" ");
+            jTextField31.setText(" ");
+            
 
         }
         else{
@@ -3445,6 +3503,13 @@ public class New_Login extends javax.swing.JFrame {
         boolean temp=rd.editUser(q);
         if(temp){
             JOptionPane.showMessageDialog(null, "Record Saved Successfully..........");
+            jTextField22.setText(" ");
+            jTextField23.setText(" ");
+            jTextField24.setText(" ");
+            jTextField25.setText(" ");
+            jTextField26.setText(" ");
+            jTextField27.setText(" ");
+            
 
         }
         else{
@@ -3459,7 +3524,8 @@ public class New_Login extends javax.swing.JFrame {
         String q = "update bookinfo set _status= '"+ jComboBox1.getSelectedItem() +"' where _id= '"+ jTextField29.getText() +"' ; " ;
         boolean temp=rd.editUser(q);
         if(temp){
-            JOptionPane.showMessageDialog(null, "Status changed Successfully..........");
+            JOptionPane.showMessageDialog(null, "Successfully Update Book Status..........");
+            jTextField29.setText(" ");
 
         }
         else{
@@ -3488,7 +3554,10 @@ public class New_Login extends javax.swing.JFrame {
         boolean temp=rd.Add(q);
 
         if(temp && temp1){
-            JOptionPane.showMessageDialog(null, "Return book  Successfully..........");
+            JOptionPane.showMessageDialog(null, "Fine Added Successfully..........");
+            jTextField35.setText(" ");
+            jTextField36.setText(" ");
+            jTextField37.setText(" ");
 
         }
         else{
@@ -3562,6 +3631,8 @@ public class New_Login extends javax.swing.JFrame {
             Statement stmt = conn.createStatement();
             String query = "select _tid,_bookid,_userid,_issue,_due from transaction where _status = 'overdue';";
             ResultSet rs = stmt.executeQuery(query);
+            DefaultTableModel model = (DefaultTableModel)jTable2.getModel();
+            model.setRowCount(0);
             while(rs.next()){
                 String TransactionID = rs.getString(1);
                 String BookID = rs.getString(2);
@@ -3569,7 +3640,7 @@ public class New_Login extends javax.swing.JFrame {
                 String IssueDate = rs.getString(4);
                 String DueDate = rs.getString(5);
                 Object[] obj = {TransactionID,BookID,UserID,IssueDate,DueDate};
-                DefaultTableModel model = (DefaultTableModel)jTable2.getModel();
+                model = (DefaultTableModel)jTable2.getModel();
                 model.addRow(obj);
             }
             rs.close();
@@ -3605,6 +3676,8 @@ public class New_Login extends javax.swing.JFrame {
             Statement stmt = conn.createStatement();
             String query = "select * from bookinfo;";
             ResultSet rs = stmt.executeQuery(query);
+            DefaultTableModel model = (DefaultTableModel)jTable3.getModel();
+            model.setRowCount(0);
             while(rs.next()){
                 String BookID = rs.getString(1);
                 String Title = rs.getString(2);
@@ -3615,7 +3688,7 @@ public class New_Login extends javax.swing.JFrame {
                 String Status = rs.getString(7);
                 String active = rs.getString(8);
                 Object[] obj = {BookID,Title,Author,ISBN,Publisher,Price,Status,active};
-                DefaultTableModel model = (DefaultTableModel)jTable3.getModel();
+                model = (DefaultTableModel)jTable3.getModel();
                 model.addRow(obj);
             }
             rs.close();
@@ -3641,6 +3714,8 @@ public class New_Login extends javax.swing.JFrame {
             Statement stmt = conn.createStatement();
             String query = "select * from transaction;";
             ResultSet rs = stmt.executeQuery(query);
+            DefaultTableModel model = (DefaultTableModel)jTable4.getModel();
+            model.setRowCount(0);
             while(rs.next()){
                 String TransactionID = rs.getString(1);
                 String BookID = rs.getString(2);
@@ -3650,7 +3725,7 @@ public class New_Login extends javax.swing.JFrame {
                 String DueDate = rs.getString(6);
                 String Status = rs.getString(7);
                 Object[] obj = {TransactionID,BookID,UserID,IssueDate,ReturnDate,DueDate,Status};
-                DefaultTableModel model = (DefaultTableModel)jTable4.getModel();
+                model = (DefaultTableModel)jTable4.getModel();
                 model.addRow(obj);
             }
             rs.close();
@@ -3694,6 +3769,8 @@ public class New_Login extends javax.swing.JFrame {
             Statement stmt = conn.createStatement();
             String query = "select _userid,_name,_email,_mobile,_department,_role from user;";
             ResultSet rs = stmt.executeQuery(query);
+            DefaultTableModel model = (DefaultTableModel)jTable5.getModel();
+            model.setRowCount(0);
             while(rs.next()){
                 String userid = rs.getString(1);
                 String name = rs.getString(2);
@@ -3702,9 +3779,10 @@ public class New_Login extends javax.swing.JFrame {
                 String department = rs.getString(5);
                 String role = rs.getString(6);
                 Object[] obj = {userid,name,email,mobile,department,role};
-                DefaultTableModel model = (DefaultTableModel)jTable5.getModel();
+                 model = (DefaultTableModel)jTable5.getModel();
                 model.addRow(obj);
             }
+           
             rs.close();
             stmt.close();
             conn.close();

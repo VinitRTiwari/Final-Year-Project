@@ -4,6 +4,7 @@
   <NonVisualComponents>
     <Container class="javax.swing.JFrame" name="jFrame1">
       <Properties>
+        <Property name="defaultCloseOperation" type="int" value="0"/>
         <Property name="resizable" type="boolean" value="false"/>
       </Properties>
       <AuxValues>
