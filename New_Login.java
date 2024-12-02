@@ -3122,7 +3122,8 @@ public class New_Login extends javax.swing.JFrame {
         if(temp1){
             JOptionPane.showMessageDialog(null, "Returned Book Successfully..........");
             jTextField34.setText(" ");
-            jComboBox3.setSelectedIndex(0);
+            jComboBox3.removeAllItems();
+
         }
         else{
             JOptionPane.showMessageDialog(null, "Incorrect Selection....");
@@ -3806,7 +3807,6 @@ public class New_Login extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
-        
         
        Readersdb rd= new Readersdb();
        String q="select _answer from tbllog;";
