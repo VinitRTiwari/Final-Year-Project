@@ -1,4 +1,3 @@
-package highjosh;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -108,12 +107,12 @@ public class Readersdb {
         }
     }
 
-    public int info(int amt) {
+    public int info(int amt,int uid) {
         try {
             Class.forName("com.mysql.jdbc.Driver");
             Connection conn = DriverManager.getConnection(db, user, pass);
             Statement stmt = conn.createStatement();
-            String query = "select _totalFine from user;";
+            String query = "select _totalFine from user where _userid= '"+ uid +"' ; " ;
             ResultSet rs = stmt.executeQuery(query);
             int total = 0;
             while (rs.next()) {
@@ -129,17 +128,19 @@ public class Readersdb {
         }
     }
 
-    public int info2(int amt) {
+    public int info2(int amt, int uid) {
         try {
             Class.forName("com.mysql.jdbc.Driver");
             Connection conn = DriverManager.getConnection(db, user, pass);
             Statement stmt = conn.createStatement();
-            String query = "select _totalFine from user;";
+            String query = "select _totalFine from user where _userid= '"+ uid +"' ; " ;
             ResultSet rs = stmt.executeQuery(query);
             int total = 0;
             while (rs.next()) {
                 int temp1 = rs.getInt(1);
+                System.out.println(temp1);
                 total = temp1 + amt;
+                System.out.println(total);
                 break;
             }
             stmt.close();
@@ -215,6 +216,27 @@ public class Readersdb {
             JOptionPane.showMessageDialog(null, "Data inserted succesfully...! ");
         } catch (Exception ex) {
             ex.printStackTrace();
+        }
+    }
+    public String forget(String query){
+        
+        try{
+            Class.forName("com.mysql.jdbc.Driver");
+            Connection conn = DriverManager.getConnection(db, user, pass);
+            Statement stmt = conn.createStatement();
+            ResultSet rs = stmt.executeQuery(query);
+            String show = " ";
+            while (rs.next()) {
+                String temp1 = rs.getString(1);
+                
+                show=temp1;
+                
+                return show;
+                
+            }
+            return show;
+        } catch (Exception e) {
+            return "";
         }
     }
 
