@@ -1,9 +1,11 @@
 package highjosh;
+import java.io.File;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import java.sql.*;
 import java.util.Date;
 import java.text.SimpleDateFormat;
+import javax.swing.JFileChooser;
 import javax.swing.RowFilter;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableRowSorter;
@@ -144,6 +146,7 @@ public class New_Login extends javax.swing.JFrame {
         jTextField21 = new javax.swing.JTextField();
         jRadioButton3 = new javax.swing.JRadioButton();
         jRadioButton4 = new javax.swing.JRadioButton();
+        jButton45 = new javax.swing.JButton();
         jFrame10 = new javax.swing.JFrame();
         jPanel11 = new javax.swing.JPanel();
         jLabel29 = new javax.swing.JLabel();
@@ -1389,56 +1392,56 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 13;
         gridBagConstraints.gridy = 1;
-        gridBagConstraints.gridwidth = 21;
+        gridBagConstraints.gridwidth = 54;
         gridBagConstraints.gridheight = 2;
         gridBagConstraints.ipadx = 136;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(22, 52, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(22, 52, 0, 3);
         jPanel10.add(jTextField8, gridBagConstraints);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 13;
         gridBagConstraints.gridy = 3;
-        gridBagConstraints.gridwidth = 21;
+        gridBagConstraints.gridwidth = 54;
         gridBagConstraints.gridheight = 2;
         gridBagConstraints.ipadx = 136;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(22, 52, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(22, 52, 0, 3);
         jPanel10.add(jTextField10, gridBagConstraints);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 13;
         gridBagConstraints.gridy = 5;
-        gridBagConstraints.gridwidth = 21;
+        gridBagConstraints.gridwidth = 54;
         gridBagConstraints.gridheight = 2;
         gridBagConstraints.ipadx = 136;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(22, 52, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(22, 52, 0, 3);
         jPanel10.add(jTextField12, gridBagConstraints);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 13;
         gridBagConstraints.gridy = 7;
-        gridBagConstraints.gridwidth = 21;
+        gridBagConstraints.gridwidth = 54;
         gridBagConstraints.gridheight = 2;
         gridBagConstraints.ipadx = 136;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(22, 52, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(22, 52, 0, 3);
         jPanel10.add(jTextField13, gridBagConstraints);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 13;
         gridBagConstraints.gridy = 9;
-        gridBagConstraints.gridwidth = 21;
+        gridBagConstraints.gridwidth = 54;
         gridBagConstraints.gridheight = 2;
         gridBagConstraints.ipadx = 136;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(22, 52, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(22, 52, 0, 3);
         jPanel10.add(jTextField20, gridBagConstraints);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 13;
         gridBagConstraints.gridy = 11;
-        gridBagConstraints.gridwidth = 21;
+        gridBagConstraints.gridwidth = 54;
         gridBagConstraints.gridheight = 2;
         gridBagConstraints.ipadx = 136;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(22, 52, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(22, 52, 0, 3);
         jPanel10.add(jTextField21, gridBagConstraints);
 
         jRadioButton3.setText("Borrowable");
@@ -1459,10 +1462,26 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 32;
         gridBagConstraints.gridy = 13;
+        gridBagConstraints.gridwidth = 34;
         gridBagConstraints.gridheight = 2;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(23, 6, 0, 0);
         jPanel10.add(jRadioButton4, gridBagConstraints);
+
+        jButton45.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jButton45.setText("Insert using CSV file");
+        jButton45.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton45ActionPerformed(evt);
+            }
+        });
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 16;
+        gridBagConstraints.gridwidth = 33;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(18, 310, 6, 0);
+        jPanel10.add(jButton45, gridBagConstraints);
 
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
@@ -3293,7 +3312,7 @@ public class New_Login extends javax.swing.JFrame {
             }
         }
         catch(Exception e){
-            JOptionPane.showMessageDialog(null, "INcorrect details");
+            JOptionPane.showMessageDialog(null, "Incorrect details");
         }
         
         
@@ -3680,6 +3699,18 @@ public class New_Login extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_jButton22ActionPerformed
 
+    private void jButton45ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton45ActionPerformed
+        // TODO add your handling code here:
+        JFileChooser fc = new JFileChooser();
+        fc.showOpenDialog(fc);
+        File takenCSV = fc.getSelectedFile();
+        String filePath = takenCSV.getAbsolutePath();
+        System.out.println(filePath);
+        String query = "insert into bookinfo(_id,_title,_author,_isbn,_publisher,_price,_status,_active) values(?,?,?,?,?,?,?,?)";
+        Readersdb rd = new Readersdb();
+        rd.insertCSV(filePath,query);
+    }//GEN-LAST:event_jButton45ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -3757,6 +3788,7 @@ public class New_Login extends javax.swing.JFrame {
     private javax.swing.JButton jButton42;
     private javax.swing.JButton jButton43;
     private javax.swing.JButton jButton44;
+    private javax.swing.JButton jButton45;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
