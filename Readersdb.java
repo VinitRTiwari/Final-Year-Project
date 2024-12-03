@@ -249,6 +249,7 @@ public class Readersdb {
          try {
              int i = 0;
             Class.forName("com.mysql.jdbc.Driver");
+            
             Connection conn = DriverManager.getConnection(db, user, pass);
             String query = "insert into bookinfo(_id,_title,_author,_isbn,_publisher,_price,_status,_active) values(?,?,?,?,?,?,?,?)";
             
