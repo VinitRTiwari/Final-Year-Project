@@ -3030,8 +3030,8 @@ public class New_Login extends javax.swing.JFrame {
             jFrame1.setExtendedState(MAXIMIZED_BOTH);
             jFrame1.setVisible(true); 
             this.setVisible(false);
-            jTextField2.setText(" ");
-            jTextField1.setText(" ");
+            jTextField2.setText("");
+            jTextField1.setText("");
 
             
         }
@@ -3177,10 +3177,14 @@ public class New_Login extends javax.swing.JFrame {
             String q = "select _id from bookinfo where _id in (select _bookid from transaction where _userid = '"+Integer.parseInt(jTextField34.getText())+"'  and  _status='issued');";
             Statement stmt = conn.createStatement();
             ResultSet rs = stmt.executeQuery(q);
+            jComboBox3.removeAllItems();
             while(rs.next()){
                 String data=rs.getString(1);
                 jComboBox3.addItem(data);
             }
+            
+
+            
         }
         catch(Exception e){
             JOptionPane.showMessageDialog(null, "Incorrect details");
@@ -3197,7 +3201,7 @@ public class New_Login extends javax.swing.JFrame {
         boolean temp1 = rd.editUser(q);
         if(temp1){
             JOptionPane.showMessageDialog(null, "Returned Book Successfully..........");
-            jTextField34.setText(" ");
+            jTextField34.setText("");
             jComboBox3.removeAllItems();
 
         }
@@ -3226,8 +3230,8 @@ public class New_Login extends javax.swing.JFrame {
         boolean temp1 = rd.editUser(q);
         if(temp1){
             JOptionPane.showMessageDialog(null, "Successfully Completed..........");
-            jTextField38.setText(" ");
-            jTextField32.setText(" ");
+            jTextField38.setText("");
+            jTextField32.setText("");
             jComboBox4.setSelectedIndex(0);
         }
         else{
@@ -3323,13 +3327,13 @@ public class New_Login extends javax.swing.JFrame {
         boolean temp = rd.Add(q);
         if(temp){
             JOptionPane.showMessageDialog(null, "Book Added Successfully");
-            jTextField8.setText(" ");
-            jTextField10.setText(" ");
-            jTextField12.setText(" ");
-            jTextField13.setText(" ");
+            jTextField8.setText("");
+            jTextField10.setText("");
+            jTextField12.setText("");
+            jTextField13.setText("");
             
-            jTextField20.setText(" ");
-            jTextField21.setText(" ");
+            jTextField20.setText("");
+            jTextField21.setText("");
            
 
           
@@ -3357,7 +3361,7 @@ public class New_Login extends javax.swing.JFrame {
         boolean temp = rd.delete(q);
         if(temp){
             JOptionPane.showMessageDialog(null, "Delete Book Successfully....!");
-            jTextField28.setText(" ");
+            jTextField28.setText("");
         }
         else{
             JOptionPane.showMessageDialog(null, "Invalid Details");
@@ -3391,13 +3395,13 @@ public class New_Login extends javax.swing.JFrame {
         if(temp){
             JOptionPane.showMessageDialog(null, "Added user Successfully");
             
-            jTextField6.setText(" ");
-            jTextField3.setText(" ");
-            jTextField4.setText(" ");
-            jTextField7.setText(" ");
+            jTextField6.setText("");
+            jTextField3.setText("");
+            jTextField4.setText("");
+            jTextField7.setText("");
             jComboBox5.setSelectedIndex(0);
-            jTextArea1.setText(" ");
-            jTextField9.setText(" ");
+            jTextArea1.setText("");
+            jTextField9.setText("");
             jComboBox2.setSelectedIndex(0);
 
 
@@ -3463,7 +3467,7 @@ public class New_Login extends javax.swing.JFrame {
         boolean temp = rd.Add(q);
         if(temp){
             JOptionPane.showMessageDialog(null, "Delete Successfully....!");
-            jTextField5.setText(" ");
+            jTextField5.setText("");
         }
         else{
             JOptionPane.showMessageDialog(null, "Invalid Details");
@@ -3479,14 +3483,14 @@ public class New_Login extends javax.swing.JFrame {
         boolean temp=rd.editUser(q);
         if(temp){
             JOptionPane.showMessageDialog(null, "Edit Record Successfully..........");
-            jTextField11.setText(" ");
-            jTextField15.setText(" ");
-            jTextField16.setText(" ");
+            jTextField11.setText("");
+            jTextField15.setText("");
+            jTextField16.setText("");
 
-            jTextField14.setText(" ");
-            jTextField17.setText(" ");
-            jTextField18.setText(" ");
-            jTextField19.setText(" ");
+            jTextField14.setText("");
+            jTextField17.setText("");
+            jTextField18.setText("");
+            jTextField19.setText("");
 
 
         }
@@ -3525,8 +3529,8 @@ public class New_Login extends javax.swing.JFrame {
         boolean temp=rd.Add(q);
         if(temp){
             JOptionPane.showMessageDialog(null, "Issued Book Successfully..........");
-            jTextField30.setText(" ");
-            jTextField31.setText(" ");
+            jTextField30.setText("");
+            jTextField31.setText("");
             
 
         }
@@ -3580,12 +3584,12 @@ public class New_Login extends javax.swing.JFrame {
         boolean temp=rd.editUser(q);
         if(temp){
             JOptionPane.showMessageDialog(null, "Record Saved Successfully..........");
-            jTextField22.setText(" ");
-            jTextField23.setText(" ");
-            jTextField24.setText(" ");
-            jTextField25.setText(" ");
-            jTextField26.setText(" ");
-            jTextField27.setText(" ");
+            jTextField22.setText("");
+            jTextField23.setText("");
+            jTextField24.setText("");
+            jTextField25.setText("");
+            jTextField26.setText("");
+            jTextField27.setText("");
             
 
         }
@@ -3602,7 +3606,7 @@ public class New_Login extends javax.swing.JFrame {
         boolean temp=rd.editUser(q);
         if(temp){
             JOptionPane.showMessageDialog(null, "Successfully Update Book Status..........");
-            jTextField29.setText(" ");
+            jTextField29.setText("");
 
         }
         else{
