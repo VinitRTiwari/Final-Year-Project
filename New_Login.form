@@ -1944,6 +1944,9 @@
                   <Connection code="new java.awt.Font(&quot;Segoe UI&quot;, 0, 20)" type="code"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="jDateChooser1PropertyChange"/>
+              </Events>
               <AuxValues>
                 <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="Date date = new Date();&#xa;jDateChooser1.setDate(date);"/>
               </AuxValues>
