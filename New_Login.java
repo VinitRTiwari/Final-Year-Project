@@ -3834,11 +3834,12 @@ public class New_Login extends javax.swing.JFrame {
                 model.addRow(obj);
             }
             rs.close();
+            
             stmt.close();
             conn.close();
         }
 
-        
+
         catch(Exception e){
             e.printStackTrace();
         }
