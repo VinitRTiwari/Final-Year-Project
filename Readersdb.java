@@ -1,15 +1,21 @@
+package highjosh;
+
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 //import com.mysql.cj.protocol.Resultset;
-import java.io.BufferedReader;
-import java.io.FileReader;
+
+import java.io.*;
 import java.sql.*;
 import java.util.Date;
 import java.text.SimpleDateFormat;
 import javax.swing.JOptionPane;
+
+import org.apache.poi.ss.usermodel.*;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 
 /**
  *
@@ -239,5 +245,81 @@ public class Readersdb {
             return "";
         }
     }
-
+    public void insertExcel(String filePath){
+         try {
+             int i = 0;
+            Class.forName("com.mysql.jdbc.Driver");
+            Connection conn = DriverManager.getConnection(db, user, pass);
+            String query = "insert into bookinfo(_id,_title,_author,_isbn,_publisher,_price,_status,_active) values(?,?,?,?,?,?,?,?)";
+            
+         try{
+            FileInputStream inputStream = new FileInputStream(new File(filePath));
+            Workbook workbook = null;
+            
+            if (filePath.endsWith(".xlsx")) {
+                workbook = new XSSFWorkbook(inputStream);
+            } else if (filePath.endsWith(".xls")) {
+                workbook = new HSSFWorkbook(inputStream);
+            } else {
+                throw new IllegalArgumentException("The specified file is not Excel format.");
+            }
+            
+            Sheet sheet = workbook.getSheetAt(0);
+            
+            for (Row row : sheet) {
+             
+                if (row.getRowNum() == 0) {
+                    // Skip header row
+                    continue;
+                }
+                int id1 = (int) row.getCell(0).getNumericCellValue();
+                
+                String title1 = row.getCell(1).getStringCellValue();
+                
+                String author1 = row.getCell(2).getStringCellValue();
+                
+                String isbn1 = row.getCell(3).getStringCellValue();
+                
+                String publisher1 = row.getCell(4).getStringCellValue();
+                
+                int price1 = (int) row.getCell(5).getNumericCellValue();
+                
+                String status1 = row.getCell(6).getStringCellValue();
+                
+                int active1 = (int) row.getCell(7).getNumericCellValue();
+                // Insert into database
+                
+                
+                try (PreparedStatement statement = conn.prepareStatement(query)) {
+                    
+                    statement.setInt(1, id1);
+                   
+                    statement.setString(2, title1);
+                    
+                    statement.setString(3, author1);
+                    
+                    statement.setString(4, isbn1);
+                    
+                    statement.setString(5, publisher1);
+                    
+                    statement.setInt(6, price1);
+                    statement.setString(7,status1);
+                    
+                    statement.setInt(8, active1);
+                    statement.executeUpdate();
+                    
+                }
+                
+            }
+            
+            workbook.close();
+            System.out.println("Data has been inserted successfully.");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+     catch (Exception e) {
+            e.printStackTrace();    
+    }
+    }
 }
