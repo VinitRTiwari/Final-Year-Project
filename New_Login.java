@@ -1,5 +1,3 @@
-package highjosh;
-
 
 import java.io.File;
 import javax.swing.JFrame;

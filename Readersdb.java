@@ -1,4 +1,4 @@
-package highjosh;
+
 
 
 /*
@@ -313,7 +313,7 @@ public class Readersdb {
             }
             
             workbook.close();
-            System.out.println("Data has been inserted successfully.");
+            JOptionPane.showMessageDialog(null, "Data has been inserted successfully.");
         } catch (Exception e) {
             e.printStackTrace();
         }
