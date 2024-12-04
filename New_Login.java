@@ -1,5 +1,6 @@
-package highjosh;
 
+
+import java.awt.event.KeyEvent;
 import java.io.File;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
@@ -8,6 +9,8 @@ import java.util.Date;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.util.Calendar;
+import java.util.Locale;
+import javax.swing.ButtonModel;
 import javax.swing.JFileChooser;
 import javax.swing.RowFilter;
 import javax.swing.table.DefaultTableModel;
@@ -212,6 +215,7 @@ public class New_Login extends javax.swing.JFrame {
         jRadioButton6 = new javax.swing.JRadioButton();
         jRadioButton7 = new javax.swing.JRadioButton();
         jRadioButton8 = new javax.swing.JRadioButton();
+        jLabel88 = new javax.swing.JLabel();
         jFrame15 = new javax.swing.JFrame();
         jPanel16 = new javax.swing.JPanel();
         jLabel55 = new javax.swing.JLabel();
@@ -2085,7 +2089,7 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.gridwidth = 6;
         gridBagConstraints.ipadx = 16;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(45, 5, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(41, 31, 0, 0);
         jPanel15.add(jLabel52, gridBagConstraints);
 
         jLabel53.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
@@ -2096,17 +2100,17 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.ipadx = 22;
         gridBagConstraints.ipady = 6;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(42, 220, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(46, 174, 0, 0);
         jPanel15.add(jLabel53, gridBagConstraints);
 
         jTextField34.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
+        gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 1;
-        gridBagConstraints.gridwidth = 7;
+        gridBagConstraints.gridwidth = 14;
         gridBagConstraints.ipadx = 163;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(42, 32, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(46, 57, 0, 0);
         jPanel15.add(jTextField34, gridBagConstraints);
 
         jButton17.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
@@ -2117,12 +2121,12 @@ public class New_Login extends javax.swing.JFrame {
             }
         });
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 13;
+        gridBagConstraints.gridx = 22;
         gridBagConstraints.gridy = 1;
-        gridBagConstraints.gridwidth = 2;
+        gridBagConstraints.gridwidth = 16;
         gridBagConstraints.gridheight = 2;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(42, 31, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(46, 41, 0, 0);
         jPanel15.add(jButton17, gridBagConstraints);
 
         jLabel54.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
@@ -2133,17 +2137,27 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.gridwidth = 3;
         gridBagConstraints.ipady = 6;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(60, 220, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(60, 174, 0, 0);
         jPanel15.add(jLabel54, gridBagConstraints);
 
         jComboBox3.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
+        jComboBox3.addItemListener(new java.awt.event.ItemListener() {
+            public void itemStateChanged(java.awt.event.ItemEvent evt) {
+                jComboBox3ItemStateChanged(evt);
+            }
+        });
+        jComboBox3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBox3ActionPerformed(evt);
+            }
+        });
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 8;
+        gridBagConstraints.gridx = 5;
         gridBagConstraints.gridy = 3;
-        gridBagConstraints.gridwidth = 8;
+        gridBagConstraints.gridwidth = 34;
         gridBagConstraints.ipadx = 152;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(60, 9, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(60, 29, 0, 0);
         jPanel15.add(jComboBox3, gridBagConstraints);
 
         jButton33.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
@@ -2156,10 +2170,10 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 2;
         gridBagConstraints.gridy = 5;
-        gridBagConstraints.gridwidth = 4;
+        gridBagConstraints.gridwidth = 7;
         gridBagConstraints.ipadx = 19;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(33, 65, 6, 0);
+        gridBagConstraints.insets = new java.awt.Insets(33, 91, 220, 0);
         jPanel15.add(jButton33, gridBagConstraints);
 
         jRadioButton6.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -2170,7 +2184,7 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.gridwidth = 2;
         gridBagConstraints.ipadx = 19;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(54, 261, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(54, 235, 0, 0);
         jPanel15.add(jRadioButton6, gridBagConstraints);
 
         jRadioButton7.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -2181,7 +2195,7 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.gridwidth = 4;
         gridBagConstraints.ipadx = 47;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(54, 81, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(54, 57, 0, 0);
         jPanel15.add(jRadioButton7, gridBagConstraints);
 
         jRadioButton8.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -2193,17 +2207,29 @@ public class New_Login extends javax.swing.JFrame {
             }
         });
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 13;
+        gridBagConstraints.gridx = 8;
         gridBagConstraints.gridy = 4;
+        gridBagConstraints.gridwidth = 15;
         gridBagConstraints.ipadx = 16;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(54, 8, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(54, 9, 0, 0);
         jPanel15.add(jRadioButton8, gridBagConstraints);
+
+        jLabel88.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 39;
+        gridBagConstraints.gridy = 3;
+        gridBagConstraints.ipadx = 125;
+        gridBagConstraints.ipady = 33;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(60, 27, 0, 39);
+        jPanel15.add(jLabel88, gridBagConstraints);
 
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(0, 0, 6, 0);
         jFrame14.getContentPane().add(jPanel15, gridBagConstraints);
 
         jFrame15.setResizable(false);
@@ -3073,6 +3099,11 @@ public class New_Login extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
+        jButton1.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                jButton1KeyPressed(evt);
+            }
+        });
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 4;
@@ -3085,6 +3116,11 @@ public class New_Login extends javax.swing.JFrame {
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
+            }
+        });
+        jButton2.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                jButton2KeyPressed(evt);
             }
         });
         gridBagConstraints = new java.awt.GridBagConstraints();
@@ -3293,6 +3329,8 @@ public class New_Login extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(null, "Returned Book Successfully..........");
                 jTextField34.setText("");
                 jComboBox3.removeAllItems();
+                
+                
 
             } else {
                 JOptionPane.showMessageDialog(null, "Incorrect Selection....");
@@ -3319,6 +3357,7 @@ public class New_Login extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(null, "Returned Book Successfully..........");
                 jTextField34.setText("");
                 jComboBox3.removeAllItems();
+                jRadioButton8.setSelected(true);
 
             } else {
                 JOptionPane.showMessageDialog(null, "Incorrect Selection....");
@@ -3346,6 +3385,7 @@ public class New_Login extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(null, "Returned Book Successfully..........");
                 jTextField34.setText("");
                 jComboBox3.removeAllItems();
+                jRadioButton8.setSelected(true);
 
             } else {
                 JOptionPane.showMessageDialog(null, "Incorrect Selection....");
@@ -4072,6 +4112,66 @@ public class New_Login extends javax.swing.JFrame {
         rd.insertExcelFaculty(filePath);
     }//GEN-LAST:event_jButton49ActionPerformed
 
+    private void jComboBox3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jComboBox3ActionPerformed
+
+    private void jComboBox3ItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_jComboBox3ItemStateChanged
+        // TODO add your handling code here:
+//        System.out.println(jComboBox3.getSelectedItem());
+//        
+//        int id=Integer.parseInt(jTextField34.getText());
+//        Readersdb rd=new Readersdb();
+//        String val=rd.getStatus(id);
+//        jLabel88.setText(val);
+            
+        
+        
+        
+        
+    }//GEN-LAST:event_jComboBox3ItemStateChanged
+
+    private void jButton1KeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jButton1KeyPressed
+        // TODO add your handling code here:
+        if(evt.getKeyCode()==KeyEvent.VK_ENTER){
+             Readersdb rd = new Readersdb();
+            rd.overdue();
+            boolean temp = rd.checkdata(jTextField2.getText(), jTextField1.getText());
+            if (temp) {
+            jFrame1.setExtendedState(MAXIMIZED_BOTH);
+            jFrame1.setVisible(true);
+            this.setVisible(false);
+            jTextField2.setText("");
+            jTextField1.setText("");
+
+        } else {
+            JOptionPane.showMessageDialog(null, "invaild");
+        }
+        }
+    }//GEN-LAST:event_jButton1KeyPressed
+
+    private void jButton2KeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jButton2KeyPressed
+        // TODO add your handling code here:
+        Readersdb rd = new Readersdb();
+        String q = "select _answer from tbllog;";
+        String temp = rd.forget(q);
+
+        String q2 = "select _password from tbllog where _answer='" + temp + "'; ";
+        String temp2 = rd.forget(q2);
+
+        String s = JOptionPane.showInputDialog("Enter Correct Answer");
+
+        if (JOptionPane.OK_OPTION == 0) {
+            if (s.equals(temp)) {
+                JOptionPane.showMessageDialog(null, temp2);
+
+            } else {
+                JOptionPane.showMessageDialog(null, "invalid ");
+
+            }
+        }
+    }//GEN-LAST:event_jButton2KeyPressed
+
     /**
      * @param args the command line arguments
      */
@@ -4275,6 +4375,7 @@ public class New_Login extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel85;
     private javax.swing.JLabel jLabel86;
     private javax.swing.JLabel jLabel87;
+    private javax.swing.JLabel jLabel88;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
