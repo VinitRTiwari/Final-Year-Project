@@ -249,7 +249,7 @@ public class Readersdb {
     }
     public void insertExcel(String filePath){
          try {
-             int i = 0;
+            
             Class.forName("com.mysql.jdbc.Driver");
             Connection conn = DriverManager.getConnection(db, user, pass);
             String query = "insert into bookinfo(_id,_title,_author,_isbn,_publisher,_price,_status,_active) values(?,?,?,?,?,?,?,?)";
@@ -314,6 +314,111 @@ public class Readersdb {
                 
             }
             
+            workbook.close();
+            JOptionPane.showMessageDialog(null, "Data has been inserted successfully.");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+     catch (Exception e) {
+            e.printStackTrace();    
+    }
+    }
+    public void insertExcelStudent(String filePath){
+         try {
+            
+            Class.forName("com.mysql.jdbc.Driver");
+            Connection conn = DriverManager.getConnection(db, user, pass);
+            String query = "insert into user(_userid,_name,_email,_mobile,_address,_father,_department,_role,_active) values(?,?,?,?,?,?,?,'student',1)";
+            
+         try{
+            FileInputStream inputStream = new FileInputStream(new File(filePath));
+            Workbook workbook = null;
+            
+            if (filePath.endsWith(".xlsx")) {
+                workbook = new XSSFWorkbook(inputStream);
+            } else if (filePath.endsWith(".xls")) {
+                workbook = new HSSFWorkbook(inputStream);
+            } else {
+                throw new IllegalArgumentException("The specified file is not Excel format.");
+            }
+            
+            Sheet sheet = workbook.getSheetAt(0);
+            
+            for (Row row : sheet) {
+             
+                if (row.getRowNum() == 0) {
+                    // Skip header row
+                    continue;
+                }
+                int userid1 = (int) row.getCell(0).getNumericCellValue();                
+                String name1 = row.getCell(1).getStringCellValue();                
+                String email1 = row.getCell(2).getStringCellValue();                
+                int mobile1 = (int) row.getCell(3).getNumericCellValue();                
+                String address1 = row.getCell(4).getStringCellValue();                
+                String father1 = row.getCell(5).getStringCellValue();
+                String course1 = row.getCell(6).getStringCellValue();              
+                try (PreparedStatement statement = conn.prepareStatement(query)) {
+                    statement.setInt(1, userid1);                   
+                    statement.setString(2, name1);                    
+                    statement.setString(3, email1);                    
+                    statement.setInt(4, mobile1);                    
+                    statement.setString(5, address1);                    
+                    statement.setString(6, father1);                                      
+                    statement.setString(7, course1);
+                    statement.executeUpdate();                    
+                }                
+            }            
+            workbook.close();
+            JOptionPane.showMessageDialog(null, "Data has been inserted successfully.");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+     catch (Exception e) {
+            e.printStackTrace();    
+    }
+    }
+    public void insertExcelFaculty(String filePath){
+         try {
+            Class.forName("com.mysql.jdbc.Driver");
+            Connection conn = DriverManager.getConnection(db, user, pass);
+            String query = "insert into user(_userid,_name,_email,_mobile,_department,_role,_active) values(?,?,?,?,?,'faculty',1)";
+            
+         try{
+            FileInputStream inputStream = new FileInputStream(new File(filePath));
+            Workbook workbook = null;
+            
+            if (filePath.endsWith(".xlsx")) {
+                workbook = new XSSFWorkbook(inputStream);
+            } else if (filePath.endsWith(".xls")) {
+                workbook = new HSSFWorkbook(inputStream);
+            } else {
+                throw new IllegalArgumentException("The specified file is not Excel format.");
+            }
+            
+            Sheet sheet = workbook.getSheetAt(0);
+            
+            for (Row row : sheet) {
+             
+                if (row.getRowNum() == 0) {
+                    // Skip header row
+                    continue;
+                }
+                int userid1 = (int) row.getCell(0).getNumericCellValue();                
+                String name1 = row.getCell(1).getStringCellValue();                
+                String email1 = row.getCell(2).getStringCellValue();                
+                int mobile1 = (int) row.getCell(3).getNumericCellValue();       
+                String dept1 = row.getCell(4).getStringCellValue();              
+                try (PreparedStatement statement = conn.prepareStatement(query)) {
+                    statement.setInt(1, userid1);                   
+                    statement.setString(2, name1);                    
+                    statement.setString(3, email1);                    
+                    statement.setInt(4, mobile1);                                           
+                    statement.setString(5, dept1);
+                    statement.executeUpdate();                    
+                }                
+            }            
             workbook.close();
             JOptionPane.showMessageDialog(null, "Data has been inserted successfully.");
         } catch (Exception e) {
