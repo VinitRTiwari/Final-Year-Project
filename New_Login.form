@@ -3408,7 +3408,7 @@
     </Container>
     <Component class="javax.swing.ButtonGroup" name="buttonGroup3">
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="buttonGroup3.add(jRadioButton6);&#xa;jRadioButton6.setActionCommand(&quot;damage&quot;);&#xa;buttonGroup3.add(jRadioButton7);&#xa;jRadioButton7.setActionCommand(&quot;lost&quot;);&#xa;buttonGroup3.add(jRadioButton8);&#xa;jRadioButton8.setActionCommand(&quot;good&quot;);"/>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="buttonGroup3.add(jRadioButton6);&#xa;jRadioButton6.setActionCommand(&quot;damaged&quot;);&#xa;buttonGroup3.add(jRadioButton7);&#xa;jRadioButton7.setActionCommand(&quot;lost&quot;);&#xa;buttonGroup3.add(jRadioButton8);&#xa;jRadioButton8.setActionCommand(&quot;good&quot;);"/>
       </AuxValues>
     </Component>
   </NonVisualComponents>

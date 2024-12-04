@@ -146,9 +146,7 @@ public class Readersdb {
             int total = 0;
             while (rs.next()) {
                 int temp1 = rs.getInt(1);
-                System.out.println(temp1);
                 total = temp1 + amt;
-                System.out.println(total);
                 break;
             }
             stmt.close();
@@ -428,5 +426,23 @@ public class Readersdb {
      catch (Exception e) {
             e.printStackTrace();    
     }
+    }
+    public int calamount(String query){
+        try {
+            Class.forName("com.mysql.jdbc.Driver");
+            Connection conn = DriverManager.getConnection(db, user, pass);
+            Statement stmt = conn.createStatement();
+            ResultSet rs = stmt.executeQuery(query);
+            int amount = 0;
+            while (rs.next()) {
+                amount = rs.getInt(1);
+            }
+            rs.close();
+            stmt.close();
+            conn.close();
+            return amount;
+        } catch (Exception e) {
+            return 0;
+        }
     }
 }

@@ -1,7 +1,5 @@
 package highjosh;
 
-
-
 import java.io.File;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
@@ -15,13 +13,10 @@ import javax.swing.RowFilter;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableRowSorter;
 
-
-
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-
 /**
  *
  * @author Vinit + Priyanshu
@@ -3013,7 +3008,7 @@ public class New_Login extends javax.swing.JFrame {
         jFrame22.getContentPane().add(jPanel23, gridBagConstraints);
 
         buttonGroup3.add(jRadioButton6);
-        jRadioButton6.setActionCommand("damage");
+        jRadioButton6.setActionCommand("damaged");
         buttonGroup3.add(jRadioButton7);
         jRadioButton7.setActionCommand("lost");
         buttonGroup3.add(jRadioButton8);
@@ -3124,21 +3119,19 @@ public class New_Login extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         Readersdb rd = new Readersdb();
         rd.overdue();
-        boolean temp = rd.checkdata(jTextField2.getText(),jTextField1.getText());
-        if(temp){
+        boolean temp = rd.checkdata(jTextField2.getText(), jTextField1.getText());
+        if (temp) {
             jFrame1.setExtendedState(MAXIMIZED_BOTH);
-            jFrame1.setVisible(true); 
+            jFrame1.setVisible(true);
             this.setVisible(false);
             jTextField2.setText("");
             jTextField1.setText("");
 
-            
-        }
-        else{
+        } else {
             JOptionPane.showMessageDialog(null, "invaild");
         }
-        
-        
+
+
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
@@ -3162,7 +3155,7 @@ public class New_Login extends javax.swing.JFrame {
         // TODO add your handling code here:
         jFrame2.setExtendedState(MAXIMIZED_BOTH);
         jFrame2.setVisible(true);
-        
+
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
@@ -3175,7 +3168,7 @@ public class New_Login extends javax.swing.JFrame {
         // TODO add your handling code here:
         jFrame8.setExtendedState(MAXIMIZED_BOTH);
         jFrame8.setVisible(true);
-                
+
     }//GEN-LAST:event_jButton9ActionPerformed
 
     private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
@@ -3204,10 +3197,10 @@ public class New_Login extends javax.swing.JFrame {
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
         // TODO add your handling code here:
-        
+
         jFrame1.setVisible(false);
         this.setVisible(true);
-        
+
     }//GEN-LAST:event_jButton8ActionPerformed
 
     private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
@@ -3231,7 +3224,7 @@ public class New_Login extends javax.swing.JFrame {
         jScrollPane1.setVisible(true);
         jLabel72.setVisible(false);
         jComboBox5.setVisible(false);
-        
+
     }//GEN-LAST:event_jRadioButton1ActionPerformed
 
     private void jRadioButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton2ActionPerformed
@@ -3246,8 +3239,7 @@ public class New_Login extends javax.swing.JFrame {
         jLabel72.setVisible(true);
         jComboBox5.setVisible(true);
 
-        
-        
+
     }//GEN-LAST:event_jRadioButton2ActionPerformed
 
     private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
@@ -3266,47 +3258,100 @@ public class New_Login extends javax.swing.JFrame {
 
     private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
         // TODO add your handling code here:
-        
-        try{
+
+        try {
             String db = "jdbc:mysql://localhost:3306/READERS_HAVEN";
             String user = "root";
             String pass = "root";
             Class.forName("com.mysql.jdbc.Driver");
-            Connection conn = DriverManager.getConnection(db,user,pass);
-            String q = "select _id from bookinfo where _id in (select _bookid from transaction where _userid = '"+Integer.parseInt(jTextField34.getText())+"'  and  _status='issued');";
+            Connection conn = DriverManager.getConnection(db, user, pass);
+            String q = "select _id from bookinfo where _id in (select _bookid from transaction where _userid = '" + Integer.parseInt(jTextField34.getText()) + "'  and  _status='issued');";
             Statement stmt = conn.createStatement();
             ResultSet rs = stmt.executeQuery(q);
             jComboBox3.removeAllItems();
-            while(rs.next()){
-                String data=rs.getString(1);
+            while (rs.next()) {
+                String data = rs.getString(1);
                 jComboBox3.addItem(data);
             }
-            
 
-            
-        }
-        catch(Exception e){
+        } catch (Exception e) {
             JOptionPane.showMessageDialog(null, "Incorrect details");
         }
     }//GEN-LAST:event_jButton17ActionPerformed
 
     private void jButton33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton33ActionPerformed
         // TODO add your handling code here:
+        String radio = buttonGroup3.getSelection().getActionCommand();
         Readersdb rd = new Readersdb();
         Date currentDate = new Date();
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyyMMdd");
         String finalDate = dateFormat.format(currentDate);
-        String q = "update transaction set _status= 'returned', _return = '"+ finalDate +"' where _bookid= '"+ jComboBox3.getSelectedItem() +"' and _status = 'issued' and _userid = '"+ jTextField34.getText() +"' ; " ;
-        boolean temp1 = rd.editUser(q);
-        if(temp1){
-            JOptionPane.showMessageDialog(null, "Returned Book Successfully..........");
-            jTextField34.setText("");
-            jComboBox3.removeAllItems();
+        if (radio.equalsIgnoreCase("good")) {
+            String q = "update transaction set _status= 'returned', _return = '" + finalDate + "' where _bookid= '" + jComboBox3.getSelectedItem() + "' and _status = 'issued' and _userid = '" + jTextField34.getText() + "' ; ";
+            boolean temp1 = rd.editUser(q);
+            if (temp1) {
+                JOptionPane.showMessageDialog(null, "Returned Book Successfully..........");
+                jTextField34.setText("");
+                jComboBox3.removeAllItems();
+
+            } else {
+                JOptionPane.showMessageDialog(null, "Incorrect Selection....");
+            }
+        }
+        if (radio.equalsIgnoreCase("damaged")) {
+            String q1 = "select _damaged from calculate";
+            int amount = rd.calamount(q1);
+            String q2 = "select _price from bookinfo where _id = '" + jComboBox3.getSelectedItem() + "';";
+            int price = rd.calamount(q2);
+            int fare = (amount * price) / 100;
+            String q6 = " select _totalFine from user where _userid = '"+ Integer.parseInt(jTextField34.getText())+"';";
+            int totalfine = rd.calamount(q6);
+            int totalfare = totalfine + fare;
+            String q3 = "update bookinfo set _status = 'damaged', _active = 1 where _id = '" + jComboBox3.getSelectedItem() + "';";
+            boolean temp2 = rd.editUser(q3);
+            String q4 = "update user set _totalFine = '" + totalfare + "',_status = 'Unpaid' where _userid='" + Integer.parseInt(jTextField34.getText()) + "';";
+            boolean temp3 = rd.editUser(q4);
+            String q5 = "insert into fines(_userid,_reason,_amount,_bookid) values('" + Integer.parseInt(jTextField34.getText()) + "', 'damaged' , '" + fare + "' , '" + jComboBox3.getSelectedItem() + "'); ";
+            boolean temp4 = rd.editUser(q5);           
+            String q = "update transaction set _status= 'returned', _return = '" + finalDate + "' where _bookid= '" + jComboBox3.getSelectedItem() + "' and _status = 'issued' and _userid = '" + jTextField34.getText() + "' ; ";
+            boolean temp1 = rd.editUser(q);
+            if (temp1 && temp2 && temp3 && temp4) {
+                JOptionPane.showMessageDialog(null, "Returned Book Successfully..........");
+                jTextField34.setText("");
+                jComboBox3.removeAllItems();
+
+            } else {
+                JOptionPane.showMessageDialog(null, "Incorrect Selection....");
+            }
 
         }
-        else{
-            JOptionPane.showMessageDialog(null, "Incorrect Selection....");
+        if (radio.equalsIgnoreCase("lost")) {
+            String q1 = "select _lost from calculate";
+            int amount = rd.calamount(q1);
+            String q2 = "select _price from bookinfo where _id = '" + jComboBox3.getSelectedItem() + "';";
+            int price = rd.calamount(q2);
+            int fare = (amount * price) / 100;
+            String q6 = " select _totalFine from user where _userid = '"+ Integer.parseInt(jTextField34.getText())+"';";
+            int totalfine = rd.calamount(q6);
+            int totalfare = totalfine + fare;
+            String q3 = "update bookinfo set _status = 'lost',_active = 0 where _id = '" + jComboBox3.getSelectedItem() + "';";
+            boolean temp2 = rd.editUser(q3);
+            String q4 = "update user set _totalFine = '" + totalfare + "',_status = 'Unpaid' where _userid='" + Integer.parseInt(jTextField34.getText()) + "';";
+            boolean temp3 = rd.editUser(q4);
+            String q5 = "insert into fines(_userid,_reason,_amount,_bookid) values('" + Integer.parseInt(jTextField34.getText()) + "', 'lost' , '" + fare + "' , '" + jComboBox3.getSelectedItem() + "'); ";
+            boolean temp4 = rd.editUser(q5);
+            String q = "update transaction set _status= 'returned', _return = '" + finalDate + "' where _bookid= '" + jComboBox3.getSelectedItem() + "' and _status = 'issued' and _userid = '" + jTextField34.getText() + "' ; ";
+            boolean temp1 = rd.editUser(q);
+            if (temp1 && temp2 && temp3 && temp4) {
+                JOptionPane.showMessageDialog(null, "Returned Book Successfully..........");
+                jTextField34.setText("");
+                jComboBox3.removeAllItems();
+
+            } else {
+                JOptionPane.showMessageDialog(null, "Incorrect Selection....");
+            }
         }
+
     }//GEN-LAST:event_jButton33ActionPerformed
 
     private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
@@ -3324,16 +3369,15 @@ public class New_Login extends javax.swing.JFrame {
     private void jButton36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton36ActionPerformed
         // TODO add your handling code here:
         Readersdb rd = new Readersdb();
-        int temp = rd.info(Integer.parseInt(jTextField32.getText()),Integer.parseInt(jTextField38.getText()));
-        String q = "update user set _status= '"+ jComboBox4.getSelectedItem() +"',_totalFine = '"+ temp +"' where _userid= '"+ jTextField38.getText() +"' ; " ;
+        int temp = rd.info(Integer.parseInt(jTextField32.getText()), Integer.parseInt(jTextField38.getText()));
+        String q = "update user set _status= '" + jComboBox4.getSelectedItem() + "',_totalFine = '" + temp + "' where _userid= '" + jTextField38.getText() + "' ; ";
         boolean temp1 = rd.editUser(q);
-        if(temp1){
+        if (temp1) {
             JOptionPane.showMessageDialog(null, "Successfully Completed..........");
             jTextField38.setText("");
             jTextField32.setText("");
             jComboBox4.setSelectedIndex(0);
-        }
-        else{
+        } else {
             JOptionPane.showMessageDialog(null, "Incorrect Selection....");
         }
     }//GEN-LAST:event_jButton36ActionPerformed
@@ -3348,72 +3392,69 @@ public class New_Login extends javax.swing.JFrame {
         // TODO add your handling code here:
         jFrame17.setExtendedState(MAXIMIZED_BOTH);
         jFrame17.setVisible(true);
-        
-        try{
+
+        try {
             String db = "jdbc:mysql://localhost:3306/READERS_HAVEN";
             String user = "root";
             String pass = "root";
             Class.forName("com.mysql.jdbc.Driver");
-            Connection conn = DriverManager.getConnection(db,user,pass);
+            Connection conn = DriverManager.getConnection(db, user, pass);
             Statement stmt = conn.createStatement();
             String query = "select _tid,_bookid,_userid,_issue,_due from transaction where _status = 'issued';";
             ResultSet rs = stmt.executeQuery(query);
-            DefaultTableModel model = (DefaultTableModel)jTable1.getModel();
+            DefaultTableModel model = (DefaultTableModel) jTable1.getModel();
             model.setRowCount(0);
-            while(rs.next()){
+            while (rs.next()) {
                 String TransactionID = rs.getString(1);
                 String BookID = rs.getString(2);
                 String UserID = rs.getString(3);
                 String IssueDate = rs.getString(4);
                 String DueDate = rs.getString(5);
-                Object[] obj = {TransactionID,BookID,UserID,IssueDate,DueDate};
-                model = (DefaultTableModel)jTable1.getModel();
+                Object[] obj = {TransactionID, BookID, UserID, IssueDate, DueDate};
+                model = (DefaultTableModel) jTable1.getModel();
                 model.addRow(obj);
-                
+
             }
             rs.close();
             stmt.close();
             conn.close();
-            
-            
-        }
-        catch(Exception e){
+
+        } catch (Exception e) {
             e.printStackTrace();
         }
-        
+
     }//GEN-LAST:event_jButton20ActionPerformed
 
     private void jButton38ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton38ActionPerformed
         // TODO add your handling code here:
         jFrame22.setExtendedState(MAXIMIZED_BOTH);
         jFrame22.setVisible(true);
-        
-        try{
+
+        try {
             String db = "jdbc:mysql://localhost:3306/READERS_HAVEN";
             String user = "root";
             String pass = "root";
             Class.forName("com.mysql.jdbc.Driver");
-            Connection conn = DriverManager.getConnection(db,user,pass);
+            Connection conn = DriverManager.getConnection(db, user, pass);
             Statement stmt = conn.createStatement();
             String query = "select _userid,_name,_email,_mobile,_totalfine from user where _status = 'unpaid';";
             ResultSet rs = stmt.executeQuery(query);
-            DefaultTableModel model = (DefaultTableModel)jTable6.getModel();
+            DefaultTableModel model = (DefaultTableModel) jTable6.getModel();
             model.setRowCount(0);
-            while(rs.next()){
+            while (rs.next()) {
                 String userid = rs.getString(1);
                 String name = rs.getString(2);
                 String email = rs.getString(3);
                 String mobile = rs.getString(4);
                 String totalFine = rs.getString(5);
-                Object[] obj = {userid,name,email,mobile,totalFine};
-                model = (DefaultTableModel)jTable6.getModel();
+                Object[] obj = {userid, name, email, mobile, totalFine};
+                model = (DefaultTableModel) jTable6.getModel();
                 model.addRow(obj);
             }
             rs.close();
             stmt.close();
             conn.close();
-        }
-        catch(Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }//GEN-LAST:event_jButton38ActionPerformed
@@ -3422,23 +3463,19 @@ public class New_Login extends javax.swing.JFrame {
         // TODO add your handling code here:
         Readersdb rd = new Readersdb();
         String radio = buttonGroup2.getSelection().getActionCommand();
-        String q = "insert into bookinfo(_id, _title,_author,_isbn,_publisher,_price,_status,_active) values('" + Integer.parseInt(jTextField8.getText()) +"','"+ jTextField10.getText() + "' ,' " + jTextField12.getText() +"','"+ jTextField13.getText() +"','"+ jTextField20.getText() +"','"+ jTextField21.getText() +"','"+ radio +"',1);";
+        String q = "insert into bookinfo(_id, _title,_author,_isbn,_publisher,_price,_status,_active) values('" + Integer.parseInt(jTextField8.getText()) + "','" + jTextField10.getText() + "' ,' " + jTextField12.getText() + "','" + jTextField13.getText() + "','" + jTextField20.getText() + "','" + jTextField21.getText() + "','" + radio + "',1);";
         boolean temp = rd.Add(q);
-        if(temp){
+        if (temp) {
             JOptionPane.showMessageDialog(null, "Book Added Successfully");
             jTextField8.setText("");
             jTextField10.setText("");
             jTextField12.setText("");
             jTextField13.setText("");
-            
+
             jTextField20.setText("");
             jTextField21.setText("");
-           
 
-          
-            
-        }
-        else{
+        } else {
             JOptionPane.showMessageDialog(null, "Please fill appropriate details");
         }
     }//GEN-LAST:event_jButton25ActionPerformed
@@ -3447,22 +3484,21 @@ public class New_Login extends javax.swing.JFrame {
         // TODO add your handling code here:
         Readersdb rd = new Readersdb();
         String q = "select _id,_title from bookinfo";
-        String temp = rd.test(q,jTextField28.getText());
+        String temp = rd.test(q, jTextField28.getText());
         JOptionPane.showMessageDialog(null, temp);
     }//GEN-LAST:event_jButton41ActionPerformed
 
     private void jButton31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton31ActionPerformed
         // TODO add your handling code here:
-       Readersdb rd = new Readersdb();
-       
-        String q = "delete from bookinfo where _id = '"+Integer.parseInt(jTextField28.getText())+"';  ";
-        
+        Readersdb rd = new Readersdb();
+
+        String q = "delete from bookinfo where _id = '" + Integer.parseInt(jTextField28.getText()) + "';  ";
+
         boolean temp = rd.delete(q);
-        if(temp){
+        if (temp) {
             JOptionPane.showMessageDialog(null, "Delete Book Successfully....!");
             jTextField28.setText("");
-        }
-        else{
+        } else {
             JOptionPane.showMessageDialog(null, "Invalid Details");
         }
     }//GEN-LAST:event_jButton31ActionPerformed
@@ -3471,7 +3507,7 @@ public class New_Login extends javax.swing.JFrame {
         // TODO add your handling code here:
         Readersdb rd = new Readersdb();
         String q = "select _id,_title from bookinfo";
-        String temp = rd.test(q,jTextField29.getText());
+        String temp = rd.test(q, jTextField29.getText());
         JOptionPane.showMessageDialog(null, temp);
     }//GEN-LAST:event_jButton40ActionPerformed
 
@@ -3480,20 +3516,19 @@ public class New_Login extends javax.swing.JFrame {
         Readersdb rd = new Readersdb();
         String radio = buttonGroup1.getSelection().getActionCommand();
         String q;
-        if(radio.equals("Student")){
-            q = "insert into user(_userid, _name,_email,_mobile,_address,_father,_department,_role,_active) values('" + Integer.parseInt(jTextField6.getText()) +"','"+ jTextField3.getText() + "' ,' " + jTextField4.getText() +"','"+ jTextField7.getText() +"','"+ jTextArea1.getText() +"','"+ jTextField9.getText() +"', '"+ jComboBox2.getSelectedItem() +"' , '"+ radio +"',1);";
-            
-        }
-        else{
-           q = "insert into user(_userid, _name,_email,_mobile,_department,_role,_active) values('" + Integer.parseInt(jTextField6.getText()) +"','"+ jTextField3.getText() + "' ,' " + jTextField4.getText() +"','"+ jTextField7.getText() +"','"+ jComboBox5.getSelectedItem() +"' , '"+ radio +"',1);";
+        if (radio.equals("Student")) {
+            q = "insert into user(_userid, _name,_email,_mobile,_address,_father,_department,_role,_active) values('" + Integer.parseInt(jTextField6.getText()) + "','" + jTextField3.getText() + "' ,' " + jTextField4.getText() + "','" + jTextField7.getText() + "','" + jTextArea1.getText() + "','" + jTextField9.getText() + "', '" + jComboBox2.getSelectedItem() + "' , '" + radio + "',1);";
+
+        } else {
+            q = "insert into user(_userid, _name,_email,_mobile,_department,_role,_active) values('" + Integer.parseInt(jTextField6.getText()) + "','" + jTextField3.getText() + "' ,' " + jTextField4.getText() + "','" + jTextField7.getText() + "','" + jComboBox5.getSelectedItem() + "' , '" + radio + "',1);";
 
         }
-        
+
         boolean temp = rd.Add(q);
-        
-        if(temp){
+
+        if (temp) {
             JOptionPane.showMessageDialog(null, "Added user Successfully");
-            
+
             jTextField6.setText("");
             jTextField3.setText("");
             jTextField4.setText("");
@@ -3503,33 +3538,28 @@ public class New_Login extends javax.swing.JFrame {
             jTextField9.setText("");
             jComboBox2.setSelectedIndex(0);
 
+        } else {
+            JOptionPane.showMessageDialog(null, "Please fill appropriate details");
+        }
 
 
-            
-        }
-        else{
-           JOptionPane.showMessageDialog(null, "Please fill appropriate details");
-        }
-        
-        
-        
     }//GEN-LAST:event_jButton24ActionPerformed
 
     private void jButton27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton27ActionPerformed
         // TODO add your handling code here:
         Readersdb rd = new Readersdb();
         String q = "select _userid,_name,_father,_department,_address,_email,_mobile from user";
-        
-        try{
+
+        try {
             String db = "jdbc:mysql://localhost:3306/READERS_HAVEN";
             String user = "root";
             String pass = "root";
             Class.forName("com.mysql.jdbc.Driver");
-            Connection conn = DriverManager.getConnection(db,user,pass);
+            Connection conn = DriverManager.getConnection(db, user, pass);
             Statement stmt = conn.createStatement();
             ResultSet rs = stmt.executeQuery(q);
-            
-            while(rs.next()){
+
+            while (rs.next()) {
                 String temp1 = rs.getString(1);
                 String temp2 = rs.getString(2);
                 String temp3 = rs.getString(3);
@@ -3538,8 +3568,7 @@ public class New_Login extends javax.swing.JFrame {
                 String temp6 = rs.getString(6);
                 String temp7 = rs.getString(7);
 
-
-                if(temp1.equals(jTextField11.getText())){
+                if (temp1.equals(jTextField11.getText())) {
                     jTextField15.setText(temp2);
                     jTextField16.setText(temp3);
                     jTextField14.setText(temp4);
@@ -3549,38 +3578,36 @@ public class New_Login extends javax.swing.JFrame {
                     break;
                 }
             }
-        }
-        catch(Exception e){
+        } catch (Exception e) {
             JOptionPane.showMessageDialog(null, "Incorrect details");
         }
-        
-        
+
+
     }//GEN-LAST:event_jButton27ActionPerformed
 
     private void jButton26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton26ActionPerformed
         // TODO add your handling code here:
         Readersdb rd = new Readersdb();
-       
-        String q = "delete from user where _userid = '"+Integer.parseInt(jTextField5.getText())+"';  ";
-        
+
+        String q = "delete from user where _userid = '" + Integer.parseInt(jTextField5.getText()) + "';  ";
+
         boolean temp = rd.Add(q);
-        if(temp){
+        if (temp) {
             JOptionPane.showMessageDialog(null, "Delete Successfully....!");
             jTextField5.setText("");
-        }
-        else{
+        } else {
             JOptionPane.showMessageDialog(null, "Invalid Details");
         }
-        
+
     }//GEN-LAST:event_jButton26ActionPerformed
 
     private void jButton28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton28ActionPerformed
         // TODO add your handling code here:
-        
+
         Readersdb rd = new Readersdb();
-        String q = "update user set _name='"+jTextField15.getText()+"',_father='"+jTextField16.getText()+"',_department='"+jTextField14.getText()+"',_address='"+jTextField17.getText()+"',_email='"+jTextField19.getText()+"',_mobile='"+jTextField18.getText()+"' where _userid= '"+jTextField11.getText()+"' ; ";
-        boolean temp=rd.editUser(q);
-        if(temp){
+        String q = "update user set _name='" + jTextField15.getText() + "',_father='" + jTextField16.getText() + "',_department='" + jTextField14.getText() + "',_address='" + jTextField17.getText() + "',_email='" + jTextField19.getText() + "',_mobile='" + jTextField18.getText() + "' where _userid= '" + jTextField11.getText() + "' ; ";
+        boolean temp = rd.editUser(q);
+        if (temp) {
             JOptionPane.showMessageDialog(null, "Edit Record Successfully..........");
             jTextField11.setText("");
             jTextField15.setText("");
@@ -3591,21 +3618,19 @@ public class New_Login extends javax.swing.JFrame {
             jTextField18.setText("");
             jTextField19.setText("");
 
-
-        }
-        else{
+        } else {
             JOptionPane.showMessageDialog(null, "Incorrect Details....");
 
         }
-        
-        
+
+
     }//GEN-LAST:event_jButton28ActionPerformed
 
     private void jButton42ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton42ActionPerformed
         // TODO add your handling code here:
         Readersdb rd = new Readersdb();
         String q = "select _userid,_name from user";
-        String temp = rd.test(q,jTextField30.getText());
+        String temp = rd.test(q, jTextField30.getText());
         JOptionPane.showMessageDialog(null, temp);
     }//GEN-LAST:event_jButton42ActionPerformed
 
@@ -3613,27 +3638,25 @@ public class New_Login extends javax.swing.JFrame {
         // TODO add your handling code here:
         Readersdb rd = new Readersdb();
         String q = "select _id,_title from bookinfo";
-        String temp = rd.test(q,jTextField31.getText());
+        String temp = rd.test(q, jTextField31.getText());
         JOptionPane.showMessageDialog(null, temp);
     }//GEN-LAST:event_jButton43ActionPerformed
 
     private void jButton23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton23ActionPerformed
         // TODO add your handling code here:
-        
+
         Readersdb rd = new Readersdb();
         SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd");
         String date1 = sdf.format(jDateChooser1.getDate());
         String date2 = sdf.format(jDateChooser2.getDate());
-        String q = "insert into transaction(_bookid,_userid,_issue,_due,_status) values('"+Integer.parseInt(jTextField31.getText())+"', '"+Integer.parseInt(jTextField30.getText())+"','"+ date1 +"', '"+ date2 +"','issued');";
-        boolean temp=rd.Add(q);
-        if(temp){
+        String q = "insert into transaction(_bookid,_userid,_issue,_due,_status) values('" + Integer.parseInt(jTextField31.getText()) + "', '" + Integer.parseInt(jTextField30.getText()) + "','" + date1 + "', '" + date2 + "','issued');";
+        boolean temp = rd.Add(q);
+        if (temp) {
             JOptionPane.showMessageDialog(null, "Issued Book Successfully..........");
             jTextField30.setText("");
             jTextField31.setText("");
-            
 
-        }
-        else{
+        } else {
             JOptionPane.showMessageDialog(null, "Incorrect Details....");
 
         }
@@ -3643,25 +3666,25 @@ public class New_Login extends javax.swing.JFrame {
         // TODO add your handling code here:
         Readersdb rd = new Readersdb();
         String q = "select _id,_title,_author,_isbn,_publisher,_price from bookinfo";
-        
-        try{
-            
+
+        try {
+
             String db = "jdbc:mysql://localhost:3306/READERS_HAVEN";
             String user = "root";
             String pass = "root";
             Class.forName("com.mysql.jdbc.Driver");
-            Connection conn = DriverManager.getConnection(db,user,pass);
+            Connection conn = DriverManager.getConnection(db, user, pass);
             Statement stmt = conn.createStatement();
             ResultSet rs = stmt.executeQuery(q);
-            
-            while(rs.next()){
+
+            while (rs.next()) {
                 String temp1 = rs.getString(1);
                 String temp2 = rs.getString(2);
                 String temp3 = rs.getString(3);
                 String temp4 = rs.getString(4);
                 String temp5 = rs.getString(5);
                 String temp6 = rs.getString(6);
-                if(temp1.equals(jTextField22.getText())){
+                if (temp1.equals(jTextField22.getText())) {
                     jTextField23.setText(temp2);
                     jTextField24.setText(temp3);
                     jTextField25.setText(temp4);
@@ -3670,8 +3693,7 @@ public class New_Login extends javax.swing.JFrame {
                     break;
                 }
             }
-        }
-        catch(Exception e){
+        } catch (Exception e) {
             JOptionPane.showMessageDialog(null, "Imcorrect details");
         }
     }//GEN-LAST:event_jButton29ActionPerformed
@@ -3679,9 +3701,9 @@ public class New_Login extends javax.swing.JFrame {
     private void jButton30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton30ActionPerformed
         // TODO add your handling code here:
         Readersdb rd = new Readersdb();
-        String q = "update bookinfo set _title='"+jTextField23.getText()+"',_author='"+jTextField24.getText()+"',_isbn='"+jTextField25.getText()+"',_publisher='"+jTextField26.getText()+"',_price='"+jTextField27.getText()+"' where _id= '"+jTextField22.getText()+"' ; ";
-        boolean temp=rd.editUser(q);
-        if(temp){
+        String q = "update bookinfo set _title='" + jTextField23.getText() + "',_author='" + jTextField24.getText() + "',_isbn='" + jTextField25.getText() + "',_publisher='" + jTextField26.getText() + "',_price='" + jTextField27.getText() + "' where _id= '" + jTextField22.getText() + "' ; ";
+        boolean temp = rd.editUser(q);
+        if (temp) {
             JOptionPane.showMessageDialog(null, "Record Saved Successfully..........");
             jTextField22.setText("");
             jTextField23.setText("");
@@ -3689,10 +3711,8 @@ public class New_Login extends javax.swing.JFrame {
             jTextField25.setText("");
             jTextField26.setText("");
             jTextField27.setText("");
-            
 
-        }
-        else{
+        } else {
             JOptionPane.showMessageDialog(null, "Incorrect Details....");
 
         }
@@ -3701,14 +3721,13 @@ public class New_Login extends javax.swing.JFrame {
     private void jButton32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton32ActionPerformed
         // TODO add your handling code here:
         Readersdb rd = new Readersdb();
-        String q = "update bookinfo set _status= '"+ jComboBox1.getSelectedItem() +"' where _id= '"+ jTextField29.getText() +"' ; " ;
-        boolean temp=rd.editUser(q);
-        if(temp){
+        String q = "update bookinfo set _status= '" + jComboBox1.getSelectedItem() + "' where _id= '" + jTextField29.getText() + "' ; ";
+        boolean temp = rd.editUser(q);
+        if (temp) {
             JOptionPane.showMessageDialog(null, "Successfully Update Book Status..........");
             jTextField29.setText("");
 
-        }
-        else{
+        } else {
             JOptionPane.showMessageDialog(null, "Incorrect Selection....");
 
         }
@@ -3716,16 +3735,16 @@ public class New_Login extends javax.swing.JFrame {
 
     private void jButton35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton35ActionPerformed
         // TODO add your handling code here:        
-        try{
+        try {
             String db = "jdbc:mysql://localhost:3306/READERS_HAVEN";
             String user = "root";
             String pass = "root";
             Class.forName("com.mysql.jdbc.Driver");
-            Connection conn = DriverManager.getConnection(db,user,pass);
-            String q = "select _name, _father, _mobile, _totalFine from user where _userid = '"+Integer.parseInt(jTextField38.getText())+"' ; ";
+            Connection conn = DriverManager.getConnection(db, user, pass);
+            String q = "select _name, _father, _mobile, _totalFine from user where _userid = '" + Integer.parseInt(jTextField38.getText()) + "' ; ";
             Statement stmt = conn.createStatement();
             ResultSet rs = stmt.executeQuery(q);
-            while(rs.next()){
+            while (rs.next()) {
                 String temp1 = rs.getString(1);
                 String temp2 = rs.getString(2);
                 String temp3 = rs.getString(3);
@@ -3734,9 +3753,8 @@ public class New_Login extends javax.swing.JFrame {
                 jLabel67.setText(temp2);
                 jLabel68.setText(temp3);
                 jLabel69.setText(temp4);
-                }
             }
-        catch(Exception e){
+        } catch (Exception e) {
             JOptionPane.showMessageDialog(null, "Incorrect details");
         }
     }//GEN-LAST:event_jButton35ActionPerformed
@@ -3748,7 +3766,7 @@ public class New_Login extends javax.swing.JFrame {
     private void jTextField33KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField33KeyReleased
         // TODO add your handling code here:
         String str = jTextField33.getText();
-        DefaultTableModel model = (DefaultTableModel)jTable1.getModel();
+        DefaultTableModel model = (DefaultTableModel) jTable1.getModel();
         TableRowSorter<DefaultTableModel> trs = new TableRowSorter<>(model);
         jTable1.setRowSorter(trs);
         trs.setRowFilter(RowFilter.regexFilter(str));
@@ -3757,7 +3775,7 @@ public class New_Login extends javax.swing.JFrame {
     private void jTextField39KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField39KeyReleased
         // TODO add your handling code here:
         String str = jTextField39.getText();
-        DefaultTableModel model = (DefaultTableModel)jTable2.getModel();
+        DefaultTableModel model = (DefaultTableModel) jTable2.getModel();
         TableRowSorter<DefaultTableModel> trs = new TableRowSorter<>(model);
         jTable2.setRowSorter(trs);
         trs.setRowFilter(RowFilter.regexFilter(str));
@@ -3767,42 +3785,41 @@ public class New_Login extends javax.swing.JFrame {
         // TODO add your handling code here:
         jFrame18.setExtendedState(MAXIMIZED_BOTH);
         jFrame18.setVisible(true);
-        
-        try{
+
+        try {
             String db = "jdbc:mysql://localhost:3306/READERS_HAVEN";
             String user = "root";
             String pass = "root";
             Class.forName("com.mysql.jdbc.Driver");
-            Connection conn = DriverManager.getConnection(db,user,pass);
+            Connection conn = DriverManager.getConnection(db, user, pass);
             Statement stmt = conn.createStatement();
             String query = "select _tid,_bookid,_userid,_issue,_due from transaction where _status = 'overdue';";
             ResultSet rs = stmt.executeQuery(query);
-            DefaultTableModel model = (DefaultTableModel)jTable2.getModel();
+            DefaultTableModel model = (DefaultTableModel) jTable2.getModel();
             model.setRowCount(0);
-            while(rs.next()){
+            while (rs.next()) {
                 String TransactionID = rs.getString(1);
                 String BookID = rs.getString(2);
                 String UserID = rs.getString(3);
                 String IssueDate = rs.getString(4);
                 String DueDate = rs.getString(5);
-                Object[] obj = {TransactionID,BookID,UserID,IssueDate,DueDate};
-                model = (DefaultTableModel)jTable2.getModel();
+                Object[] obj = {TransactionID, BookID, UserID, IssueDate, DueDate};
+                model = (DefaultTableModel) jTable2.getModel();
                 model.addRow(obj);
             }
             rs.close();
             stmt.close();
             conn.close();
-        }
-        catch(Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
-        
+
     }//GEN-LAST:event_jButton21ActionPerformed
 
     private void jTextField40KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField40KeyReleased
         // TODO add your handling code here:
         String str = jTextField40.getText();
-        DefaultTableModel model = (DefaultTableModel)jTable3.getModel();
+        DefaultTableModel model = (DefaultTableModel) jTable3.getModel();
         TableRowSorter<DefaultTableModel> trs = new TableRowSorter<>(model);
         jTable3.setRowSorter(trs);
         trs.setRowFilter(RowFilter.regexFilter(str));
@@ -3812,19 +3829,19 @@ public class New_Login extends javax.swing.JFrame {
         // TODO add your handling code here:
         jFrame19.setExtendedState(MAXIMIZED_BOTH);
         jFrame19.setVisible(true);
-        
-        try{
+
+        try {
             String db = "jdbc:mysql://localhost:3306/READERS_HAVEN";
             String user = "root";
             String pass = "root";
             Class.forName("com.mysql.jdbc.Driver");
-            Connection conn = DriverManager.getConnection(db,user,pass);
+            Connection conn = DriverManager.getConnection(db, user, pass);
             Statement stmt = conn.createStatement();
             String query = "select * from bookinfo;";
             ResultSet rs = stmt.executeQuery(query);
-            DefaultTableModel model = (DefaultTableModel)jTable3.getModel();
+            DefaultTableModel model = (DefaultTableModel) jTable3.getModel();
             model.setRowCount(0);
-            while(rs.next()){
+            while (rs.next()) {
                 String BookID = rs.getString(1);
                 String Title = rs.getString(2);
                 String Author = rs.getString(3);
@@ -3833,15 +3850,14 @@ public class New_Login extends javax.swing.JFrame {
                 String Price = rs.getString(6);
                 String Status = rs.getString(7);
                 String active = rs.getString(8);
-                Object[] obj = {BookID,Title,Author,ISBN,Publisher,Price,Status,active};
-                model = (DefaultTableModel)jTable3.getModel();
+                Object[] obj = {BookID, Title, Author, ISBN, Publisher, Price, Status, active};
+                model = (DefaultTableModel) jTable3.getModel();
                 model.addRow(obj);
             }
             rs.close();
             stmt.close();
             conn.close();
-        }
-        catch(Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }//GEN-LAST:event_jButton37ActionPerformed
@@ -3850,19 +3866,19 @@ public class New_Login extends javax.swing.JFrame {
         // TODO add your handling code here:
         jFrame20.setExtendedState(MAXIMIZED_BOTH);
         jFrame20.setVisible(true);
-        
-        try{
+
+        try {
             String db = "jdbc:mysql://localhost:3306/READERS_HAVEN";
             String user = "root";
             String pass = "root";
             Class.forName("com.mysql.jdbc.Driver");
-            Connection conn = DriverManager.getConnection(db,user,pass);
+            Connection conn = DriverManager.getConnection(db, user, pass);
             Statement stmt = conn.createStatement();
             String query = "select * from transaction;";
             ResultSet rs = stmt.executeQuery(query);
-            DefaultTableModel model = (DefaultTableModel)jTable4.getModel();
+            DefaultTableModel model = (DefaultTableModel) jTable4.getModel();
             model.setRowCount(0);
-            while(rs.next()){
+            while (rs.next()) {
                 String TransactionID = rs.getString(1);
                 String BookID = rs.getString(2);
                 String UserID = rs.getString(3);
@@ -3870,18 +3886,15 @@ public class New_Login extends javax.swing.JFrame {
                 String ReturnDate = rs.getString(5);
                 String DueDate = rs.getString(6);
                 String Status = rs.getString(7);
-                Object[] obj = {TransactionID,BookID,UserID,IssueDate,ReturnDate,DueDate,Status};
-                model = (DefaultTableModel)jTable4.getModel();
+                Object[] obj = {TransactionID, BookID, UserID, IssueDate, ReturnDate, DueDate, Status};
+                model = (DefaultTableModel) jTable4.getModel();
                 model.addRow(obj);
             }
             rs.close();
-            
+
             stmt.close();
             conn.close();
-        }
-
-
-        catch(Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }//GEN-LAST:event_jButton39ActionPerformed
@@ -3889,7 +3902,7 @@ public class New_Login extends javax.swing.JFrame {
     private void jTextField41KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField41KeyReleased
         // TODO add your handling code here:
         String str = jTextField41.getText();
-        DefaultTableModel model = (DefaultTableModel)jTable4.getModel();
+        DefaultTableModel model = (DefaultTableModel) jTable4.getModel();
         TableRowSorter<DefaultTableModel> trs = new TableRowSorter<>(model);
         jTable4.setRowSorter(trs);
         trs.setRowFilter(RowFilter.regexFilter(str));
@@ -3898,7 +3911,7 @@ public class New_Login extends javax.swing.JFrame {
     private void jTextField42KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField42KeyReleased
         // TODO add your handling code here:
         String str = jTextField42.getText();
-        DefaultTableModel model = (DefaultTableModel)jTable5.getModel();
+        DefaultTableModel model = (DefaultTableModel) jTable5.getModel();
         TableRowSorter<DefaultTableModel> trs = new TableRowSorter<>(model);
         jTable5.setRowSorter(trs);
         trs.setRowFilter(RowFilter.regexFilter(str));
@@ -3908,35 +3921,34 @@ public class New_Login extends javax.swing.JFrame {
         // TODO add your handling code here:
         jFrame21.setExtendedState(MAXIMIZED_BOTH);
         jFrame21.setVisible(true);
-        
-        try{
+
+        try {
             String db = "jdbc:mysql://localhost:3306/READERS_HAVEN";
             String user = "root";
             String pass = "root";
             Class.forName("com.mysql.jdbc.Driver");
-            Connection conn = DriverManager.getConnection(db,user,pass);
+            Connection conn = DriverManager.getConnection(db, user, pass);
             Statement stmt = conn.createStatement();
             String query = "select _userid,_name,_email,_mobile,_department,_role from user;";
             ResultSet rs = stmt.executeQuery(query);
-            DefaultTableModel model = (DefaultTableModel)jTable5.getModel();
+            DefaultTableModel model = (DefaultTableModel) jTable5.getModel();
             model.setRowCount(0);
-            while(rs.next()){
+            while (rs.next()) {
                 String userid = rs.getString(1);
                 String name = rs.getString(2);
                 String email = rs.getString(3);
                 String mobile = rs.getString(4);
                 String department = rs.getString(5);
                 String role = rs.getString(6);
-                Object[] obj = {userid,name,email,mobile,department,role};
-                 model = (DefaultTableModel)jTable5.getModel();
+                Object[] obj = {userid, name, email, mobile, department, role};
+                model = (DefaultTableModel) jTable5.getModel();
                 model.addRow(obj);
             }
-           
+
             rs.close();
             stmt.close();
             conn.close();
-        }
-        catch(Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }//GEN-LAST:event_jButton22ActionPerformed
@@ -3950,32 +3962,31 @@ public class New_Login extends javax.swing.JFrame {
         System.out.println(filePath);
         String query = "insert into bookinfo(_id,_title,_author,_isbn,_publisher,_price,_status,_active) values(?,?,?,?,?,?,?,?)";
         Readersdb rd = new Readersdb();
-        rd.insertCSV(filePath,query);
+        rd.insertCSV(filePath, query);
     }//GEN-LAST:event_jButton45ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
-        
-       Readersdb rd= new Readersdb();
-       String q="select _answer from tbllog;";
-       String temp=rd.forget(q);
-      
-       String q2="select _password from tbllog where _answer='"+temp+"'; " ;
-       String temp2=rd.forget(q2);
-              
-        String s= JOptionPane.showInputDialog("Enter Correct Answer");
-       
-            if(JOptionPane.OK_OPTION==0){
-                    if(s.equals(temp)){
-                         JOptionPane.showMessageDialog(null, temp2);
 
-                    }
-                    else{
-                        JOptionPane.showMessageDialog(null, "invalid ");
+        Readersdb rd = new Readersdb();
+        String q = "select _answer from tbllog;";
+        String temp = rd.forget(q);
 
-                    }
+        String q2 = "select _password from tbllog where _answer='" + temp + "'; ";
+        String temp2 = rd.forget(q2);
+
+        String s = JOptionPane.showInputDialog("Enter Correct Answer");
+
+        if (JOptionPane.OK_OPTION == 0) {
+            if (s.equals(temp)) {
+                JOptionPane.showMessageDialog(null, temp2);
+
+            } else {
+                JOptionPane.showMessageDialog(null, "invalid ");
+
             }
-       
+        }
+
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton46ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton46ActionPerformed
@@ -3991,28 +4002,26 @@ public class New_Login extends javax.swing.JFrame {
     private void jButton34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton34ActionPerformed
         // TODO add your handling code here:
         Readersdb rd = new Readersdb();
-        String q = "update calculate set _lost = '"+ jTextField35.getText() +"';";
+        String q = "update calculate set _lost = '" + jTextField35.getText() + "';";
         boolean temp = rd.Add(q);
-        if(temp){
+        if (temp) {
             JOptionPane.showMessageDialog(null, "Updated Successfully");
             jTextField35.setText("");
-        }
-        else{
+        } else {
             JOptionPane.showMessageDialog(null, "Unfortunately Unable to process");
         }
-        
+
     }//GEN-LAST:event_jButton34ActionPerformed
 
     private void jButton44ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton44ActionPerformed
         // TODO add your handling code here:
         Readersdb rd = new Readersdb();
-        String q = "update calculate set _damaged = '"+ jTextField37.getText() +"';";
+        String q = "update calculate set _damaged = '" + jTextField37.getText() + "';";
         boolean temp = rd.Add(q);
-        if(temp){
+        if (temp) {
             JOptionPane.showMessageDialog(null, "Updated Successfully");
             jTextField37.setText("");
-        }
-        else{
+        } else {
             JOptionPane.showMessageDialog(null, "Unfortunately Unable to process");
         }
     }//GEN-LAST:event_jButton44ActionPerformed
@@ -4023,7 +4032,7 @@ public class New_Login extends javax.swing.JFrame {
 
     private void jDateChooser1PropertyChange(java.beans.PropertyChangeEvent evt) {//GEN-FIRST:event_jDateChooser1PropertyChange
         // TODO add your handling code here:
-        jDateChooser2.setDate(new Date(jDateChooser1.getDate().getTime()+7*24*60*60*1000));
+        jDateChooser2.setDate(new Date(jDateChooser1.getDate().getTime() + 7 * 24 * 60 * 60 * 1000));
     }//GEN-LAST:event_jDateChooser1PropertyChange
 
     private void jRadioButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton8ActionPerformed
@@ -4033,13 +4042,12 @@ public class New_Login extends javax.swing.JFrame {
     private void jButton47ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton47ActionPerformed
         // TODO add your handling code here:
         Readersdb rd = new Readersdb();
-        String q = "update calculate set _late = '"+ jTextField36.getText() +"';";
+        String q = "update calculate set _late = '" + jTextField36.getText() + "';";
         boolean temp = rd.Add(q);
-        if(temp){
+        if (temp) {
             JOptionPane.showMessageDialog(null, "Updated Successfully");
             jTextField36.setText("");
-        }
-        else{
+        } else {
             JOptionPane.showMessageDialog(null, "Unfortunately Unable to process");
         }
     }//GEN-LAST:event_jButton47ActionPerformed
