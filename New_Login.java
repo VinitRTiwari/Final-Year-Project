@@ -1,3 +1,6 @@
+package highjosh;
+
+
 
 import java.io.File;
 import javax.swing.JFrame;
@@ -2326,6 +2329,11 @@ public class New_Login extends javax.swing.JFrame {
 
         jButton47.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
         jButton47.setText("SET");
+        jButton47.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton47ActionPerformed(evt);
+            }
+        });
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 5;
         gridBagConstraints.gridy = 5;
@@ -3950,10 +3958,31 @@ public class New_Login extends javax.swing.JFrame {
 
     private void jButton34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton34ActionPerformed
         // TODO add your handling code here:
+        Readersdb rd = new Readersdb();
+        String q = "update calculate set _lost = '"+ jTextField35.getText() +"';";
+        boolean temp = rd.Add(q);
+        if(temp){
+            JOptionPane.showMessageDialog(null, "Updated Successfully");
+            jTextField35.setText("");
+        }
+        else{
+            JOptionPane.showMessageDialog(null, "Unfortunately Unable to process");
+        }
+        
     }//GEN-LAST:event_jButton34ActionPerformed
 
     private void jButton44ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton44ActionPerformed
         // TODO add your handling code here:
+        Readersdb rd = new Readersdb();
+        String q = "update calculate set _damaged = '"+ jTextField37.getText() +"';";
+        boolean temp = rd.Add(q);
+        if(temp){
+            JOptionPane.showMessageDialog(null, "Updated Successfully");
+            jTextField37.setText("");
+        }
+        else{
+            JOptionPane.showMessageDialog(null, "Unfortunately Unable to process");
+        }
     }//GEN-LAST:event_jButton44ActionPerformed
 
     private void jTextField35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField35ActionPerformed
@@ -3968,6 +3997,20 @@ public class New_Login extends javax.swing.JFrame {
     private void jRadioButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton8ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jRadioButton8ActionPerformed
+
+    private void jButton47ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton47ActionPerformed
+        // TODO add your handling code here:
+        Readersdb rd = new Readersdb();
+        String q = "update calculate set _late = '"+ jTextField36.getText() +"';";
+        boolean temp = rd.Add(q);
+        if(temp){
+            JOptionPane.showMessageDialog(null, "Updated Successfully");
+            jTextField36.setText("");
+        }
+        else{
+            JOptionPane.showMessageDialog(null, "Unfortunately Unable to process");
+        }
+    }//GEN-LAST:event_jButton47ActionPerformed
 
     /**
      * @param args the command line arguments
