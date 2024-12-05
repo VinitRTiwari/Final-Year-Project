@@ -468,4 +468,10 @@ public class Readersdb {
             return "";
         }
     }
+    
+//    public boolean changeStatus(String query,String status){
+//        
+//        
+//        
+//    }
 }
