@@ -1,4 +1,4 @@
-package highjosh;
+
 
 
 
@@ -448,24 +448,24 @@ public class Readersdb {
         }
     }
     
-//    public String getStatus(int uid){
-//         try {
-//            Class.forName("com.mysql.jdbc.Driver");
-//            Connection conn = DriverManager.getConnection(db, user, pass);
-//            Statement stmt = conn.createStatement();
-//            String query = " select _status from transaction where _userid='" +uid +" '  ; " ;
-//            ResultSet rs = stmt.executeQuery(query);
-//            String temp1="";
-//            while (rs.next()) {
-//                 temp1= rs.getString(1);
-//                
-//                break;
-//            }
-//            stmt.close();
-//            conn.close();
-//            return temp1;
-//        } catch (Exception e) {
-//            return "";
-//        }
-//    }
+    public String getStatus(int uid,String bid){
+         try {
+            Class.forName("com.mysql.jdbc.Driver");
+            Connection conn = DriverManager.getConnection(db, user, pass);
+            Statement stmt = conn.createStatement();
+            String query = " select _status from transaction where _userid='" +uid +" ' and _bookid='"+bid+"' and _status='overdue' ; " ;
+            ResultSet rs = stmt.executeQuery(query);
+            String temp1="";
+            while (rs.next()) {
+                 temp1= rs.getString(1);
+                
+                break;
+            }
+            stmt.close();
+            conn.close();
+            return temp1;
+        } catch (Exception e) {
+            return "";
+        }
+    }
 }
