@@ -1,3 +1,5 @@
+package highjosh;
+
 
 
 import java.awt.event.KeyEvent;
@@ -3301,7 +3303,7 @@ public class New_Login extends javax.swing.JFrame {
             String pass = "root";
             Class.forName("com.mysql.jdbc.Driver");
             Connection conn = DriverManager.getConnection(db, user, pass);
-            String q = "select _id from bookinfo where _id in (select _bookid from transaction where _userid = '" + Integer.parseInt(jTextField34.getText()) + "'  and  _status='issued');";
+            String q = "select _id from bookinfo where _id in (select _bookid from transaction where _userid = '" + Integer.parseInt(jTextField34.getText()) + "'  and  (_status='issued' or _status='overdue'));";
             Statement stmt = conn.createStatement();
             ResultSet rs = stmt.executeQuery(q);
             jComboBox3.removeAllItems();
