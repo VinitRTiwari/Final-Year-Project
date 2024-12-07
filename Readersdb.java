@@ -1,3 +1,5 @@
+package highjosh;
+
 
 
 
@@ -474,4 +476,55 @@ public class Readersdb {
 //        
 //        
 //    }
+
+    void insertloc(String filePath, String sql) {
+         try {
+            Class.forName("com.mysql.jdbc.Driver");
+            Connection conn = DriverManager.getConnection(db, user, pass);
+
+            Statement statement = conn.createStatement();
+            ResultSet resultSet = statement.executeQuery(sql);
+
+            // Create a new workbook and sheet
+            Workbook workbook = new XSSFWorkbook();
+            Sheet sheet = workbook.createSheet("Database Data");
+
+            // Write header row
+            ResultSetMetaData metaData = resultSet.getMetaData();
+            int columnCount = metaData.getColumnCount();
+            Row headerRow = sheet.createRow(0);
+            for (int i = 1; i <= columnCount; i++) {
+                Cell cell = headerRow.createCell(i - 1);
+                cell.setCellValue(metaData.getColumnName(i));
+            }
+
+            // Write data rows
+            int rowCount = 1;
+            while (resultSet.next()) {
+                Row row = sheet.createRow(rowCount++);
+                for (int i = 1; i <= columnCount; i++) {
+                    Cell cell = row.createCell(i - 1);
+                    cell.setCellValue(resultSet.getString(i));
+                }
+            }
+
+            // Resize columns to fit content
+            for (int i = 0; i < columnCount; i++) {
+                sheet.autoSizeColumn(i);
+            }
+
+            // Save the Excel file
+            try (FileOutputStream outputStream = new FileOutputStream(filePath)) {
+                workbook.write(outputStream);
+                workbook.close();
+                System.out.println("Data exported to Excel file successfully!");
+            }
+            } catch (SQLException e) {
+            e.printStackTrace();
+            System.err.println("Database connection or query failed!");
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.err.println("Failed to write data to Excel file!");
+        }
+    }
 }
