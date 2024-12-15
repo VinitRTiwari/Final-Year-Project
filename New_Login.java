@@ -1,4 +1,4 @@
-package highjosh;
+
 import java.awt.event.ItemEvent;
 import java.awt.event.KeyEvent;
 import java.io.File;
@@ -309,8 +309,6 @@ public class New_Login extends javax.swing.JFrame {
         jScrollPane6 = new javax.swing.JScrollPane();
         jTable5 = new javax.swing.JTable();
         jButton73 = new javax.swing.JButton();
-        jComboBox7 = new javax.swing.JComboBox<>();
-        jButton76 = new javax.swing.JButton();
         jButton78 = new javax.swing.JButton();
         jFrame22 = new javax.swing.JFrame();
         jPanel23 = new javax.swing.JPanel();
@@ -3300,19 +3298,18 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 2;
         gridBagConstraints.gridy = 0;
-        gridBagConstraints.gridwidth = 2;
         gridBagConstraints.gridheight = 2;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(17, 72, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(14, 69, 0, 0);
         jPanel22.add(jLabel81, gridBagConstraints);
 
         jLabel82.setFont(new java.awt.Font("Segoe UI", 0, 16)); // NOI18N
         jLabel82.setText("Enter To Search");
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
+        gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 2;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(19, 45, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(24, 161, 0, 0);
         jPanel22.add(jLabel82, gridBagConstraints);
 
         jTextField42.addActionListener(new java.awt.event.ActionListener() {
@@ -3326,13 +3323,13 @@ public class New_Login extends javax.swing.JFrame {
             }
         });
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 3;
+        gridBagConstraints.gridx = 2;
         gridBagConstraints.gridy = 2;
-        gridBagConstraints.gridwidth = 3;
+        gridBagConstraints.gridwidth = 2;
         gridBagConstraints.gridheight = 2;
         gridBagConstraints.ipadx = 136;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(21, 31, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(26, 43, 0, 0);
         jPanel22.add(jTextField42, gridBagConstraints);
 
         jTable5.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
@@ -3348,15 +3345,15 @@ public class New_Login extends javax.swing.JFrame {
 
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 6;
-        gridBagConstraints.gridwidth = 9;
+        gridBagConstraints.gridy = 5;
+        gridBagConstraints.gridwidth = 6;
         gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
-        gridBagConstraints.ipadx = 1067;
-        gridBagConstraints.ipady = 582;
+        gridBagConstraints.ipadx = 1674;
+        gridBagConstraints.ipady = 1057;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.weightx = 1.0;
         gridBagConstraints.weighty = 1.0;
-        gridBagConstraints.insets = new java.awt.Insets(55, 6, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(48, 6, 6, 6);
         jPanel22.add(jScrollPane6, gridBagConstraints);
 
         jButton73.setText("🢀 ");
@@ -3372,30 +3369,6 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(6, 0, 0, 0);
         jPanel22.add(jButton73, gridBagConstraints);
 
-        jComboBox7.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "_userid", "_name", "_email", "_mobile","_department","_role" }));
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 2;
-        gridBagConstraints.gridheight = 2;
-        gridBagConstraints.ipadx = 99;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(21, 69, 0, 0);
-        jPanel22.add(jComboBox7, gridBagConstraints);
-
-        jButton76.setText("find");
-        jButton76.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton76ActionPerformed(evt);
-            }
-        });
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 6;
-        gridBagConstraints.gridy = 2;
-        gridBagConstraints.gridheight = 3;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(21, 12, 0, 0);
-        jPanel22.add(jButton76, gridBagConstraints);
-
         jButton78.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
         jButton78.setText("Download Excel File");
         jButton78.addActionListener(new java.awt.event.ActionListener() {
@@ -3404,20 +3377,18 @@ public class New_Login extends javax.swing.JFrame {
             }
         });
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 7;
+        gridBagConstraints.gridx = 4;
         gridBagConstraints.gridy = 2;
-        gridBagConstraints.gridheight = 4;
+        gridBagConstraints.gridheight = 3;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(18, 42, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(23, 47, 0, 0);
         jPanel22.add(jButton78, gridBagConstraints);
 
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
-        gridBagConstraints.ipadx = 436;
-        gridBagConstraints.ipady = 407;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(0, 7, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(0, 0, 13, 6);
         jFrame21.getContentPane().add(jPanel22, gridBagConstraints);
 
         jFrame22.setResizable(false);
@@ -4993,53 +4964,6 @@ public class New_Login extends javax.swing.JFrame {
         
     }//GEN-LAST:event_jTextField42ActionPerformed
 
-    private void jButton76ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton76ActionPerformed
-        // TODO add your handling code here:
-//        String str=(String)jComboBox7.getSelectedItem();
-//        
-//         try {
-//            String db = "jdbc:mysql://localhost:3306/READERS_HAVEN";
-//            String user = "root";
-//            String pass = "root";
-//            Class.forName("com.mysql.jdbc.Driver");
-//            Connection conn = DriverManager.getConnection(db, user, pass);
-//            Statement stmt = conn.createStatement();
-//            String query="";
-//            if(str.equals("_userid")||str.equals("_mobile")){
-//                query = "select _userid,_name,_email,_mobile,_department,_role from user where '"+str+"' =  '"+Integer.parseInt(jTextField42.getText())+"'   ;";
-//
-//            }
-//            else{
-//               query = "select _userid,_name,_email,_mobile,_department,_role from user where '"+str+"' =  '"+jTextField42.getText()+"'   ;";
-//
-//            }
-//            ResultSet rs = stmt.executeQuery(query);
-//            DefaultTableModel model = (DefaultTableModel) jTable5.getModel();
-//            model.setRowCount(0);
-//            while (rs.next()) {
-//                String userid = rs.getString(1);
-//                System.out.println(userid);
-//                String name = rs.getString(2);
-//                                System.out.println(name);
-//
-//                String email = rs.getString(3);
-//                String mobile = rs.getString(4);
-//                String department = rs.getString(5);
-//                String role = rs.getString(6);
-//                Object[] obj = {userid, name, email, mobile, department, role};
-//                model = (DefaultTableModel) jTable5.getModel();
-//                model.addRow(obj);
-//            }
-//
-//            rs.close();
-//            stmt.close();
-//            conn.close();
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-        
-    }//GEN-LAST:event_jButton76ActionPerformed
-
     private void jButton77ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton77ActionPerformed
         // TODO add your handling code here:
         JFileChooser fc = new JFileChooser();
@@ -5057,12 +4981,13 @@ public class New_Login extends javax.swing.JFrame {
         // TODO add your handling code here:
         JFileChooser fc = new JFileChooser();
         String sql = "SELECT * FROM user";
-        fc.showOpenDialog(fc);
         fc.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+        fc.showOpenDialog(fc);
         File takenlocation = fc.getCurrentDirectory();
         String filePath = takenlocation.getAbsolutePath();
         Readersdb rd = new Readersdb();
         rd.insertloc(filePath,sql);
+        
     }//GEN-LAST:event_jButton78ActionPerformed
 
     /**
@@ -5177,7 +5102,6 @@ public class New_Login extends javax.swing.JFrame {
     private javax.swing.JButton jButton73;
     private javax.swing.JButton jButton74;
     private javax.swing.JButton jButton75;
-    private javax.swing.JButton jButton76;
     private javax.swing.JButton jButton77;
     private javax.swing.JButton jButton78;
     private javax.swing.JButton jButton8;
@@ -5188,7 +5112,6 @@ public class New_Login extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> jComboBox4;
     private javax.swing.JComboBox<String> jComboBox5;
     private javax.swing.JComboBox<String> jComboBox6;
-    private javax.swing.JComboBox<String> jComboBox7;
     private com.toedter.calendar.JDateChooser jDateChooser1;
     private com.toedter.calendar.JDateChooser jDateChooser2;
     private javax.swing.JFrame jFrame1;
