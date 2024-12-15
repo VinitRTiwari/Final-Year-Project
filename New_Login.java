@@ -5045,7 +5045,8 @@ public class New_Login extends javax.swing.JFrame {
         JFileChooser fc = new JFileChooser();
         String sql = "SELECT * FROM bookinfo";
         fc.showOpenDialog(fc);
-        File takenlocation = fc.getSelectedFile();
+        fc.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+        File takenlocation = fc.getCurrentDirectory();
         String filePath = takenlocation.getAbsolutePath();
         Readersdb rd = new Readersdb();
         rd.insertloc(filePath,sql);
@@ -5057,7 +5058,8 @@ public class New_Login extends javax.swing.JFrame {
         JFileChooser fc = new JFileChooser();
         String sql = "SELECT * FROM user";
         fc.showOpenDialog(fc);
-        File takenlocation = fc.getSelectedFile();
+        fc.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+        File takenlocation = fc.getCurrentDirectory();
         String filePath = takenlocation.getAbsolutePath();
         Readersdb rd = new Readersdb();
         rd.insertloc(filePath,sql);
