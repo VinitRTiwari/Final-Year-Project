@@ -32,6 +32,37 @@ public class New_Login extends javax.swing.JFrame {
     public New_Login() {
         initComponents();
         setExtendedState(JFrame.MAXIMIZED_BOTH);
+        this.getContentPane().setBackground(new java.awt.Color(0,128,128));
+        jFrame1.getContentPane().setBackground(new java.awt.Color(0,128,128));
+        jFrame2.getContentPane().setBackground(new java.awt.Color(0,128,128));
+        jFrame3.getContentPane().setBackground(new java.awt.Color(0,128,128));
+        jFrame4.getContentPane().setBackground(new java.awt.Color(0,128,128));
+        jFrame5.getContentPane().setBackground(new java.awt.Color(0,128,128));
+        jFrame6.getContentPane().setBackground(new java.awt.Color(0,128,128));
+        jFrame7.getContentPane().setBackground(new java.awt.Color(0,128,128));
+        jFrame8.getContentPane().setBackground(new java.awt.Color(0,128,128));
+        jFrame9.getContentPane().setBackground(new java.awt.Color(0,128,128));
+        jFrame10.getContentPane().setBackground(new java.awt.Color(0,128,128));
+        jFrame11.getContentPane().setBackground(new java.awt.Color(0,128,128));
+        jFrame12.getContentPane().setBackground(new java.awt.Color(0,128,128));
+        jFrame13.getContentPane().setBackground(new java.awt.Color(0,128,128));
+        jFrame14.getContentPane().setBackground(new java.awt.Color(0,128,128));
+        jFrame15.getContentPane().setBackground(new java.awt.Color(0,128,128));
+        jFrame16.getContentPane().setBackground(new java.awt.Color(0,128,128));
+        jFrame17.getContentPane().setBackground(new java.awt.Color(0,128,128));
+        jFrame18.getContentPane().setBackground(new java.awt.Color(0,128,128));
+        jFrame19.getContentPane().setBackground(new java.awt.Color(0,128,128));
+        jFrame20.getContentPane().setBackground(new java.awt.Color(0,128,128));
+        jFrame21.getContentPane().setBackground(new java.awt.Color(0,128,128));
+        jFrame22.getContentPane().setBackground(new java.awt.Color(0,128,128));
+        jFrame23.getContentPane().setBackground(new java.awt.Color(0,128,128));
+
+
+
+
+
+
+
         Readersdb rd = new Readersdb();
         rd.overdue();
     }
@@ -55,6 +86,7 @@ public class New_Login extends javax.swing.JFrame {
         jButton6 = new javax.swing.JButton();
         jButton7 = new javax.swing.JButton();
         jButton8 = new javax.swing.JButton();
+        jLabel92 = new javax.swing.JLabel();
         jFrame2 = new javax.swing.JFrame();
         jPanel3 = new javax.swing.JPanel();
         jButton10 = new javax.swing.JButton();
@@ -66,11 +98,11 @@ public class New_Login extends javax.swing.JFrame {
         jFrame3 = new javax.swing.JFrame();
         jPanel4 = new javax.swing.JPanel();
         jButton54 = new javax.swing.JButton();
-        jButton9 = new javax.swing.JButton();
         jLabel6 = new javax.swing.JLabel();
-        jButton50 = new javax.swing.JButton();
         jButton14 = new javax.swing.JButton();
         jButton15 = new javax.swing.JButton();
+        jButton9 = new javax.swing.JButton();
+        jButton50 = new javax.swing.JButton();
         jFrame4 = new javax.swing.JFrame();
         jPanel5 = new javax.swing.JPanel();
         jButton16 = new javax.swing.JButton();
@@ -344,19 +376,22 @@ public class New_Login extends javax.swing.JFrame {
         jFrame1.setResizable(false);
         jFrame1.getContentPane().setLayout(new java.awt.GridBagLayout());
 
+        jPanel2.setBackground(new java.awt.Color(0, 128, 128));
         jPanel2.setLayout(new java.awt.GridBagLayout());
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 3, 30)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 223, 0));
         jLabel3.setText("Welcome To Dashboard");
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 0;
-        gridBagConstraints.gridwidth = 4;
+        gridBagConstraints.gridwidth = 2;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(2, 91, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(46, 6, 0, 0);
         jPanel2.add(jLabel3, gridBagConstraints);
 
         jButton3.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton3.setForeground(new java.awt.Color(227, 11, 93));
         jButton3.setText("Manage Books");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -364,15 +399,15 @@ public class New_Login extends javax.swing.JFrame {
             }
         });
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 1;
-        gridBagConstraints.gridwidth = 2;
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 2;
         gridBagConstraints.ipadx = 60;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(51, 10, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(85, 41, 0, 0);
         jPanel2.add(jButton3, gridBagConstraints);
 
         jButton4.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton4.setForeground(new java.awt.Color(227, 11, 93));
         jButton4.setText("Manage Users");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -381,13 +416,13 @@ public class New_Login extends javax.swing.JFrame {
         });
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 3;
-        gridBagConstraints.gridy = 1;
-        gridBagConstraints.gridwidth = 6;
+        gridBagConstraints.gridy = 2;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(51, 81, 0, 20);
+        gridBagConstraints.insets = new java.awt.Insets(85, 71, 0, 248);
         jPanel2.add(jButton4, gridBagConstraints);
 
         jButton5.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton5.setForeground(new java.awt.Color(227, 11, 93));
         jButton5.setText("Manage Transactions");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -395,14 +430,14 @@ public class New_Login extends javax.swing.JFrame {
             }
         });
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 2;
-        gridBagConstraints.gridwidth = 3;
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 3;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(51, 10, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(75, 41, 0, 0);
         jPanel2.add(jButton5, gridBagConstraints);
 
         jButton6.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton6.setForeground(new java.awt.Color(227, 11, 93));
         jButton6.setText("Manage Fines");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -411,14 +446,14 @@ public class New_Login extends javax.swing.JFrame {
         });
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 3;
-        gridBagConstraints.gridy = 2;
-        gridBagConstraints.gridwidth = 6;
+        gridBagConstraints.gridy = 3;
         gridBagConstraints.ipadx = 3;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(51, 81, 0, 20);
+        gridBagConstraints.insets = new java.awt.Insets(75, 71, 0, 248);
         jPanel2.add(jButton6, gridBagConstraints);
 
         jButton7.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton7.setForeground(new java.awt.Color(227, 11, 93));
         jButton7.setText("Generate Reports");
         jButton7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -426,14 +461,15 @@ public class New_Login extends javax.swing.JFrame {
             }
         });
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 3;
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 4;
         gridBagConstraints.ipadx = 32;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(45, 10, 77, 0);
+        gridBagConstraints.insets = new java.awt.Insets(80, 41, 252, 0);
         jPanel2.add(jButton7, gridBagConstraints);
 
         jButton8.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton8.setForeground(new java.awt.Color(227, 11, 93));
         jButton8.setText("Sign Out");
         jButton8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -442,26 +478,38 @@ public class New_Login extends javax.swing.JFrame {
         });
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 3;
-        gridBagConstraints.gridy = 3;
-        gridBagConstraints.gridwidth = 5;
+        gridBagConstraints.gridy = 4;
         gridBagConstraints.ipadx = 50;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(45, 81, 77, 0);
+        gridBagConstraints.insets = new java.awt.Insets(80, 71, 252, 248);
         jPanel2.add(jButton8, gridBagConstraints);
+
+        jLabel92.setIcon(new javax.swing.ImageIcon("C:\\Users\\gupta\\Desktop\\Picture1.png")); // NOI18N
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.ipady = 11;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(0, 6, 0, 0);
+        jPanel2.add(jLabel92, gridBagConstraints);
 
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
+        gridBagConstraints.ipadx = 242;
+        gridBagConstraints.ipady = 246;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(0, 6, 0, 6);
         jFrame1.getContentPane().add(jPanel2, gridBagConstraints);
 
         jFrame2.setResizable(false);
         jFrame2.getContentPane().setLayout(new java.awt.GridBagLayout());
 
+        jPanel3.setBackground(new java.awt.Color(0, 128, 128));
         jPanel3.setLayout(new java.awt.GridBagLayout());
 
         jButton10.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton10.setForeground(new java.awt.Color(227, 11, 93));
         jButton10.setText("Add Book");
         jButton10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -478,6 +526,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel3.add(jButton10, gridBagConstraints);
 
         jButton11.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton11.setForeground(new java.awt.Color(227, 11, 93));
         jButton11.setText("Update Book Status");
         jButton11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -494,6 +543,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel3.add(jButton11, gridBagConstraints);
 
         jButton12.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton12.setForeground(new java.awt.Color(227, 11, 93));
         jButton12.setText("Edit Book");
         jButton12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -509,6 +559,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel3.add(jButton12, gridBagConstraints);
 
         jButton13.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton13.setForeground(new java.awt.Color(227, 11, 93));
         jButton13.setText("Delete Book");
         jButton13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -524,6 +575,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel3.add(jButton13, gridBagConstraints);
 
         jLabel5.setFont(new java.awt.Font("Segoe UI", 3, 36)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 223, 0));
         jLabel5.setText("    Manage Books");
         jLabel5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         gridBagConstraints = new java.awt.GridBagConstraints();
@@ -559,6 +611,7 @@ public class New_Login extends javax.swing.JFrame {
         jFrame3.setResizable(false);
         jFrame3.getContentPane().setLayout(new java.awt.GridBagLayout());
 
+        jPanel4.setBackground(new java.awt.Color(0, 128, 128));
         jPanel4.setLayout(new java.awt.GridBagLayout());
 
         jButton54.setText("🢀 ");
@@ -570,58 +623,25 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
+        gridBagConstraints.ipady = 8;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(0, 0, 18, 171);
+        gridBagConstraints.insets = new java.awt.Insets(9, 0, 0, 0);
         jPanel4.add(jButton54, gridBagConstraints);
 
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 0;
-        gridBagConstraints.gridwidth = 2;
-        gridBagConstraints.ipady = 18;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        jFrame3.getContentPane().add(jPanel4, gridBagConstraints);
-
-        jButton9.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jButton9.setText("Delete User");
-        jButton9.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton9ActionPerformed(evt);
-            }
-        });
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 5;
-        gridBagConstraints.gridy = 2;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(88, 35, 349, 0);
-        jFrame3.getContentPane().add(jButton9, gridBagConstraints);
-
         jLabel6.setFont(new java.awt.Font("Segoe UI", 3, 30)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 223, 0));
         jLabel6.setText("Manage User");
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 3;
+        gridBagConstraints.gridx = 2;
         gridBagConstraints.gridy = 1;
-        gridBagConstraints.gridwidth = 4;
+        gridBagConstraints.gridwidth = 3;
         gridBagConstraints.ipadx = 18;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(45, 88, 0, 0);
-        jFrame3.getContentPane().add(jLabel6, gridBagConstraints);
-
-        jButton50.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jButton50.setText("Update Student Status");
-        jButton50.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton50ActionPerformed(evt);
-            }
-        });
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 7;
-        gridBagConstraints.gridy = 2;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(88, 17, 349, 94);
-        jFrame3.getContentPane().add(jButton50, gridBagConstraints);
+        gridBagConstraints.insets = new java.awt.Insets(65, 130, 0, 0);
+        jPanel4.add(jLabel6, gridBagConstraints);
 
         jButton14.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton14.setForeground(new java.awt.Color(227, 11, 93));
         jButton14.setText("Add User");
         jButton14.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -629,13 +649,14 @@ public class New_Login extends javax.swing.JFrame {
             }
         });
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 2;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(88, 78, 349, 0);
-        jFrame3.getContentPane().add(jButton14, gridBagConstraints);
+        gridBagConstraints.insets = new java.awt.Insets(69, 18, 381, 0);
+        jPanel4.add(jButton14, gridBagConstraints);
 
         jButton15.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton15.setForeground(new java.awt.Color(227, 11, 93));
         jButton15.setText("Edit User");
         jButton15.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -643,19 +664,57 @@ public class New_Login extends javax.swing.JFrame {
             }
         });
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridx = 2;
         gridBagConstraints.gridy = 2;
-        gridBagConstraints.gridwidth = 3;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(88, 34, 349, 0);
-        jFrame3.getContentPane().add(jButton15, gridBagConstraints);
+        gridBagConstraints.insets = new java.awt.Insets(69, 41, 381, 0);
+        jPanel4.add(jButton15, gridBagConstraints);
+
+        jButton9.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton9.setForeground(new java.awt.Color(227, 11, 93));
+        jButton9.setText("Delete User");
+        jButton9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton9ActionPerformed(evt);
+            }
+        });
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 3;
+        gridBagConstraints.gridy = 2;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(69, 28, 381, 0);
+        jPanel4.add(jButton9, gridBagConstraints);
+
+        jButton50.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton50.setForeground(new java.awt.Color(227, 11, 93));
+        jButton50.setText("Update Student Status");
+        jButton50.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton50ActionPerformed(evt);
+            }
+        });
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 5;
+        gridBagConstraints.gridy = 2;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(69, 19, 381, 211);
+        jPanel4.add(jButton50, gridBagConstraints);
+
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(0, 0, 0, 6);
+        jFrame3.getContentPane().add(jPanel4, gridBagConstraints);
 
         jFrame4.setResizable(false);
         jFrame4.getContentPane().setLayout(new java.awt.GridBagLayout());
 
+        jPanel5.setBackground(new java.awt.Color(0, 128, 128));
         jPanel5.setLayout(new java.awt.GridBagLayout());
 
         jButton16.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton16.setForeground(new java.awt.Color(227, 11, 93));
         jButton16.setText("Issue Book");
         jButton16.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -668,10 +727,11 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.ipadx = 22;
         gridBagConstraints.ipady = 3;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(67, 7, 29, 0);
+        gridBagConstraints.insets = new java.awt.Insets(83, 92, 358, 0);
         jPanel5.add(jButton16, gridBagConstraints);
 
         jButton18.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton18.setForeground(new java.awt.Color(227, 11, 93));
         jButton18.setText("Fines");
         jButton18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -684,10 +744,11 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.gridwidth = 4;
         gridBagConstraints.ipady = 3;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(67, 49, 29, 0);
+        gridBagConstraints.insets = new java.awt.Insets(83, 59, 358, 283);
         jPanel5.add(jButton18, gridBagConstraints);
 
         jButton19.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton19.setForeground(new java.awt.Color(227, 11, 93));
         jButton19.setText("Return Book");
         jButton19.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -700,10 +761,11 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.ipadx = 14;
         gridBagConstraints.ipady = 3;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(67, 52, 29, 0);
+        gridBagConstraints.insets = new java.awt.Insets(83, 48, 358, 0);
         jPanel5.add(jButton19, gridBagConstraints);
 
         jLabel7.setFont(new java.awt.Font("Segoe UI", 3, 30)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(227, 223, 0));
         jLabel7.setText("Manage Transactions");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -711,7 +773,7 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.gridwidth = 3;
         gridBagConstraints.ipadx = 15;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(97, 134, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(81, 203, 0, 0);
         jPanel5.add(jLabel7, gridBagConstraints);
 
         jButton55.setText("🢀 ");
@@ -724,22 +786,26 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(6, 0, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(17, 0, 0, 0);
         jPanel5.add(jButton55, gridBagConstraints);
 
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
-        gridBagConstraints.ipady = 23;
+        gridBagConstraints.ipadx = 277;
+        gridBagConstraints.ipady = 352;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(0, 0, 0, 6);
         jFrame4.getContentPane().add(jPanel5, gridBagConstraints);
 
         jFrame5.setResizable(false);
         jFrame5.getContentPane().setLayout(new java.awt.GridBagLayout());
 
+        jPanel7.setBackground(new java.awt.Color(0, 128, 128));
         jPanel7.setLayout(new java.awt.GridBagLayout());
 
         jLabel8.setFont(new java.awt.Font("Segoe UI", 3, 30)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(255, 223, 0));
         jLabel8.setText(" Generate Reports");
         jLabel8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         gridBagConstraints = new java.awt.GridBagConstraints();
@@ -753,6 +819,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel7.add(jLabel8, gridBagConstraints);
 
         jButton20.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jButton20.setForeground(new java.awt.Color(227, 11, 93));
         jButton20.setText("Issued Books");
         jButton20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -768,6 +835,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel7.add(jButton20, gridBagConstraints);
 
         jButton21.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jButton21.setForeground(new java.awt.Color(227, 11, 93));
         jButton21.setText("Overdue Books");
         jButton21.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -782,6 +850,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel7.add(jButton21, gridBagConstraints);
 
         jButton22.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jButton22.setForeground(new java.awt.Color(227, 11, 93));
         jButton22.setText("User Details");
         jButton22.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -798,6 +867,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel7.add(jButton22, gridBagConstraints);
 
         jButton37.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jButton37.setForeground(new java.awt.Color(227, 11, 93));
         jButton37.setText("Books Details");
         jButton37.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -814,6 +884,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel7.add(jButton37, gridBagConstraints);
 
         jButton38.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jButton38.setForeground(new java.awt.Color(227, 11, 93));
         jButton38.setText("Owed Fines");
         jButton38.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -830,6 +901,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel7.add(jButton38, gridBagConstraints);
 
         jButton39.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jButton39.setForeground(new java.awt.Color(227, 11, 93));
         jButton39.setText("Transaction History");
         jButton39.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -867,10 +939,12 @@ public class New_Login extends javax.swing.JFrame {
         jFrame6.setResizable(false);
         jFrame6.getContentPane().setLayout(new java.awt.GridBagLayout());
 
+        jPanel6.setBackground(new java.awt.Color(0, 128, 128));
         jPanel6.setLayout(new java.awt.GridBagLayout());
 
-        jLabel9.setFont(new java.awt.Font("Segoe UI", 3, 30)); // NOI18N
-        jLabel9.setText("Add User");
+        jLabel9.setFont(new java.awt.Font("Segoe UI", 1, 30)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(255, 223, 0));
+        jLabel9.setText("ADD USER");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 3;
         gridBagConstraints.gridy = 0;
@@ -883,6 +957,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel6.add(jLabel9, gridBagConstraints);
 
         jLabel10.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setText("Name");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 3;
@@ -894,6 +969,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel6.add(jLabel10, gridBagConstraints);
 
         jLabel11.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel11.setForeground(new java.awt.Color(255, 255, 255));
         jLabel11.setText("Father's Name");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 3;
@@ -906,6 +982,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel6.add(jLabel11, gridBagConstraints);
 
         jLabel12.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel12.setForeground(new java.awt.Color(255, 255, 255));
         jLabel12.setText("User Id");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 3;
@@ -918,6 +995,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel6.add(jLabel12, gridBagConstraints);
 
         jLabel13.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
         jLabel13.setText("Address");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 3;
@@ -930,6 +1008,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel6.add(jLabel13, gridBagConstraints);
 
         jLabel14.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel14.setForeground(new java.awt.Color(255, 255, 255));
         jLabel14.setText("Course");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 3;
@@ -982,6 +1061,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel6.add(jTextField7, gridBagConstraints);
 
         jLabel15.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel15.setForeground(new java.awt.Color(255, 255, 255));
         jLabel15.setText("Mobile Number");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 3;
@@ -995,6 +1075,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel6.add(jLabel15, gridBagConstraints);
 
         jLabel16.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(255, 255, 255));
         jLabel16.setText("Email Id");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 3;
@@ -1017,6 +1098,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel6.add(jTextField9, gridBagConstraints);
 
         jButton24.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton24.setForeground(new java.awt.Color(227, 11, 93));
         jButton24.setText("ADD");
         jButton24.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1043,6 +1125,8 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(47, 2, 0, 0);
         jPanel6.add(jComboBox2, gridBagConstraints);
 
+        jRadioButton1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jRadioButton1.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton1.setSelected(true);
         jRadioButton1.setText("Student");
         jRadioButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -1059,6 +1143,8 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(12, 188, 0, 0);
         jPanel6.add(jRadioButton1, gridBagConstraints);
 
+        jRadioButton2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jRadioButton2.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton2.setText("Faculty");
         jRadioButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1092,6 +1178,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel6.add(jScrollPane1, gridBagConstraints);
 
         jLabel72.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel72.setForeground(new java.awt.Color(255, 255, 255));
         jLabel72.setText("Department");
         jLabel72.setVisible(false);
         gridBagConstraints = new java.awt.GridBagConstraints();
@@ -1117,6 +1204,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel6.add(jComboBox5, gridBagConstraints);
 
         jButton48.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
+        jButton48.setForeground(new java.awt.Color(227, 11, 93));
         jButton48.setText("Insert Students Using Excel");
         jButton48.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1134,6 +1222,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel6.add(jButton48, gridBagConstraints);
 
         jButton49.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
+        jButton49.setForeground(new java.awt.Color(227, 11, 93));
         jButton49.setText("Insert Faculties Using Excel");
         jButton49.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1178,9 +1267,11 @@ public class New_Login extends javax.swing.JFrame {
         jFrame7.setResizable(false);
         jFrame7.getContentPane().setLayout(new java.awt.GridBagLayout());
 
+        jPanel8.setBackground(new java.awt.Color(0, 128, 128));
         jPanel8.setLayout(new java.awt.GridBagLayout());
 
         jLabel17.setFont(new java.awt.Font("Segoe UI", 3, 30)); // NOI18N
+        jLabel17.setForeground(new java.awt.Color(255, 223, 0));
         jLabel17.setText("EDIT USER");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 4;
@@ -1207,6 +1298,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel8.add(jTextField11, gridBagConstraints);
 
         jLabel23.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel23.setForeground(new java.awt.Color(255, 255, 255));
         jLabel23.setText("Name");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
@@ -1240,6 +1332,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel8.add(jTextField15, gridBagConstraints);
 
         jButton27.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton27.setForeground(new java.awt.Color(227, 11, 93));
         jButton27.setText("FIND");
         jButton27.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1301,6 +1394,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel8.add(jTextField19, gridBagConstraints);
 
         jButton28.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton28.setForeground(new java.awt.Color(227, 11, 93));
         jButton28.setText("EDIT");
         jButton28.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1317,6 +1411,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel8.add(jButton28, gridBagConstraints);
 
         jLabel41.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel41.setForeground(new java.awt.Color(255, 255, 255));
         jLabel41.setText("Father's Name");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
@@ -1329,6 +1424,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel8.add(jLabel41, gridBagConstraints);
 
         jLabel42.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel42.setForeground(new java.awt.Color(255, 255, 255));
         jLabel42.setText("User Id");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 4;
@@ -1340,6 +1436,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel8.add(jLabel42, gridBagConstraints);
 
         jLabel43.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel43.setForeground(new java.awt.Color(255, 255, 255));
         jLabel43.setText("Courses");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
@@ -1353,6 +1450,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel8.add(jLabel43, gridBagConstraints);
 
         jLabel44.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel44.setForeground(new java.awt.Color(255, 255, 255));
         jLabel44.setText("Address");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 7;
@@ -1365,6 +1463,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel8.add(jLabel44, gridBagConstraints);
 
         jLabel45.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel45.setForeground(new java.awt.Color(255, 255, 255));
         jLabel45.setText("Email id");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 7;
@@ -1378,6 +1477,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel8.add(jLabel45, gridBagConstraints);
 
         jLabel46.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel46.setForeground(new java.awt.Color(255, 255, 255));
         jLabel46.setText("Mobile No.");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 7;
@@ -1414,9 +1514,11 @@ public class New_Login extends javax.swing.JFrame {
         jFrame8.setResizable(false);
         jFrame8.getContentPane().setLayout(new java.awt.GridBagLayout());
 
+        jPanel9.setBackground(new java.awt.Color(0, 128, 128));
         jPanel9.setLayout(new java.awt.GridBagLayout());
 
         jLabel18.setFont(new java.awt.Font("Segoe UI", 3, 30)); // NOI18N
+        jLabel18.setForeground(new java.awt.Color(255, 223, 0));
         jLabel18.setText(" DELETE STUDENT");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -1428,6 +1530,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel9.add(jLabel18, gridBagConstraints);
 
         jLabel19.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel19.setForeground(new java.awt.Color(255, 255, 255));
         jLabel19.setText("Student Id");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -1449,6 +1552,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel9.add(jTextField5, gridBagConstraints);
 
         jButton26.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton26.setForeground(new java.awt.Color(227, 11, 93));
         jButton26.setText("DELETE");
         jButton26.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1488,10 +1592,12 @@ public class New_Login extends javax.swing.JFrame {
         jFrame9.setResizable(false);
         jFrame9.getContentPane().setLayout(new java.awt.GridBagLayout());
 
+        jPanel10.setBackground(new java.awt.Color(0, 128, 128));
         jPanel10.setLayout(new java.awt.GridBagLayout());
 
-        jLabel20.setFont(new java.awt.Font("Segoe UI", 3, 36)); // NOI18N
-        jLabel20.setText(" Add Book ");
+        jLabel20.setFont(new java.awt.Font("Segoe UI", 3, 30)); // NOI18N
+        jLabel20.setForeground(new java.awt.Color(255, 223, 0));
+        jLabel20.setText(" ADD BOOK ");
         jLabel20.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -1503,6 +1609,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel10.add(jLabel20, gridBagConstraints);
 
         jLabel21.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel21.setForeground(new java.awt.Color(255, 255, 255));
         jLabel21.setText("Book ID");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -1515,6 +1622,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel10.add(jLabel21, gridBagConstraints);
 
         jLabel22.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel22.setForeground(new java.awt.Color(255, 255, 255));
         jLabel22.setText("Title");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -1526,6 +1634,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel10.add(jLabel22, gridBagConstraints);
 
         jLabel24.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel24.setForeground(new java.awt.Color(255, 255, 255));
         jLabel24.setText("Author Name");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -1537,6 +1646,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel10.add(jLabel24, gridBagConstraints);
 
         jLabel25.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel25.setForeground(new java.awt.Color(255, 255, 255));
         jLabel25.setText("ISBN");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -1548,6 +1658,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel10.add(jLabel25, gridBagConstraints);
 
         jLabel26.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel26.setForeground(new java.awt.Color(255, 255, 255));
         jLabel26.setText("Publisher Name");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -1559,6 +1670,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel10.add(jLabel26, gridBagConstraints);
 
         jLabel27.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel27.setForeground(new java.awt.Color(255, 255, 255));
         jLabel27.setText("Price");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -1571,6 +1683,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel10.add(jLabel27, gridBagConstraints);
 
         jLabel28.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel28.setForeground(new java.awt.Color(255, 255, 255));
         jLabel28.setText("Status");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -1582,6 +1695,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel10.add(jLabel28, gridBagConstraints);
 
         jButton25.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jButton25.setForeground(new java.awt.Color(227, 11, 93));
         jButton25.setText("ADD");
         jButton25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1656,7 +1770,8 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(52, 50, 0, 0);
         jPanel10.add(jTextField21, gridBagConstraints);
 
-        jRadioButton3.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
+        jRadioButton3.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jRadioButton3.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton3.setText("Borrowable");
         jRadioButton3.setActionCommand("Borrowable");
         buttonGroup2.add(jRadioButton3);
@@ -1669,7 +1784,8 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(46, 38, 0, 0);
         jPanel10.add(jRadioButton3, gridBagConstraints);
 
-        jRadioButton4.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
+        jRadioButton4.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jRadioButton4.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton4.setText("Restricted");
         jRadioButton4.setActionCommand("Restricted");
         buttonGroup2.add(jRadioButton4);
@@ -1683,6 +1799,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel10.add(jRadioButton4, gridBagConstraints);
 
         jButton45.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jButton45.setForeground(new java.awt.Color(227, 11, 93));
         jButton45.setText("Insert using CSV file");
         jButton45.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1698,6 +1815,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel10.add(jButton45, gridBagConstraints);
 
         jButton46.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jButton46.setForeground(new java.awt.Color(227, 11, 93));
         jButton46.setText("Insert using Excel file");
         jButton46.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1735,10 +1853,12 @@ public class New_Login extends javax.swing.JFrame {
         jFrame10.setResizable(false);
         jFrame10.getContentPane().setLayout(new java.awt.GridBagLayout());
 
+        jPanel11.setBackground(new java.awt.Color(0, 128, 128));
         jPanel11.setLayout(new java.awt.GridBagLayout());
 
-        jLabel29.setFont(new java.awt.Font("Segoe UI", 3, 36)); // NOI18N
-        jLabel29.setText(" Edit Book ");
+        jLabel29.setFont(new java.awt.Font("Segoe UI", 1, 30)); // NOI18N
+        jLabel29.setForeground(new java.awt.Color(255, 223, 0));
+        jLabel29.setText(" EDIT BOOK ");
         jLabel29.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -1750,6 +1870,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel11.add(jLabel29, gridBagConstraints);
 
         jLabel30.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel30.setForeground(new java.awt.Color(255, 255, 255));
         jLabel30.setText("Enter Book ID");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -1773,6 +1894,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel11.add(jTextField22, gridBagConstraints);
 
         jButton29.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton29.setForeground(new java.awt.Color(227, 11, 93));
         jButton29.setText("Find");
         jButton29.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1785,10 +1907,11 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.gridheight = 2;
         gridBagConstraints.ipady = 1;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(40, 18, 0, 156);
+        gridBagConstraints.insets = new java.awt.Insets(40, 18, 0, 257);
         jPanel11.add(jButton29, gridBagConstraints);
 
         jLabel31.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel31.setForeground(new java.awt.Color(255, 255, 255));
         jLabel31.setText("Title");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -1800,6 +1923,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel11.add(jLabel31, gridBagConstraints);
 
         jLabel32.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel32.setForeground(new java.awt.Color(255, 255, 255));
         jLabel32.setText("Author Name");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -1811,6 +1935,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel11.add(jLabel32, gridBagConstraints);
 
         jLabel33.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel33.setForeground(new java.awt.Color(255, 255, 255));
         jLabel33.setText("ISBN");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -1821,6 +1946,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel11.add(jLabel33, gridBagConstraints);
 
         jLabel34.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel34.setForeground(new java.awt.Color(255, 255, 255));
         jLabel34.setText("Publisher Name");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -1832,6 +1958,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel11.add(jLabel34, gridBagConstraints);
 
         jLabel35.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel35.setForeground(new java.awt.Color(255, 255, 255));
         jLabel35.setText("Price");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -1844,6 +1971,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel11.add(jLabel35, gridBagConstraints);
 
         jButton30.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton30.setForeground(new java.awt.Color(227, 11, 93));
         jButton30.setText("SAVE");
         jButton30.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1855,7 +1983,7 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.gridy = 10;
         gridBagConstraints.gridwidth = 3;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(69, 2, 60, 0);
+        gridBagConstraints.insets = new java.awt.Insets(69, 2, 156, 0);
         jPanel11.add(jButton30, gridBagConstraints);
 
         jTextField23.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
@@ -1934,17 +2062,20 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
+        gridBagConstraints.ipadx = 251;
+        gridBagConstraints.ipady = 150;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(0, 0, 6, 0);
         jFrame10.getContentPane().add(jPanel11, gridBagConstraints);
 
         jFrame11.setResizable(false);
         jFrame11.getContentPane().setLayout(new java.awt.GridBagLayout());
 
+        jPanel12.setBackground(new java.awt.Color(0, 128, 128));
         jPanel12.setLayout(new java.awt.GridBagLayout());
 
-        jLabel36.setFont(new java.awt.Font("Segoe UI", 3, 36)); // NOI18N
-        jLabel36.setText(" Delete Book ");
+        jLabel36.setFont(new java.awt.Font("Segoe UI", 1, 30)); // NOI18N
+        jLabel36.setForeground(new java.awt.Color(255, 223, 0));
+        jLabel36.setText(" DELETE BOOK ");
         jLabel36.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -1955,6 +2086,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel12.add(jLabel36, gridBagConstraints);
 
         jLabel37.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel37.setForeground(new java.awt.Color(255, 255, 255));
         jLabel37.setText("Enter Book ID");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -1977,6 +2109,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel12.add(jTextField28, gridBagConstraints);
 
         jButton31.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton31.setForeground(new java.awt.Color(227, 11, 93));
         jButton31.setText("DELETE");
         jButton31.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1991,6 +2124,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel12.add(jButton31, gridBagConstraints);
 
         jButton41.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton41.setForeground(new java.awt.Color(227, 11, 93));
         jButton41.setText("GET");
         jButton41.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -2030,10 +2164,12 @@ public class New_Login extends javax.swing.JFrame {
         jFrame12.setResizable(false);
         jFrame12.getContentPane().setLayout(new java.awt.GridBagLayout());
 
+        jPanel13.setBackground(new java.awt.Color(0, 128, 128));
         jPanel13.setLayout(new java.awt.GridBagLayout());
 
-        jLabel38.setFont(new java.awt.Font("Segoe UI", 3, 36)); // NOI18N
-        jLabel38.setText(" Update Book Status ");
+        jLabel38.setFont(new java.awt.Font("Segoe UI", 1, 30)); // NOI18N
+        jLabel38.setForeground(new java.awt.Color(255, 223, 0));
+        jLabel38.setText(" UPDATE BOOK STATUS ");
         jLabel38.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -2044,6 +2180,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel13.add(jLabel38, gridBagConstraints);
 
         jLabel39.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel39.setForeground(new java.awt.Color(255, 255, 255));
         jLabel39.setText("Enter Book ID");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -2056,6 +2193,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel13.add(jLabel39, gridBagConstraints);
 
         jLabel40.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel40.setForeground(new java.awt.Color(255, 255, 255));
         jLabel40.setText("Select Status");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -2090,6 +2228,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel13.add(jComboBox1, gridBagConstraints);
 
         jButton32.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton32.setForeground(new java.awt.Color(227, 11, 93));
         jButton32.setText("UPDATE");
         jButton32.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -2104,6 +2243,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel13.add(jButton32, gridBagConstraints);
 
         jButton40.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton40.setForeground(new java.awt.Color(227, 11, 93));
         jButton40.setText("GET");
         jButton40.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -2143,23 +2283,27 @@ public class New_Login extends javax.swing.JFrame {
         jFrame13.setResizable(false);
         jFrame13.getContentPane().setLayout(new java.awt.GridBagLayout());
 
+        jPanel14.setBackground(new java.awt.Color(0, 128, 128));
         jPanel14.setLayout(new java.awt.GridBagLayout());
 
         jLabel47.setFont(new java.awt.Font("Segoe UI", 3, 30)); // NOI18N
+        jLabel47.setForeground(new java.awt.Color(255, 223, 0));
         jLabel47.setText("ISSUE BOOK");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 1;
-        gridBagConstraints.gridwidth = 3;
+        gridBagConstraints.gridwidth = 4;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(24, 130, 0, 0);
         jPanel14.add(jLabel47, gridBagConstraints);
 
         jLabel48.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel48.setForeground(new java.awt.Color(255, 255, 255));
         jLabel48.setText("Book ID");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 4;
+        gridBagConstraints.gridwidth = 2;
         gridBagConstraints.ipadx = 50;
         gridBagConstraints.ipady = 6;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
@@ -2168,16 +2312,17 @@ public class New_Login extends javax.swing.JFrame {
 
         jTextField30.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
+        gridBagConstraints.gridx = 3;
         gridBagConstraints.gridy = 2;
-        gridBagConstraints.gridwidth = 4;
+        gridBagConstraints.gridwidth = 5;
         gridBagConstraints.ipadx = 188;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(28, 83, 0, 0);
         jPanel14.add(jTextField30, gridBagConstraints);
 
         jLabel49.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel49.setText("USER ID");
+        jLabel49.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel49.setText("User ID");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 2;
@@ -2194,37 +2339,42 @@ public class New_Login extends javax.swing.JFrame {
             }
         });
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
+        gridBagConstraints.gridx = 3;
         gridBagConstraints.gridy = 4;
-        gridBagConstraints.gridwidth = 4;
+        gridBagConstraints.gridwidth = 5;
         gridBagConstraints.ipadx = 188;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(29, 83, 0, 0);
         jPanel14.add(jTextField31, gridBagConstraints);
 
         jLabel50.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel50.setForeground(new java.awt.Color(255, 255, 255));
         jLabel50.setText("Issue Date");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 6;
+        gridBagConstraints.gridwidth = 2;
         gridBagConstraints.ipadx = 27;
-        gridBagConstraints.ipady = 6;
+        gridBagConstraints.ipady = 14;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(35, 19, 0, 0);
         jPanel14.add(jLabel50, gridBagConstraints);
 
         jLabel51.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel51.setForeground(new java.awt.Color(255, 255, 255));
         jLabel51.setText("Return Date");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 7;
+        gridBagConstraints.gridwidth = 2;
         gridBagConstraints.ipadx = 10;
-        gridBagConstraints.ipady = 6;
+        gridBagConstraints.ipady = 15;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(35, 19, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(43, 19, 0, 0);
         jPanel14.add(jLabel51, gridBagConstraints);
 
         jButton23.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton23.setForeground(new java.awt.Color(227, 11, 93));
         jButton23.setText("ISSUE");
         jButton23.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -2232,12 +2382,11 @@ public class New_Login extends javax.swing.JFrame {
             }
         });
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridx = 3;
         gridBagConstraints.gridy = 8;
-        gridBagConstraints.gridwidth = 2;
         gridBagConstraints.ipadx = 11;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(80, 139, 162, 0);
+        gridBagConstraints.insets = new java.awt.Insets(67, 21, 230, 0);
         jPanel14.add(jButton23, gridBagConstraints);
 
         jDateChooser1.setFont(new java.awt.Font("Segoe UI", 0, 20));
@@ -2249,11 +2398,11 @@ public class New_Login extends javax.swing.JFrame {
             }
         });
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
+        gridBagConstraints.gridx = 3;
         gridBagConstraints.gridy = 6;
-        gridBagConstraints.gridwidth = 5;
-        gridBagConstraints.ipadx = 176;
-        gridBagConstraints.ipady = 11;
+        gridBagConstraints.gridwidth = 6;
+        gridBagConstraints.ipadx = 182;
+        gridBagConstraints.ipady = 19;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(35, 83, 0, 0);
         jPanel14.add(jDateChooser1, gridBagConstraints);
@@ -2261,15 +2410,17 @@ public class New_Login extends javax.swing.JFrame {
         jDateChooser2.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         jDateChooser2.setDate(new Date(jDateChooser1.getDate().getTime()+7*24*60*60*1000));
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
+        gridBagConstraints.gridx = 3;
         gridBagConstraints.gridy = 7;
-        gridBagConstraints.gridwidth = 5;
-        gridBagConstraints.ipadx = 176;
+        gridBagConstraints.gridwidth = 6;
+        gridBagConstraints.ipadx = 182;
+        gridBagConstraints.ipady = 9;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(35, 83, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(43, 83, 0, 0);
         jPanel14.add(jDateChooser2, gridBagConstraints);
 
         jButton42.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton42.setForeground(new java.awt.Color(227, 11, 93));
         jButton42.setText("FETCH");
         jButton42.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -2277,15 +2428,16 @@ public class New_Login extends javax.swing.JFrame {
             }
         });
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 7;
+        gridBagConstraints.gridx = 9;
         gridBagConstraints.gridy = 2;
         gridBagConstraints.gridheight = 2;
         gridBagConstraints.ipadx = 4;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(28, 28, 0, 247);
+        gridBagConstraints.insets = new java.awt.Insets(28, 28, 0, 231);
         jPanel14.add(jButton42, gridBagConstraints);
 
         jButton43.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton43.setForeground(new java.awt.Color(227, 11, 93));
         jButton43.setText("FETCH");
         jButton43.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -2293,12 +2445,12 @@ public class New_Login extends javax.swing.JFrame {
             }
         });
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 7;
+        gridBagConstraints.gridx = 9;
         gridBagConstraints.gridy = 4;
         gridBagConstraints.gridheight = 2;
         gridBagConstraints.ipadx = 4;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(29, 28, 0, 247);
+        gridBagConstraints.insets = new java.awt.Insets(29, 28, 0, 231);
         jPanel14.add(jButton43, gridBagConstraints);
 
         jButton64.setText("🢀 ");
@@ -2311,23 +2463,24 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(6, 0, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(47, 70, 0, 0);
         jPanel14.add(jButton64, gridBagConstraints);
 
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
-        gridBagConstraints.ipadx = 241;
-        gridBagConstraints.ipady = 156;
+        gridBagConstraints.ipadx = -6;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         jFrame13.getContentPane().add(jPanel14, gridBagConstraints);
 
         jFrame14.setResizable(false);
         jFrame14.getContentPane().setLayout(new java.awt.GridBagLayout());
 
+        jPanel15.setBackground(new java.awt.Color(0, 128, 128));
         jPanel15.setLayout(new java.awt.GridBagLayout());
 
         jLabel52.setFont(new java.awt.Font("Segoe UI", 3, 30)); // NOI18N
+        jLabel52.setForeground(new java.awt.Color(255, 223, 0));
         jLabel52.setText("RETURN BOOK");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 2;
@@ -2339,6 +2492,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel15.add(jLabel52, gridBagConstraints);
 
         jLabel53.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel53.setForeground(new java.awt.Color(255, 255, 255));
         jLabel53.setText("User ID");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -2360,6 +2514,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel15.add(jTextField34, gridBagConstraints);
 
         jButton17.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton17.setForeground(new java.awt.Color(227, 11, 93));
         jButton17.setText("FIND");
         jButton17.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -2376,6 +2531,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel15.add(jButton17, gridBagConstraints);
 
         jLabel54.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel54.setForeground(new java.awt.Color(255, 255, 255));
         jLabel54.setText("Select Book To be Returned ");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -2409,6 +2565,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel15.add(jComboBox3, gridBagConstraints);
 
         jButton33.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton33.setForeground(new java.awt.Color(227, 11, 93));
         jButton33.setText("Return");
         jButton33.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -2425,6 +2582,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel15.add(jButton33, gridBagConstraints);
 
         jRadioButton6.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jRadioButton6.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton6.setText("Damage");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -2436,6 +2594,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel15.add(jRadioButton6, gridBagConstraints);
 
         jRadioButton7.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jRadioButton7.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton7.setText("Lost");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 3;
@@ -2447,6 +2606,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel15.add(jRadioButton7, gridBagConstraints);
 
         jRadioButton8.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jRadioButton8.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton8.setText("All Good");
         jRadioButton8.setSelected(true);
         jRadioButton8.addActionListener(new java.awt.event.ActionListener() {
@@ -2498,9 +2658,11 @@ public class New_Login extends javax.swing.JFrame {
         jFrame15.setResizable(false);
         jFrame15.getContentPane().setLayout(new java.awt.GridBagLayout());
 
+        jPanel16.setBackground(new java.awt.Color(0, 128, 128));
         jPanel16.setLayout(new java.awt.GridBagLayout());
 
         jLabel55.setFont(new java.awt.Font("Segoe UI", 3, 30)); // NOI18N
+        jLabel55.setForeground(new java.awt.Color(255, 223, 0));
         jLabel55.setText("FINES");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -2512,6 +2674,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel16.add(jLabel55, gridBagConstraints);
 
         jLabel56.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel56.setForeground(new java.awt.Color(255, 255, 255));
         jLabel56.setText("Lost Book Fine");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -2523,6 +2686,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel16.add(jLabel56, gridBagConstraints);
 
         jLabel57.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel57.setForeground(new java.awt.Color(255, 255, 255));
         jLabel57.setText("Damage Book Fine");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -2534,6 +2698,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel16.add(jLabel57, gridBagConstraints);
 
         jLabel58.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel58.setForeground(new java.awt.Color(255, 255, 255));
         jLabel58.setText("Late Book Fine ");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -2580,6 +2745,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel16.add(jTextField37, gridBagConstraints);
 
         jLabel85.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel85.setForeground(new java.awt.Color(255, 255, 255));
         jLabel85.setText("%");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 5;
@@ -2591,6 +2757,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel16.add(jLabel85, gridBagConstraints);
 
         jLabel86.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel86.setForeground(new java.awt.Color(255, 255, 255));
         jLabel86.setText("%");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 5;
@@ -2602,6 +2769,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel16.add(jLabel86, gridBagConstraints);
 
         jLabel87.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel87.setForeground(new java.awt.Color(255, 255, 255));
         jLabel87.setText("Rs.");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 5;
@@ -2613,6 +2781,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel16.add(jLabel87, gridBagConstraints);
 
         jButton34.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton34.setForeground(new java.awt.Color(227, 11, 93));
         jButton34.setText("SET");
         jButton34.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -2628,6 +2797,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel16.add(jButton34, gridBagConstraints);
 
         jButton44.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton44.setForeground(new java.awt.Color(227, 11, 93));
         jButton44.setText("SET");
         jButton44.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -2643,6 +2813,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel16.add(jButton44, gridBagConstraints);
 
         jButton47.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton47.setForeground(new java.awt.Color(227, 11, 93));
         jButton47.setText("SET");
         jButton47.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -2680,9 +2851,11 @@ public class New_Login extends javax.swing.JFrame {
         jFrame16.setResizable(false);
         jFrame16.getContentPane().setLayout(new java.awt.GridBagLayout());
 
+        jPanel17.setBackground(new java.awt.Color(0, 128, 128));
         jPanel17.setLayout(new java.awt.GridBagLayout());
 
-        jLabel59.setFont(new java.awt.Font("Segoe UI", 3, 36)); // NOI18N
+        jLabel59.setFont(new java.awt.Font("Segoe UI", 3, 30)); // NOI18N
+        jLabel59.setForeground(new java.awt.Color(255, 223, 0));
         jLabel59.setText(" Manage Fines ");
         jLabel59.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         gridBagConstraints = new java.awt.GridBagConstraints();
@@ -2695,6 +2868,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel17.add(jLabel59, gridBagConstraints);
 
         jLabel60.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel60.setForeground(new java.awt.Color(255, 255, 255));
         jLabel60.setText("User ID");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -2716,6 +2890,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel17.add(jTextField38, gridBagConstraints);
 
         jButton35.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton35.setForeground(new java.awt.Color(227, 11, 93));
         jButton35.setText("Fetch");
         jButton35.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -2732,6 +2907,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel17.add(jButton35, gridBagConstraints);
 
         jLabel61.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel61.setForeground(new java.awt.Color(255, 255, 255));
         jLabel61.setText("Name");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -2743,6 +2919,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel17.add(jLabel61, gridBagConstraints);
 
         jLabel62.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel62.setForeground(new java.awt.Color(255, 255, 255));
         jLabel62.setText("Father Name");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -2754,6 +2931,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel17.add(jLabel62, gridBagConstraints);
 
         jLabel63.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel63.setForeground(new java.awt.Color(255, 255, 255));
         jLabel63.setText("Mobile No.");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -2765,6 +2943,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel17.add(jLabel63, gridBagConstraints);
 
         jLabel64.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel64.setForeground(new java.awt.Color(255, 255, 255));
         jLabel64.setText("Total Fine");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -2777,6 +2956,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel17.add(jLabel64, gridBagConstraints);
 
         jLabel65.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel65.setForeground(new java.awt.Color(255, 255, 255));
         jLabel65.setText("Status");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -2800,6 +2980,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel17.add(jComboBox4, gridBagConstraints);
 
         jButton36.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jButton36.setForeground(new java.awt.Color(227, 11, 93));
         jButton36.setText("Done");
         jButton36.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -2859,6 +3040,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel17.add(jLabel69, gridBagConstraints);
 
         jLabel70.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel70.setForeground(new java.awt.Color(255, 255, 255));
         jLabel70.setText("Paying");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -2915,6 +3097,7 @@ public class New_Login extends javax.swing.JFrame {
         jFrame17.setResizable(false);
         jFrame17.getContentPane().setLayout(new java.awt.GridBagLayout());
 
+        jPanel18.setBackground(new java.awt.Color(0, 128, 128));
         jPanel18.setLayout(new java.awt.GridBagLayout());
 
         jTable1.setFont(new java.awt.Font("Segoe UI", 0, 17)); // NOI18N
@@ -2942,6 +3125,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel18.add(jScrollPane2, gridBagConstraints);
 
         jLabel73.setFont(new java.awt.Font("Segoe UI", 3, 18)); // NOI18N
+        jLabel73.setForeground(new java.awt.Color(255, 223, 0));
         jLabel73.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel73.setText(" ISSUED BOOK RECORD ");
         jLabel73.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
@@ -2954,7 +3138,8 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(17, 334, 0, 0);
         jPanel18.add(jLabel73, gridBagConstraints);
 
-        jLabel74.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel74.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel74.setForeground(new java.awt.Color(255, 255, 255));
         jLabel74.setText("Enter Search");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -3003,6 +3188,7 @@ public class New_Login extends javax.swing.JFrame {
         jFrame18.setResizable(false);
         jFrame18.getContentPane().setLayout(new java.awt.GridBagLayout());
 
+        jPanel19.setBackground(new java.awt.Color(0, 128, 128));
         jPanel19.setLayout(new java.awt.GridBagLayout());
 
         jTable2.setFont(new java.awt.Font("Segoe UI", 0, 16)); // NOI18N
@@ -3030,6 +3216,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel19.add(jScrollPane3, gridBagConstraints);
 
         jLabel75.setFont(new java.awt.Font("Segoe UI", 3, 18)); // NOI18N
+        jLabel75.setForeground(new java.awt.Color(255, 223, 0));
         jLabel75.setText(" OVERDUE BOOKS RECORDS ");
         jLabel75.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         gridBagConstraints = new java.awt.GridBagConstraints();
@@ -3040,7 +3227,8 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(0, 198, 0, 0);
         jPanel19.add(jLabel75, gridBagConstraints);
 
-        jLabel76.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel76.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel76.setForeground(new java.awt.Color(255, 255, 255));
         jLabel76.setText("Enter To Find");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -3088,9 +3276,11 @@ public class New_Login extends javax.swing.JFrame {
 
         jFrame19.getContentPane().setLayout(new java.awt.GridBagLayout());
 
+        jPanel20.setBackground(new java.awt.Color(0, 128, 128));
         jPanel20.setLayout(new java.awt.GridBagLayout());
 
         jLabel77.setFont(new java.awt.Font("Segoe UI", 3, 18)); // NOI18N
+        jLabel77.setForeground(new java.awt.Color(255, 223, 0));
         jLabel77.setText(" All Books Details ");
         jLabel77.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         gridBagConstraints = new java.awt.GridBagConstraints();
@@ -3101,7 +3291,8 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(0, 268, 0, 0);
         jPanel20.add(jLabel77, gridBagConstraints);
 
-        jLabel78.setFont(new java.awt.Font("Segoe UI", 0, 16)); // NOI18N
+        jLabel78.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel78.setForeground(new java.awt.Color(255, 255, 255));
         jLabel78.setText("Enter To Find");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -3165,6 +3356,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel20.add(jButton70, gridBagConstraints);
 
         jButton77.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
+        jButton77.setForeground(new java.awt.Color(227, 11, 93));
         jButton77.setText("Download Excel file");
         jButton77.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -3189,9 +3381,11 @@ public class New_Login extends javax.swing.JFrame {
         jFrame20.setResizable(false);
         jFrame20.getContentPane().setLayout(new java.awt.GridBagLayout());
 
+        jPanel21.setBackground(new java.awt.Color(0, 128, 128));
         jPanel21.setLayout(new java.awt.GridBagLayout());
 
         jLabel79.setFont(new java.awt.Font("Segoe UI", 3, 18)); // NOI18N
+        jLabel79.setForeground(new java.awt.Color(255, 223, 0));
         jLabel79.setText("Transaction History");
         jLabel79.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         gridBagConstraints = new java.awt.GridBagConstraints();
@@ -3203,7 +3397,8 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(15, 285, 0, 0);
         jPanel21.add(jLabel79, gridBagConstraints);
 
-        jLabel80.setFont(new java.awt.Font("Segoe UI", 0, 16)); // NOI18N
+        jLabel80.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel80.setForeground(new java.awt.Color(255, 255, 255));
         jLabel80.setText("Enter To Search");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -3290,9 +3485,11 @@ public class New_Login extends javax.swing.JFrame {
         jFrame21.setResizable(false);
         jFrame21.getContentPane().setLayout(new java.awt.GridBagLayout());
 
+        jPanel22.setBackground(new java.awt.Color(0, 128, 128));
         jPanel22.setLayout(new java.awt.GridBagLayout());
 
         jLabel81.setFont(new java.awt.Font("Segoe UI", 3, 18)); // NOI18N
+        jLabel81.setForeground(new java.awt.Color(255, 223, 0));
         jLabel81.setText(" USER RECORDS ");
         jLabel81.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         gridBagConstraints = new java.awt.GridBagConstraints();
@@ -3303,7 +3500,8 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(14, 69, 0, 0);
         jPanel22.add(jLabel81, gridBagConstraints);
 
-        jLabel82.setFont(new java.awt.Font("Segoe UI", 0, 16)); // NOI18N
+        jLabel82.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel82.setForeground(new java.awt.Color(255, 255, 255));
         jLabel82.setText("Enter To Search");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -3370,6 +3568,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel22.add(jButton73, gridBagConstraints);
 
         jButton78.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
+        jButton78.setForeground(new java.awt.Color(227, 11, 93));
         jButton78.setText("Download Excel File");
         jButton78.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -3394,9 +3593,11 @@ public class New_Login extends javax.swing.JFrame {
         jFrame22.setResizable(false);
         jFrame22.getContentPane().setLayout(new java.awt.GridBagLayout());
 
+        jPanel23.setBackground(new java.awt.Color(0, 128, 128));
         jPanel23.setLayout(new java.awt.GridBagLayout());
 
         jLabel83.setFont(new java.awt.Font("Segoe UI", 3, 18)); // NOI18N
+        jLabel83.setForeground(new java.awt.Color(255, 223, 0));
         jLabel83.setText(" OWED FINES ");
         jLabel83.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         gridBagConstraints = new java.awt.GridBagConstraints();
@@ -3408,7 +3609,8 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(17, 317, 0, 0);
         jPanel23.add(jLabel83, gridBagConstraints);
 
-        jLabel84.setFont(new java.awt.Font("Segoe UI", 0, 16)); // NOI18N
+        jLabel84.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel84.setForeground(new java.awt.Color(255, 255, 255));
         jLabel84.setText("Enter To Search");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -3480,9 +3682,11 @@ public class New_Login extends javax.swing.JFrame {
         jFrame23.setResizable(false);
         jFrame23.getContentPane().setLayout(new java.awt.GridBagLayout());
 
+        jPanel24.setBackground(new java.awt.Color(0, 128, 128));
         jPanel24.setLayout(new java.awt.GridBagLayout());
 
         jLabel89.setFont(new java.awt.Font("Segoe UI", 1, 30)); // NOI18N
+        jLabel89.setForeground(new java.awt.Color(255, 223, 0));
         jLabel89.setText("Update Student Status");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -3495,6 +3699,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel24.add(jLabel89, gridBagConstraints);
 
         jLabel90.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel90.setForeground(new java.awt.Color(255, 255, 255));
         jLabel90.setText("Status");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -3506,6 +3711,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel24.add(jLabel90, gridBagConstraints);
 
         jLabel91.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel91.setForeground(new java.awt.Color(255, 255, 255));
         jLabel91.setText("User Id");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -3528,6 +3734,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel24.add(jComboBox6, gridBagConstraints);
 
         jButton51.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton51.setForeground(new java.awt.Color(227, 11, 93));
         jButton51.setText("UPDATE");
         jButton51.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -3552,6 +3759,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel24.add(jTextField44, gridBagConstraints);
 
         jButton52.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton52.setForeground(new java.awt.Color(227, 11, 93));
         jButton52.setText("GET");
         jButton52.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -3624,7 +3832,6 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(61, 156, 0, 0);
         jPanel1.add(jLabel2, gridBagConstraints);
 
-        jTextField2.setBackground(new java.awt.Color(225, 231, 242));
         jTextField2.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 2;
@@ -3636,7 +3843,6 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(68, 77, 0, 0);
         jPanel1.add(jTextField2, gridBagConstraints);
 
-        jButton1.setBackground(new java.awt.Color(204, 204, 204));
         jButton1.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
         jButton1.setForeground(new java.awt.Color(227, 11, 93));
         jButton1.setText("LOGIN");
@@ -3655,10 +3861,9 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.gridy = 4;
         gridBagConstraints.gridwidth = 2;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(92, 234, 186, 0);
+        gridBagConstraints.insets = new java.awt.Insets(92, 234, 225, 0);
         jPanel1.add(jButton1, gridBagConstraints);
 
-        jButton2.setBackground(new java.awt.Color(204, 204, 204));
         jButton2.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
         jButton2.setForeground(new java.awt.Color(227, 11, 93));
         jButton2.setText("FORGET PASSWORD");
@@ -3677,7 +3882,7 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.gridy = 4;
         gridBagConstraints.gridwidth = 4;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(92, 37, 186, 0);
+        gridBagConstraints.insets = new java.awt.Insets(92, 37, 225, 0);
         jPanel1.add(jButton2, gridBagConstraints);
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
@@ -3692,7 +3897,6 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(68, 156, 0, 0);
         jPanel1.add(jLabel4, gridBagConstraints);
 
-        jPasswordField1.setBackground(new java.awt.Color(225, 231, 242));
         jPasswordField1.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 2;
@@ -3722,12 +3926,14 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.gridy = 2;
         gridBagConstraints.ipady = 9;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(55, 28, 0, 156);
+        gridBagConstraints.insets = new java.awt.Insets(55, 28, 0, 263);
         jPanel1.add(jToggleButton1, gridBagConstraints);
 
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
+        gridBagConstraints.ipadx = 257;
+        gridBagConstraints.ipady = 219;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         getContentPane().add(jPanel1, gridBagConstraints);
 
@@ -5034,6 +5240,8 @@ public class New_Login extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new New_Login().setVisible(true);
+                
+                
             }
         });
     }
@@ -5241,6 +5449,7 @@ public class New_Login extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel9;
     private javax.swing.JLabel jLabel90;
     private javax.swing.JLabel jLabel91;
+    private javax.swing.JLabel jLabel92;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel11;
