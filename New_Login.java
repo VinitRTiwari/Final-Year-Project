@@ -377,17 +377,18 @@ public class New_Login extends javax.swing.JFrame {
         jFrame1.getContentPane().setLayout(new java.awt.GridBagLayout());
 
         jPanel2.setBackground(new java.awt.Color(0, 128, 128));
+        jPanel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(102, 0, 102), 4));
         jPanel2.setLayout(new java.awt.GridBagLayout());
 
-        jLabel3.setFont(new java.awt.Font("Segoe UI", 3, 30)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Times New Roman", 1, 48)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 223, 0));
-        jLabel3.setText("Welcome To Dashboard");
+        jLabel3.setText("Welcome To Library");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 0;
-        gridBagConstraints.gridwidth = 2;
+        gridBagConstraints.gridwidth = 3;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(46, 6, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(110, 86, 0, 0);
         jPanel2.add(jLabel3, gridBagConstraints);
 
         jButton3.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
@@ -399,11 +400,13 @@ public class New_Login extends javax.swing.JFrame {
             }
         });
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 2;
-        gridBagConstraints.ipadx = 60;
+        gridBagConstraints.gridwidth = 2;
+        gridBagConstraints.ipadx = 330;
+        gridBagConstraints.ipady = 94;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(85, 41, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(18, 29, 0, 0);
         jPanel2.add(jButton3, gridBagConstraints);
 
         jButton4.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
@@ -417,8 +420,11 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 3;
         gridBagConstraints.gridy = 2;
+        gridBagConstraints.gridwidth = 4;
+        gridBagConstraints.ipadx = 336;
+        gridBagConstraints.ipady = 94;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(85, 71, 0, 248);
+        gridBagConstraints.insets = new java.awt.Insets(18, 103, 0, 10);
         jPanel2.add(jButton4, gridBagConstraints);
 
         jButton5.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
@@ -430,10 +436,14 @@ public class New_Login extends javax.swing.JFrame {
             }
         });
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 3;
+        gridBagConstraints.gridwidth = 2;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.ipadx = 270;
+        gridBagConstraints.ipady = 94;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(75, 41, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(41, 29, 0, 0);
         jPanel2.add(jButton5, gridBagConstraints);
 
         jButton6.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
@@ -447,9 +457,11 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 3;
         gridBagConstraints.gridy = 3;
-        gridBagConstraints.ipadx = 3;
+        gridBagConstraints.gridwidth = 4;
+        gridBagConstraints.ipadx = 339;
+        gridBagConstraints.ipady = 91;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(75, 71, 0, 248);
+        gridBagConstraints.insets = new java.awt.Insets(41, 103, 0, 10);
         jPanel2.add(jButton6, gridBagConstraints);
 
         jButton7.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
@@ -461,11 +473,13 @@ public class New_Login extends javax.swing.JFrame {
             }
         });
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 4;
-        gridBagConstraints.ipadx = 32;
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 5;
+        gridBagConstraints.gridwidth = 2;
+        gridBagConstraints.ipadx = 302;
+        gridBagConstraints.ipady = 94;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(80, 41, 252, 0);
+        gridBagConstraints.insets = new java.awt.Insets(33, 29, 33, 0);
         jPanel2.add(jButton7, gridBagConstraints);
 
         jButton8.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
@@ -478,10 +492,12 @@ public class New_Login extends javax.swing.JFrame {
         });
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 3;
-        gridBagConstraints.gridy = 4;
-        gridBagConstraints.ipadx = 50;
+        gridBagConstraints.gridy = 5;
+        gridBagConstraints.gridwidth = 4;
+        gridBagConstraints.ipadx = 386;
+        gridBagConstraints.ipady = 94;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(80, 71, 252, 248);
+        gridBagConstraints.insets = new java.awt.Insets(33, 103, 33, 10);
         jPanel2.add(jButton8, gridBagConstraints);
 
         jLabel92.setIcon(new javax.swing.ImageIcon("C:\\Users\\gupta\\Desktop\\Picture1.png")); // NOI18N
@@ -491,14 +507,12 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.gridheight = 2;
         gridBagConstraints.ipady = 11;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(0, 6, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(46, 168, 0, 0);
         jPanel2.add(jLabel92, gridBagConstraints);
 
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
-        gridBagConstraints.ipadx = 242;
-        gridBagConstraints.ipady = 246;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         jFrame1.getContentPane().add(jPanel2, gridBagConstraints);
 
