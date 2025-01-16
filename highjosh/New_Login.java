@@ -185,129 +185,137 @@ public class New_Login extends javax.swing.JFrame {
         jButton26 = new javax.swing.JButton();
         jFrame9 = new javax.swing.JFrame();
         jPanel10 = new javax.swing.JPanel();
+        jButton60 = new javax.swing.JButton();
+        jPanel33 = new javax.swing.JPanel();
         jLabel20 = new javax.swing.JLabel();
+        jTextField8 = new javax.swing.JTextField();
         jLabel21 = new javax.swing.JLabel();
         jLabel22 = new javax.swing.JLabel();
-        jLabel24 = new javax.swing.JLabel();
-        jLabel25 = new javax.swing.JLabel();
-        jLabel26 = new javax.swing.JLabel();
-        jLabel27 = new javax.swing.JLabel();
-        jLabel28 = new javax.swing.JLabel();
-        jButton25 = new javax.swing.JButton();
-        jTextField8 = new javax.swing.JTextField();
         jTextField10 = new javax.swing.JTextField();
+        jLabel24 = new javax.swing.JLabel();
         jTextField12 = new javax.swing.JTextField();
+        jLabel25 = new javax.swing.JLabel();
         jTextField13 = new javax.swing.JTextField();
+        jLabel26 = new javax.swing.JLabel();
         jTextField20 = new javax.swing.JTextField();
         jTextField21 = new javax.swing.JTextField();
+        jLabel27 = new javax.swing.JLabel();
         jRadioButton3 = new javax.swing.JRadioButton();
         jRadioButton4 = new javax.swing.JRadioButton();
+        jLabel28 = new javax.swing.JLabel();
+        jButton25 = new javax.swing.JButton();
         jButton45 = new javax.swing.JButton();
         jButton46 = new javax.swing.JButton();
-        jButton60 = new javax.swing.JButton();
         jFrame10 = new javax.swing.JFrame();
         jPanel11 = new javax.swing.JPanel();
+        jButton61 = new javax.swing.JButton();
+        jPanel34 = new javax.swing.JPanel();
         jLabel29 = new javax.swing.JLabel();
         jLabel30 = new javax.swing.JLabel();
         jTextField22 = new javax.swing.JTextField();
         jButton29 = new javax.swing.JButton();
         jLabel31 = new javax.swing.JLabel();
-        jLabel32 = new javax.swing.JLabel();
-        jLabel33 = new javax.swing.JLabel();
-        jLabel34 = new javax.swing.JLabel();
-        jLabel35 = new javax.swing.JLabel();
-        jButton30 = new javax.swing.JButton();
         jTextField23 = new javax.swing.JTextField();
+        jLabel32 = new javax.swing.JLabel();
         jTextField24 = new javax.swing.JTextField();
         jTextField25 = new javax.swing.JTextField();
+        jLabel33 = new javax.swing.JLabel();
+        jLabel34 = new javax.swing.JLabel();
         jTextField26 = new javax.swing.JTextField();
+        jLabel35 = new javax.swing.JLabel();
         jTextField27 = new javax.swing.JTextField();
-        jButton61 = new javax.swing.JButton();
+        jButton30 = new javax.swing.JButton();
         jFrame11 = new javax.swing.JFrame();
         jPanel12 = new javax.swing.JPanel();
+        jButton62 = new javax.swing.JButton();
+        jPanel35 = new javax.swing.JPanel();
         jLabel36 = new javax.swing.JLabel();
         jLabel37 = new javax.swing.JLabel();
         jTextField28 = new javax.swing.JTextField();
-        jButton31 = new javax.swing.JButton();
         jButton41 = new javax.swing.JButton();
-        jButton62 = new javax.swing.JButton();
+        jButton31 = new javax.swing.JButton();
         buttonGroup2 = new javax.swing.ButtonGroup();
         jFrame12 = new javax.swing.JFrame();
         jPanel13 = new javax.swing.JPanel();
+        jButton63 = new javax.swing.JButton();
+        jPanel36 = new javax.swing.JPanel();
         jLabel38 = new javax.swing.JLabel();
         jLabel39 = new javax.swing.JLabel();
-        jLabel40 = new javax.swing.JLabel();
         jTextField29 = new javax.swing.JTextField();
+        jButton40 = new javax.swing.JButton();
+        jLabel40 = new javax.swing.JLabel();
         jComboBox1 = new javax.swing.JComboBox<>();
         jButton32 = new javax.swing.JButton();
-        jButton40 = new javax.swing.JButton();
-        jButton63 = new javax.swing.JButton();
         jFrame13 = new javax.swing.JFrame();
         jPanel14 = new javax.swing.JPanel();
-        jLabel47 = new javax.swing.JLabel();
-        jLabel48 = new javax.swing.JLabel();
-        jTextField30 = new javax.swing.JTextField();
-        jLabel49 = new javax.swing.JLabel();
-        jTextField31 = new javax.swing.JTextField();
-        jLabel50 = new javax.swing.JLabel();
-        jLabel51 = new javax.swing.JLabel();
-        jButton23 = new javax.swing.JButton();
-        jDateChooser1 = new com.toedter.calendar.JDateChooser();
-        jDateChooser2 = new com.toedter.calendar.JDateChooser();
-        jButton42 = new javax.swing.JButton();
-        jButton43 = new javax.swing.JButton();
         jButton64 = new javax.swing.JButton();
+        jPanel37 = new javax.swing.JPanel();
+        jLabel47 = new javax.swing.JLabel();
+        jLabel49 = new javax.swing.JLabel();
+        jTextField30 = new javax.swing.JTextField();
+        jButton42 = new javax.swing.JButton();
+        jLabel48 = new javax.swing.JLabel();
+        jTextField31 = new javax.swing.JTextField();
+        jButton43 = new javax.swing.JButton();
+        jLabel50 = new javax.swing.JLabel();
+        jDateChooser1 = new com.toedter.calendar.JDateChooser();
+        jLabel51 = new javax.swing.JLabel();
+        jDateChooser2 = new com.toedter.calendar.JDateChooser();
+        jButton23 = new javax.swing.JButton();
         jFrame14 = new javax.swing.JFrame();
         jPanel15 = new javax.swing.JPanel();
+        jLabel88 = new javax.swing.JLabel();
+        jButton65 = new javax.swing.JButton();
+        jPanel38 = new javax.swing.JPanel();
         jLabel52 = new javax.swing.JLabel();
         jLabel53 = new javax.swing.JLabel();
         jTextField34 = new javax.swing.JTextField();
         jButton17 = new javax.swing.JButton();
         jLabel54 = new javax.swing.JLabel();
         jComboBox3 = new javax.swing.JComboBox<>();
-        jButton33 = new javax.swing.JButton();
         jRadioButton6 = new javax.swing.JRadioButton();
         jRadioButton7 = new javax.swing.JRadioButton();
         jRadioButton8 = new javax.swing.JRadioButton();
-        jLabel88 = new javax.swing.JLabel();
-        jButton65 = new javax.swing.JButton();
+        jButton33 = new javax.swing.JButton();
         jFrame15 = new javax.swing.JFrame();
         jPanel16 = new javax.swing.JPanel();
+        jButton66 = new javax.swing.JButton();
+        jPanel39 = new javax.swing.JPanel();
         jLabel55 = new javax.swing.JLabel();
         jLabel56 = new javax.swing.JLabel();
-        jLabel57 = new javax.swing.JLabel();
-        jLabel58 = new javax.swing.JLabel();
         jTextField35 = new javax.swing.JTextField();
-        jTextField36 = new javax.swing.JTextField();
-        jTextField37 = new javax.swing.JTextField();
         jLabel85 = new javax.swing.JLabel();
-        jLabel86 = new javax.swing.JLabel();
-        jLabel87 = new javax.swing.JLabel();
         jButton34 = new javax.swing.JButton();
+        jLabel57 = new javax.swing.JLabel();
+        jTextField37 = new javax.swing.JTextField();
+        jLabel86 = new javax.swing.JLabel();
         jButton44 = new javax.swing.JButton();
+        jLabel58 = new javax.swing.JLabel();
+        jTextField36 = new javax.swing.JTextField();
+        jLabel87 = new javax.swing.JLabel();
         jButton47 = new javax.swing.JButton();
-        jButton66 = new javax.swing.JButton();
         jFrame16 = new javax.swing.JFrame();
         jPanel17 = new javax.swing.JPanel();
+        jButton67 = new javax.swing.JButton();
+        jPanel40 = new javax.swing.JPanel();
         jLabel59 = new javax.swing.JLabel();
         jLabel60 = new javax.swing.JLabel();
         jTextField38 = new javax.swing.JTextField();
         jButton35 = new javax.swing.JButton();
         jLabel61 = new javax.swing.JLabel();
-        jLabel62 = new javax.swing.JLabel();
-        jLabel63 = new javax.swing.JLabel();
-        jLabel64 = new javax.swing.JLabel();
-        jLabel65 = new javax.swing.JLabel();
-        jComboBox4 = new javax.swing.JComboBox<>();
-        jButton36 = new javax.swing.JButton();
         jLabel66 = new javax.swing.JLabel();
+        jLabel62 = new javax.swing.JLabel();
         jLabel67 = new javax.swing.JLabel();
+        jLabel63 = new javax.swing.JLabel();
         jLabel68 = new javax.swing.JLabel();
+        jLabel64 = new javax.swing.JLabel();
         jLabel69 = new javax.swing.JLabel();
         jLabel70 = new javax.swing.JLabel();
         jTextField32 = new javax.swing.JTextField();
+        jLabel65 = new javax.swing.JLabel();
+        jComboBox4 = new javax.swing.JComboBox<>();
         jLabel71 = new javax.swing.JLabel();
-        jButton67 = new javax.swing.JButton();
+        jButton36 = new javax.swing.JButton();
         jFrame17 = new javax.swing.JFrame();
         jPanel18 = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
@@ -400,7 +408,7 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(72, 70, 0, 0);
         jPanel2.add(jLabel3, gridBagConstraints);
 
-        jButton3.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton3.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
         jButton3.setForeground(new java.awt.Color(227, 11, 93));
         jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/highjosh/img/manage books.png"))); // NOI18N
         jButton3.setText("Manage Books");
@@ -419,7 +427,7 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(33, 116, 0, 0);
         jPanel2.add(jButton3, gridBagConstraints);
 
-        jButton4.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton4.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
         jButton4.setForeground(new java.awt.Color(227, 11, 93));
         jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/highjosh/img/manage users.png"))); // NOI18N
         jButton4.setText("Manage Users");
@@ -438,7 +446,7 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(33, 287, 0, 106);
         jPanel2.add(jButton4, gridBagConstraints);
 
-        jButton5.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton5.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
         jButton5.setForeground(new java.awt.Color(227, 11, 93));
         jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/highjosh/img/manage transaction.png"))); // NOI18N
         jButton5.setText("Manage Transactions");
@@ -457,7 +465,7 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(60, 119, 0, 0);
         jPanel2.add(jButton5, gridBagConstraints);
 
-        jButton6.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton6.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
         jButton6.setForeground(new java.awt.Color(227, 11, 93));
         jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/highjosh/img/manage fines.png"))); // NOI18N
         jButton6.setText("Manage Fines");
@@ -476,7 +484,7 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(60, 287, 0, 106);
         jPanel2.add(jButton6, gridBagConstraints);
 
-        jButton7.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton7.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
         jButton7.setForeground(new java.awt.Color(227, 11, 93));
         jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/highjosh/img/generate report.png"))); // NOI18N
         jButton7.setText("Generate Reports");
@@ -495,7 +503,7 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(61, 119, 4, 0);
         jPanel2.add(jButton7, gridBagConstraints);
 
-        jButton8.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton8.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
         jButton8.setForeground(new java.awt.Color(227, 11, 93));
         jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/highjosh/img/sign out.png"))); // NOI18N
         jButton8.setText("Sign Out");
@@ -798,7 +806,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel27.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(102, 0, 0), 4));
         jPanel27.setLayout(new java.awt.GridBagLayout());
 
-        jButton19.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton19.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
         jButton19.setForeground(new java.awt.Color(227, 11, 93));
         jButton19.setText("Return Book");
         jButton19.addActionListener(new java.awt.event.ActionListener() {
@@ -816,7 +824,7 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(58, 47, 0, 49);
         jPanel27.add(jButton19, gridBagConstraints);
 
-        jLabel7.setFont(new java.awt.Font("Segoe UI", 3, 30)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("Times New Roman", 1, 30)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(227, 223, 0));
         jLabel7.setText("Manage Transactions");
         gridBagConstraints = new java.awt.GridBagConstraints();
@@ -827,7 +835,7 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(68, 297, 0, 0);
         jPanel27.add(jLabel7, gridBagConstraints);
 
-        jButton18.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton18.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
         jButton18.setForeground(new java.awt.Color(227, 11, 93));
         jButton18.setText("Fines");
         jButton18.addActionListener(new java.awt.event.ActionListener() {
@@ -845,7 +853,7 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(45, 260, 38, 0);
         jPanel27.add(jButton18, gridBagConstraints);
 
-        jButton16.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jButton16.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
         jButton16.setForeground(new java.awt.Color(227, 11, 93));
         jButton16.setText("Issue Book");
         jButton16.addActionListener(new java.awt.event.ActionListener() {
@@ -1729,241 +1737,6 @@ public class New_Login extends javax.swing.JFrame {
         jPanel10.setBackground(new java.awt.Color(0, 128, 128));
         jPanel10.setLayout(new java.awt.GridBagLayout());
 
-        jLabel20.setFont(new java.awt.Font("Segoe UI", 3, 30)); // NOI18N
-        jLabel20.setForeground(new java.awt.Color(255, 223, 0));
-        jLabel20.setText(" ADD BOOK ");
-        jLabel20.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 0;
-        gridBagConstraints.gridwidth = 11;
-        gridBagConstraints.gridheight = 2;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(6, 234, 0, 0);
-        jPanel10.add(jLabel20, gridBagConstraints);
-
-        jLabel21.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel21.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel21.setText("Book ID");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 2;
-        gridBagConstraints.gridwidth = 2;
-        gridBagConstraints.ipadx = 67;
-        gridBagConstraints.ipady = 6;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(23, 106, 0, 0);
-        jPanel10.add(jLabel21, gridBagConstraints);
-
-        jLabel22.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel22.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel22.setText("Title");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 3;
-        gridBagConstraints.ipadx = 90;
-        gridBagConstraints.ipady = 6;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(39, 106, 0, 0);
-        jPanel10.add(jLabel22, gridBagConstraints);
-
-        jLabel24.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel24.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel24.setText("Author Name");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 4;
-        gridBagConstraints.ipadx = 4;
-        gridBagConstraints.ipady = 6;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(36, 106, 0, 0);
-        jPanel10.add(jLabel24, gridBagConstraints);
-
-        jLabel25.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel25.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel25.setText("ISBN");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 5;
-        gridBagConstraints.ipadx = 86;
-        gridBagConstraints.ipady = 6;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(35, 106, 0, 0);
-        jPanel10.add(jLabel25, gridBagConstraints);
-
-        jLabel26.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel26.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel26.setText("Publisher Name");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 6;
-        gridBagConstraints.gridwidth = 3;
-        gridBagConstraints.ipady = 6;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(38, 106, 0, 0);
-        jPanel10.add(jLabel26, gridBagConstraints);
-
-        jLabel27.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel27.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel27.setText("Price");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 7;
-        gridBagConstraints.gridwidth = 3;
-        gridBagConstraints.ipadx = 104;
-        gridBagConstraints.ipady = 6;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(52, 106, 0, 0);
-        jPanel10.add(jLabel27, gridBagConstraints);
-
-        jLabel28.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel28.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel28.setText("Status");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 8;
-        gridBagConstraints.gridwidth = 4;
-        gridBagConstraints.ipadx = 135;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(48, 106, 0, 0);
-        jPanel10.add(jLabel28, gridBagConstraints);
-
-        jButton25.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jButton25.setForeground(new java.awt.Color(227, 11, 93));
-        jButton25.setText("ADD");
-        jButton25.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton25ActionPerformed(evt);
-            }
-        });
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 5;
-        gridBagConstraints.gridy = 10;
-        gridBagConstraints.gridwidth = 6;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(29, 18, 0, 0);
-        jPanel10.add(jButton25, gridBagConstraints);
-
-        jTextField8.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 5;
-        gridBagConstraints.gridy = 2;
-        gridBagConstraints.gridwidth = 20;
-        gridBagConstraints.ipadx = 166;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(23, 50, 0, 0);
-        jPanel10.add(jTextField8, gridBagConstraints);
-
-        jTextField10.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 5;
-        gridBagConstraints.gridy = 3;
-        gridBagConstraints.gridwidth = 20;
-        gridBagConstraints.ipadx = 166;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(39, 50, 0, 0);
-        jPanel10.add(jTextField10, gridBagConstraints);
-
-        jTextField12.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 5;
-        gridBagConstraints.gridy = 4;
-        gridBagConstraints.gridwidth = 20;
-        gridBagConstraints.ipadx = 166;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(36, 50, 0, 0);
-        jPanel10.add(jTextField12, gridBagConstraints);
-
-        jTextField13.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 5;
-        gridBagConstraints.gridy = 5;
-        gridBagConstraints.gridwidth = 20;
-        gridBagConstraints.ipadx = 166;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(35, 50, 0, 0);
-        jPanel10.add(jTextField13, gridBagConstraints);
-
-        jTextField20.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 5;
-        gridBagConstraints.gridy = 6;
-        gridBagConstraints.gridwidth = 20;
-        gridBagConstraints.ipadx = 166;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(38, 50, 0, 0);
-        jPanel10.add(jTextField20, gridBagConstraints);
-
-        jTextField21.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 5;
-        gridBagConstraints.gridy = 7;
-        gridBagConstraints.gridwidth = 20;
-        gridBagConstraints.ipadx = 166;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(52, 50, 0, 0);
-        jPanel10.add(jTextField21, gridBagConstraints);
-
-        jRadioButton3.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jRadioButton3.setForeground(new java.awt.Color(255, 255, 255));
-        jRadioButton3.setText("Borrowable");
-        jRadioButton3.setActionCommand("Borrowable");
-        buttonGroup2.add(jRadioButton3);
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 5;
-        gridBagConstraints.gridy = 8;
-        gridBagConstraints.gridwidth = 15;
-        gridBagConstraints.gridheight = 2;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(46, 38, 0, 0);
-        jPanel10.add(jRadioButton3, gridBagConstraints);
-
-        jRadioButton4.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jRadioButton4.setForeground(new java.awt.Color(255, 255, 255));
-        jRadioButton4.setText("Restricted");
-        jRadioButton4.setActionCommand("Restricted");
-        buttonGroup2.add(jRadioButton4);
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 24;
-        gridBagConstraints.gridy = 8;
-        gridBagConstraints.gridwidth = 21;
-        gridBagConstraints.gridheight = 2;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(46, 41, 0, 0);
-        jPanel10.add(jRadioButton4, gridBagConstraints);
-
-        jButton45.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jButton45.setForeground(new java.awt.Color(227, 11, 93));
-        jButton45.setText("Insert using CSV file");
-        jButton45.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton45ActionPerformed(evt);
-            }
-        });
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 11;
-        gridBagConstraints.gridwidth = 5;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(35, 95, 35, 0);
-        jPanel10.add(jButton45, gridBagConstraints);
-
-        jButton46.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jButton46.setForeground(new java.awt.Color(227, 11, 93));
-        jButton46.setText("Insert using Excel file");
-        jButton46.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton46ActionPerformed(evt);
-            }
-        });
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 11;
-        gridBagConstraints.gridy = 11;
-        gridBagConstraints.gridwidth = 35;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(35, 17, 35, 102);
-        jPanel10.add(jButton46, gridBagConstraints);
-
         jButton60.setText("🢀 ");
         jButton60.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1973,14 +1746,266 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
+        gridBagConstraints.ipady = 16;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(6, 0, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(25, 72, 0, 0);
         jPanel10.add(jButton60, gridBagConstraints);
+
+        jPanel33.setBackground(new java.awt.Color(0, 128, 128));
+        jPanel33.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(102, 0, 0), 4));
+        jPanel33.setLayout(new java.awt.GridBagLayout());
+
+        jLabel20.setFont(new java.awt.Font("Times New Roman", 1, 30)); // NOI18N
+        jLabel20.setForeground(new java.awt.Color(255, 223, 0));
+        jLabel20.setText(" ADD BOOK ");
+        jLabel20.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.gridwidth = 11;
+        gridBagConstraints.ipadx = 25;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(19, 189, 0, 0);
+        jPanel33.add(jLabel20, gridBagConstraints);
+
+        jTextField8.setFont(new java.awt.Font("Times New Roman", 0, 20)); // NOI18N
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 4;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.gridwidth = 20;
+        gridBagConstraints.ipadx = 166;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(28, 42, 0, 0);
+        jPanel33.add(jTextField8, gridBagConstraints);
+
+        jLabel21.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jLabel21.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel21.setText("Book ID");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.ipadx = 61;
+        gridBagConstraints.ipady = 9;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(31, 76, 0, 0);
+        jPanel33.add(jLabel21, gridBagConstraints);
+
+        jLabel22.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jLabel22.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel22.setText("Title");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 3;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.ipadx = 93;
+        gridBagConstraints.ipady = 9;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(32, 76, 0, 0);
+        jPanel33.add(jLabel22, gridBagConstraints);
+
+        jTextField10.setFont(new java.awt.Font("Times New Roman", 0, 20)); // NOI18N
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 4;
+        gridBagConstraints.gridy = 3;
+        gridBagConstraints.gridwidth = 20;
+        gridBagConstraints.ipadx = 166;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(29, 42, 0, 0);
+        jPanel33.add(jTextField10, gridBagConstraints);
+
+        jLabel24.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jLabel24.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel24.setText("Author Name");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 5;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.ipadx = 16;
+        gridBagConstraints.ipady = 9;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(40, 76, 0, 0);
+        jPanel33.add(jLabel24, gridBagConstraints);
+
+        jTextField12.setFont(new java.awt.Font("Times New Roman", 0, 20)); // NOI18N
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 4;
+        gridBagConstraints.gridy = 5;
+        gridBagConstraints.gridwidth = 20;
+        gridBagConstraints.ipadx = 166;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(37, 42, 0, 0);
+        jPanel33.add(jTextField12, gridBagConstraints);
+
+        jLabel25.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jLabel25.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel25.setText("ISBN");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 7;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.ipadx = 85;
+        gridBagConstraints.ipady = 9;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(46, 76, 0, 0);
+        jPanel33.add(jLabel25, gridBagConstraints);
+
+        jTextField13.setFont(new java.awt.Font("Times New Roman", 0, 20)); // NOI18N
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 4;
+        gridBagConstraints.gridy = 7;
+        gridBagConstraints.gridwidth = 20;
+        gridBagConstraints.ipadx = 166;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(43, 42, 0, 0);
+        jPanel33.add(jTextField13, gridBagConstraints);
+
+        jLabel26.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jLabel26.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel26.setText("Publisher Name");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 9;
+        gridBagConstraints.gridwidth = 2;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.ipady = 9;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(45, 76, 0, 0);
+        jPanel33.add(jLabel26, gridBagConstraints);
+
+        jTextField20.setFont(new java.awt.Font("Times New Roman", 0, 20)); // NOI18N
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 4;
+        gridBagConstraints.gridy = 9;
+        gridBagConstraints.gridwidth = 20;
+        gridBagConstraints.ipadx = 166;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(42, 42, 0, 0);
+        jPanel33.add(jTextField20, gridBagConstraints);
+
+        jTextField21.setFont(new java.awt.Font("Times New Roman", 0, 20)); // NOI18N
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 4;
+        gridBagConstraints.gridy = 11;
+        gridBagConstraints.gridwidth = 20;
+        gridBagConstraints.ipadx = 166;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(52, 42, 0, 0);
+        jPanel33.add(jTextField21, gridBagConstraints);
+
+        jLabel27.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jLabel27.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel27.setText("Price");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 11;
+        gridBagConstraints.gridwidth = 3;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.ipadx = 105;
+        gridBagConstraints.ipady = 9;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(55, 76, 0, 0);
+        jPanel33.add(jLabel27, gridBagConstraints);
+
+        jRadioButton3.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jRadioButton3.setForeground(new java.awt.Color(255, 255, 255));
+        jRadioButton3.setText("Borrowable");
+        jRadioButton3.setActionCommand("Borrowable");
+        buttonGroup2.add(jRadioButton3);
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 4;
+        gridBagConstraints.gridy = 13;
+        gridBagConstraints.gridwidth = 15;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(53, 42, 0, 0);
+        jPanel33.add(jRadioButton3, gridBagConstraints);
+
+        jRadioButton4.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jRadioButton4.setForeground(new java.awt.Color(255, 255, 255));
+        jRadioButton4.setText("Restricted");
+        jRadioButton4.setActionCommand("Restricted");
+        buttonGroup2.add(jRadioButton4);
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 23;
+        gridBagConstraints.gridy = 13;
+        gridBagConstraints.gridwidth = 21;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(53, 33, 0, 0);
+        jPanel33.add(jRadioButton4, gridBagConstraints);
+
+        jLabel28.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jLabel28.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel28.setText("Status");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 13;
+        gridBagConstraints.gridwidth = 4;
+        gridBagConstraints.ipadx = 123;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(55, 76, 0, 0);
+        jPanel33.add(jLabel28, gridBagConstraints);
+
+        jButton25.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jButton25.setForeground(new java.awt.Color(227, 11, 93));
+        jButton25.setText("ADD");
+        jButton25.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton25ActionPerformed(evt);
+            }
+        });
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 4;
+        gridBagConstraints.gridy = 15;
+        gridBagConstraints.gridwidth = 6;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(25, 42, 0, 0);
+        jPanel33.add(jButton25, gridBagConstraints);
+
+        jButton45.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jButton45.setForeground(new java.awt.Color(227, 11, 93));
+        jButton45.setText("Insert using CSV file");
+        jButton45.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton45ActionPerformed(evt);
+            }
+        });
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 16;
+        gridBagConstraints.gridwidth = 5;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(31, 110, 28, 0);
+        jPanel33.add(jButton45, gridBagConstraints);
+
+        jButton46.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jButton46.setForeground(new java.awt.Color(227, 11, 93));
+        jButton46.setText("Insert using Excel file");
+        jButton46.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton46ActionPerformed(evt);
+            }
+        });
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 10;
+        gridBagConstraints.gridy = 16;
+        gridBagConstraints.gridwidth = 35;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(31, 9, 28, 101);
+        jPanel33.add(jButton46, gridBagConstraints);
+
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(25, 40, 60, 87);
+        jPanel10.add(jPanel33, gridBagConstraints);
 
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
-        gridBagConstraints.ipadx = 172;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         jFrame9.getContentPane().add(jPanel10, gridBagConstraints);
 
@@ -1989,197 +2014,6 @@ public class New_Login extends javax.swing.JFrame {
 
         jPanel11.setBackground(new java.awt.Color(0, 128, 128));
         jPanel11.setLayout(new java.awt.GridBagLayout());
-
-        jLabel29.setFont(new java.awt.Font("Segoe UI", 1, 30)); // NOI18N
-        jLabel29.setForeground(new java.awt.Color(255, 223, 0));
-        jLabel29.setText(" EDIT BOOK ");
-        jLabel29.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 0;
-        gridBagConstraints.gridwidth = 6;
-        gridBagConstraints.gridheight = 2;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(15, 250, 0, 0);
-        jPanel11.add(jLabel29, gridBagConstraints);
-
-        jLabel30.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel30.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel30.setText("Enter Book ID");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 2;
-        gridBagConstraints.gridheight = 2;
-        gridBagConstraints.ipadx = 17;
-        gridBagConstraints.ipady = 8;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(40, 174, 0, 0);
-        jPanel11.add(jLabel30, gridBagConstraints);
-
-        jTextField22.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 4;
-        gridBagConstraints.gridy = 2;
-        gridBagConstraints.gridwidth = 7;
-        gridBagConstraints.ipadx = 136;
-        gridBagConstraints.ipady = -1;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(41, 63, 0, 0);
-        jPanel11.add(jTextField22, gridBagConstraints);
-
-        jButton29.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jButton29.setForeground(new java.awt.Color(227, 11, 93));
-        jButton29.setText("Find");
-        jButton29.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton29ActionPerformed(evt);
-            }
-        });
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 11;
-        gridBagConstraints.gridy = 2;
-        gridBagConstraints.gridheight = 2;
-        gridBagConstraints.ipady = 1;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(40, 18, 0, 257);
-        jPanel11.add(jButton29, gridBagConstraints);
-
-        jLabel31.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel31.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel31.setText("Title");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 4;
-        gridBagConstraints.ipadx = 105;
-        gridBagConstraints.ipady = 3;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(64, 174, 0, 0);
-        jPanel11.add(jLabel31, gridBagConstraints);
-
-        jLabel32.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel32.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel32.setText("Author Name");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 5;
-        gridBagConstraints.ipadx = 19;
-        gridBagConstraints.ipady = 6;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(37, 174, 0, 0);
-        jPanel11.add(jLabel32, gridBagConstraints);
-
-        jLabel33.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel33.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel33.setText("ISBN");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 6;
-        gridBagConstraints.ipadx = 101;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(47, 174, 0, 0);
-        jPanel11.add(jLabel33, gridBagConstraints);
-
-        jLabel34.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel34.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel34.setText("Publisher Name");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 8;
-        gridBagConstraints.gridwidth = 2;
-        gridBagConstraints.ipady = 6;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(45, 174, 0, 0);
-        jPanel11.add(jLabel34, gridBagConstraints);
-
-        jLabel35.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel35.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel35.setText("Price");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 9;
-        gridBagConstraints.gridwidth = 2;
-        gridBagConstraints.ipadx = 104;
-        gridBagConstraints.ipady = 6;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(46, 174, 0, 0);
-        jPanel11.add(jLabel35, gridBagConstraints);
-
-        jButton30.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jButton30.setForeground(new java.awt.Color(227, 11, 93));
-        jButton30.setText("SAVE");
-        jButton30.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton30ActionPerformed(evt);
-            }
-        });
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
-        gridBagConstraints.gridy = 10;
-        gridBagConstraints.gridwidth = 3;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(69, 2, 156, 0);
-        jPanel11.add(jButton30, gridBagConstraints);
-
-        jTextField23.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 4;
-        gridBagConstraints.gridy = 4;
-        gridBagConstraints.gridwidth = 7;
-        gridBagConstraints.ipadx = 136;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(61, 63, 0, 0);
-        jPanel11.add(jTextField23, gridBagConstraints);
-
-        jTextField24.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 4;
-        gridBagConstraints.gridy = 5;
-        gridBagConstraints.gridwidth = 7;
-        gridBagConstraints.ipadx = 136;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(37, 63, 0, 0);
-        jPanel11.add(jTextField24, gridBagConstraints);
-
-        jTextField25.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
-        jTextField25.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField25ActionPerformed(evt);
-            }
-        });
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 4;
-        gridBagConstraints.gridy = 6;
-        gridBagConstraints.gridwidth = 7;
-        gridBagConstraints.gridheight = 2;
-        gridBagConstraints.ipadx = 136;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(44, 63, 0, 0);
-        jPanel11.add(jTextField25, gridBagConstraints);
-
-        jTextField26.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 4;
-        gridBagConstraints.gridy = 8;
-        gridBagConstraints.gridwidth = 7;
-        gridBagConstraints.ipadx = 136;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(45, 63, 0, 0);
-        jPanel11.add(jTextField26, gridBagConstraints);
-
-        jTextField27.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
-        jTextField27.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField27ActionPerformed(evt);
-            }
-        });
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 4;
-        gridBagConstraints.gridy = 9;
-        gridBagConstraints.gridwidth = 7;
-        gridBagConstraints.ipadx = 136;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(46, 63, 0, 0);
-        jPanel11.add(jTextField27, gridBagConstraints);
 
         jButton61.setText("🢀 ");
         jButton61.addActionListener(new java.awt.event.ActionListener() {
@@ -2190,14 +2024,221 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
+        gridBagConstraints.ipady = 19;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(35, 51, 0, 0);
         jPanel11.add(jButton61, gridBagConstraints);
+
+        jPanel34.setBackground(new java.awt.Color(0, 128, 128));
+        jPanel34.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(102, 0, 0), 4));
+        jPanel34.setLayout(new java.awt.GridBagLayout());
+
+        jLabel29.setFont(new java.awt.Font("Times New Roman", 1, 30)); // NOI18N
+        jLabel29.setForeground(new java.awt.Color(255, 223, 0));
+        jLabel29.setText(" EDIT BOOK ");
+        jLabel29.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.gridwidth = 5;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(10, 194, 0, 0);
+        jPanel34.add(jLabel29, gridBagConstraints);
+
+        jLabel30.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jLabel30.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel30.setText("Enter Book ID");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.gridwidth = 2;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.ipadx = 22;
+        gridBagConstraints.ipady = 11;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(56, 62, 0, 0);
+        jPanel34.add(jLabel30, gridBagConstraints);
+
+        jTextField22.setFont(new java.awt.Font("Times New Roman", 0, 20)); // NOI18N
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 3;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.gridwidth = 6;
+        gridBagConstraints.ipadx = 136;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(54, 45, 0, 0);
+        jPanel34.add(jTextField22, gridBagConstraints);
+
+        jButton29.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jButton29.setForeground(new java.awt.Color(227, 11, 93));
+        jButton29.setText("Find");
+        jButton29.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton29ActionPerformed(evt);
+            }
+        });
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 9;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.ipady = 4;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(56, 50, 0, 122);
+        jPanel34.add(jButton29, gridBagConstraints);
+
+        jLabel31.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jLabel31.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel31.setText("Title");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 3;
+        gridBagConstraints.gridwidth = 2;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.ipadx = 108;
+        gridBagConstraints.ipady = 6;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(52, 62, 0, 0);
+        jPanel34.add(jLabel31, gridBagConstraints);
+
+        jTextField23.setFont(new java.awt.Font("Times New Roman", 0, 20)); // NOI18N
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 3;
+        gridBagConstraints.gridy = 3;
+        gridBagConstraints.gridwidth = 6;
+        gridBagConstraints.ipadx = 136;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(48, 45, 0, 0);
+        jPanel34.add(jTextField23, gridBagConstraints);
+
+        jLabel32.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jLabel32.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel32.setText("Author Name");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 5;
+        gridBagConstraints.gridwidth = 2;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.ipadx = 31;
+        gridBagConstraints.ipady = 9;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(55, 62, 0, 0);
+        jPanel34.add(jLabel32, gridBagConstraints);
+
+        jTextField24.setFont(new java.awt.Font("Times New Roman", 0, 20)); // NOI18N
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 3;
+        gridBagConstraints.gridy = 5;
+        gridBagConstraints.gridwidth = 6;
+        gridBagConstraints.ipadx = 136;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(52, 45, 0, 0);
+        jPanel34.add(jTextField24, gridBagConstraints);
+
+        jTextField25.setFont(new java.awt.Font("Times New Roman", 0, 20)); // NOI18N
+        jTextField25.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField25ActionPerformed(evt);
+            }
+        });
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 3;
+        gridBagConstraints.gridy = 7;
+        gridBagConstraints.gridwidth = 6;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.ipadx = 136;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(54, 45, 0, 0);
+        jPanel34.add(jTextField25, gridBagConstraints);
+
+        jLabel33.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jLabel33.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel33.setText("ISBN");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 7;
+        gridBagConstraints.gridwidth = 2;
+        gridBagConstraints.ipadx = 100;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(61, 62, 0, 0);
+        jPanel34.add(jLabel33, gridBagConstraints);
+
+        jLabel34.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jLabel34.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel34.setText("Publisher Name");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 9;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.ipady = 9;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(67, 62, 0, 0);
+        jPanel34.add(jLabel34, gridBagConstraints);
+
+        jTextField26.setFont(new java.awt.Font("Times New Roman", 0, 20)); // NOI18N
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 3;
+        gridBagConstraints.gridy = 9;
+        gridBagConstraints.gridwidth = 6;
+        gridBagConstraints.ipadx = 136;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(64, 45, 0, 0);
+        jPanel34.add(jTextField26, gridBagConstraints);
+
+        jLabel35.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jLabel35.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel35.setText("Price");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 11;
+        gridBagConstraints.gridwidth = 3;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.ipadx = 105;
+        gridBagConstraints.ipady = 9;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(76, 62, 0, 0);
+        jPanel34.add(jLabel35, gridBagConstraints);
+
+        jTextField27.setFont(new java.awt.Font("Times New Roman", 0, 20)); // NOI18N
+        jTextField27.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField27ActionPerformed(evt);
+            }
+        });
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 3;
+        gridBagConstraints.gridy = 11;
+        gridBagConstraints.gridwidth = 6;
+        gridBagConstraints.ipadx = 136;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(73, 45, 0, 0);
+        jPanel34.add(jTextField27, gridBagConstraints);
+
+        jButton30.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jButton30.setForeground(new java.awt.Color(227, 11, 93));
+        jButton30.setText("SAVE");
+        jButton30.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton30ActionPerformed(evt);
+            }
+        });
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 3;
+        gridBagConstraints.gridy = 13;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(57, 27, 48, 0);
+        jPanel34.add(jButton30, gridBagConstraints);
+
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(6, 58, 22, 104);
+        jPanel11.add(jPanel34, gridBagConstraints);
 
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
-        gridBagConstraints.ipadx = 251;
-        gridBagConstraints.ipady = 150;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         jFrame10.getContentPane().add(jPanel11, gridBagConstraints);
 
@@ -2206,72 +2247,6 @@ public class New_Login extends javax.swing.JFrame {
 
         jPanel12.setBackground(new java.awt.Color(0, 128, 128));
         jPanel12.setLayout(new java.awt.GridBagLayout());
-
-        jLabel36.setFont(new java.awt.Font("Segoe UI", 1, 30)); // NOI18N
-        jLabel36.setForeground(new java.awt.Color(255, 223, 0));
-        jLabel36.setText(" DELETE BOOK ");
-        jLabel36.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 1;
-        gridBagConstraints.gridwidth = 3;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(33, 219, 0, 0);
-        jPanel12.add(jLabel36, gridBagConstraints);
-
-        jLabel37.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel37.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel37.setText("Enter Book ID");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 2;
-        gridBagConstraints.ipady = 7;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(67, 92, 0, 0);
-        jPanel12.add(jLabel37, gridBagConstraints);
-
-        jTextField28.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
-        gridBagConstraints.gridy = 2;
-        gridBagConstraints.gridwidth = 4;
-        gridBagConstraints.gridheight = 2;
-        gridBagConstraints.ipadx = 106;
-        gridBagConstraints.ipady = 2;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(67, 72, 0, 0);
-        jPanel12.add(jTextField28, gridBagConstraints);
-
-        jButton31.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jButton31.setForeground(new java.awt.Color(227, 11, 93));
-        jButton31.setText("DELETE");
-        jButton31.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton31ActionPerformed(evt);
-            }
-        });
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
-        gridBagConstraints.gridy = 4;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(87, 16, 286, 0);
-        jPanel12.add(jButton31, gridBagConstraints);
-
-        jButton41.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jButton41.setForeground(new java.awt.Color(227, 11, 93));
-        jButton41.setText("GET");
-        jButton41.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton41ActionPerformed(evt);
-            }
-        });
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 6;
-        gridBagConstraints.gridy = 2;
-        gridBagConstraints.gridheight = 2;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(68, 34, 0, 214);
-        jPanel12.add(jButton41, gridBagConstraints);
 
         jButton62.setText("🢀 ");
         jButton62.addActionListener(new java.awt.event.ActionListener() {
@@ -2282,17 +2257,93 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
+        gridBagConstraints.ipady = 19;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(6, 6, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(30, 81, 0, 0);
         jPanel12.add(jButton62, gridBagConstraints);
+
+        jPanel35.setBackground(new java.awt.Color(0, 128, 128));
+        jPanel35.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(102, 0, 0), 4));
+        jPanel35.setLayout(new java.awt.GridBagLayout());
+
+        jLabel36.setFont(new java.awt.Font("Times New Roman", 1, 30)); // NOI18N
+        jLabel36.setForeground(new java.awt.Color(255, 223, 0));
+        jLabel36.setText(" DELETE BOOK ");
+        jLabel36.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.gridwidth = 3;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(30, 168, 0, 0);
+        jPanel35.add(jLabel36, gridBagConstraints);
+
+        jLabel37.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jLabel37.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel37.setText("Enter Book ID");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.gridheight = 3;
+        gridBagConstraints.ipady = 10;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(72, 61, 0, 0);
+        jPanel35.add(jLabel37, gridBagConstraints);
+
+        jTextField28.setFont(new java.awt.Font("Times New Roman", 0, 20)); // NOI18N
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.gridwidth = 4;
+        gridBagConstraints.ipadx = 106;
+        gridBagConstraints.ipady = 1;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(70, 63, 0, 0);
+        jPanel35.add(jTextField28, gridBagConstraints);
+
+        jButton41.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jButton41.setForeground(new java.awt.Color(227, 11, 93));
+        jButton41.setText("GET");
+        jButton41.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton41ActionPerformed(evt);
+            }
+        });
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 5;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(74, 41, 0, 105);
+        jPanel35.add(jButton41, gridBagConstraints);
+
+        jButton31.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jButton31.setForeground(new java.awt.Color(227, 11, 93));
+        jButton31.setText("DELETE");
+        jButton31.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton31ActionPerformed(evt);
+            }
+        });
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 4;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(104, 42, 150, 0);
+        jPanel35.add(jButton31, gridBagConstraints);
+
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(56, 28, 145, 150);
+        jPanel12.add(jPanel35, gridBagConstraints);
 
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
-        gridBagConstraints.ipadx = 208;
-        gridBagConstraints.ipady = 280;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(0, 0, 6, 6);
         jFrame11.getContentPane().add(jPanel12, gridBagConstraints);
 
         jFrame12.setResizable(false);
@@ -2300,97 +2351,6 @@ public class New_Login extends javax.swing.JFrame {
 
         jPanel13.setBackground(new java.awt.Color(0, 128, 128));
         jPanel13.setLayout(new java.awt.GridBagLayout());
-
-        jLabel38.setFont(new java.awt.Font("Segoe UI", 1, 30)); // NOI18N
-        jLabel38.setForeground(new java.awt.Color(255, 223, 0));
-        jLabel38.setText(" UPDATE BOOK STATUS ");
-        jLabel38.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 1;
-        gridBagConstraints.gridwidth = 5;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(26, 156, 0, 0);
-        jPanel13.add(jLabel38, gridBagConstraints);
-
-        jLabel39.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel39.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel39.setText("Enter Book ID");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 2;
-        gridBagConstraints.gridheight = 2;
-        gridBagConstraints.ipadx = 11;
-        gridBagConstraints.ipady = 6;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(63, 100, 0, 0);
-        jPanel13.add(jLabel39, gridBagConstraints);
-
-        jLabel40.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel40.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel40.setText("Select Status");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 5;
-        gridBagConstraints.ipadx = 20;
-        gridBagConstraints.ipady = 5;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(46, 100, 0, 0);
-        jPanel13.add(jLabel40, gridBagConstraints);
-
-        jTextField29.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
-        gridBagConstraints.gridy = 2;
-        gridBagConstraints.gridwidth = 2;
-        gridBagConstraints.ipadx = 86;
-        gridBagConstraints.ipady = -1;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(63, 80, 0, 0);
-        jPanel13.add(jTextField29, gridBagConstraints);
-
-        jComboBox1.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Lost Book", "Torn Book", "Borrowable", "Restricted" }));
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
-        gridBagConstraints.gridy = 5;
-        gridBagConstraints.gridwidth = 3;
-        gridBagConstraints.ipadx = 5;
-        gridBagConstraints.ipady = -1;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(46, 80, 0, 0);
-        jPanel13.add(jComboBox1, gridBagConstraints);
-
-        jButton32.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jButton32.setForeground(new java.awt.Color(227, 11, 93));
-        jButton32.setText("UPDATE");
-        jButton32.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton32ActionPerformed(evt);
-            }
-        });
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
-        gridBagConstraints.gridy = 6;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(63, 38, 246, 0);
-        jPanel13.add(jButton32, gridBagConstraints);
-
-        jButton40.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jButton40.setForeground(new java.awt.Color(227, 11, 93));
-        jButton40.setText("GET");
-        jButton40.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton40ActionPerformed(evt);
-            }
-        });
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 6;
-        gridBagConstraints.gridy = 2;
-        gridBagConstraints.gridheight = 3;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(63, 4, 0, 175);
-        jPanel13.add(jButton40, gridBagConstraints);
 
         jButton63.setText("🢀 ");
         jButton63.addActionListener(new java.awt.event.ActionListener() {
@@ -2401,17 +2361,119 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
+        gridBagConstraints.ipady = 21;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(6, 6, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(26, 52, 0, 0);
         jPanel13.add(jButton63, gridBagConstraints);
+
+        jPanel36.setBackground(new java.awt.Color(0, 128, 128));
+        jPanel36.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(102, 0, 0), 4));
+        jPanel36.setLayout(new java.awt.GridBagLayout());
+
+        jLabel38.setFont(new java.awt.Font("Times New Roman", 1, 30)); // NOI18N
+        jLabel38.setForeground(new java.awt.Color(255, 223, 0));
+        jLabel38.setText(" UPDATE BOOK STATUS ");
+        jLabel38.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.gridwidth = 5;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(18, 143, 0, 0);
+        jPanel36.add(jLabel38, gridBagConstraints);
+
+        jLabel39.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jLabel39.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel39.setText("Enter Book ID");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.ipadx = 16;
+        gridBagConstraints.ipady = 9;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(38, 72, 0, 0);
+        jPanel36.add(jLabel39, gridBagConstraints);
+
+        jTextField29.setFont(new java.awt.Font("Times New Roman", 0, 20)); // NOI18N
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.gridwidth = 2;
+        gridBagConstraints.ipadx = 86;
+        gridBagConstraints.ipady = 2;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(38, 61, 0, 0);
+        jPanel36.add(jTextField29, gridBagConstraints);
+
+        jButton40.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jButton40.setForeground(new java.awt.Color(227, 11, 93));
+        jButton40.setText("GET");
+        jButton40.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton40ActionPerformed(evt);
+            }
+        });
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 4;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.gridwidth = 6;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(39, 41, 0, 116);
+        jPanel36.add(jButton40, gridBagConstraints);
+
+        jLabel40.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jLabel40.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel40.setText("Select Status");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 3;
+        gridBagConstraints.ipadx = 33;
+        gridBagConstraints.ipady = 8;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(72, 72, 0, 0);
+        jPanel36.add(jLabel40, gridBagConstraints);
+
+        jComboBox1.setFont(new java.awt.Font("Times New Roman", 0, 20)); // NOI18N
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Lost Book", "Torn Book", "Borrowable", "Restricted" }));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 3;
+        gridBagConstraints.gridwidth = 3;
+        gridBagConstraints.ipadx = 16;
+        gridBagConstraints.ipady = 2;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(72, 61, 0, 0);
+        jPanel36.add(jComboBox1, gridBagConstraints);
+
+        jButton32.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jButton32.setForeground(new java.awt.Color(227, 11, 93));
+        jButton32.setText("UPDATE");
+        jButton32.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton32ActionPerformed(evt);
+            }
+        });
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 4;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(72, 21, 111, 0);
+        jPanel36.add(jButton32, gridBagConstraints);
+
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(68, 33, 149, 236);
+        jPanel13.add(jPanel36, gridBagConstraints);
 
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
-        gridBagConstraints.ipadx = 169;
-        gridBagConstraints.ipady = 240;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(0, 0, 11, 18);
+        gridBagConstraints.insets = new java.awt.Insets(0, 0, 74, 0);
         jFrame12.getContentPane().add(jPanel13, gridBagConstraints);
 
         jFrame13.setResizable(false);
@@ -2419,173 +2481,6 @@ public class New_Login extends javax.swing.JFrame {
 
         jPanel14.setBackground(new java.awt.Color(0, 128, 128));
         jPanel14.setLayout(new java.awt.GridBagLayout());
-
-        jLabel47.setFont(new java.awt.Font("Segoe UI", 3, 30)); // NOI18N
-        jLabel47.setForeground(new java.awt.Color(255, 223, 0));
-        jLabel47.setText("ISSUE BOOK");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 1;
-        gridBagConstraints.gridwidth = 4;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(24, 130, 0, 0);
-        jPanel14.add(jLabel47, gridBagConstraints);
-
-        jLabel48.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel48.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel48.setText("Book ID");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 4;
-        gridBagConstraints.gridwidth = 2;
-        gridBagConstraints.ipadx = 50;
-        gridBagConstraints.ipady = 6;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(29, 19, 0, 0);
-        jPanel14.add(jLabel48, gridBagConstraints);
-
-        jTextField30.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 3;
-        gridBagConstraints.gridy = 2;
-        gridBagConstraints.gridwidth = 5;
-        gridBagConstraints.ipadx = 188;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(28, 83, 0, 0);
-        jPanel14.add(jTextField30, gridBagConstraints);
-
-        jLabel49.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel49.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel49.setText("User ID");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 2;
-        gridBagConstraints.ipadx = 49;
-        gridBagConstraints.ipady = 6;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(28, 19, 0, 0);
-        jPanel14.add(jLabel49, gridBagConstraints);
-
-        jTextField31.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
-        jTextField31.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField31ActionPerformed(evt);
-            }
-        });
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 3;
-        gridBagConstraints.gridy = 4;
-        gridBagConstraints.gridwidth = 5;
-        gridBagConstraints.ipadx = 188;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(29, 83, 0, 0);
-        jPanel14.add(jTextField31, gridBagConstraints);
-
-        jLabel50.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel50.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel50.setText("Issue Date");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 6;
-        gridBagConstraints.gridwidth = 2;
-        gridBagConstraints.ipadx = 27;
-        gridBagConstraints.ipady = 14;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(35, 19, 0, 0);
-        jPanel14.add(jLabel50, gridBagConstraints);
-
-        jLabel51.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel51.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel51.setText("Return Date");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 7;
-        gridBagConstraints.gridwidth = 2;
-        gridBagConstraints.ipadx = 10;
-        gridBagConstraints.ipady = 15;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(43, 19, 0, 0);
-        jPanel14.add(jLabel51, gridBagConstraints);
-
-        jButton23.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jButton23.setForeground(new java.awt.Color(227, 11, 93));
-        jButton23.setText("ISSUE");
-        jButton23.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton23ActionPerformed(evt);
-            }
-        });
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 3;
-        gridBagConstraints.gridy = 8;
-        gridBagConstraints.ipadx = 11;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(67, 21, 230, 0);
-        jPanel14.add(jButton23, gridBagConstraints);
-
-        jDateChooser1.setFont(new java.awt.Font("Segoe UI", 0, 20));
-        Date date = new Date();
-        jDateChooser1.setDate(date);
-        jDateChooser1.addPropertyChangeListener(new java.beans.PropertyChangeListener() {
-            public void propertyChange(java.beans.PropertyChangeEvent evt) {
-                jDateChooser1PropertyChange(evt);
-            }
-        });
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 3;
-        gridBagConstraints.gridy = 6;
-        gridBagConstraints.gridwidth = 6;
-        gridBagConstraints.ipadx = 182;
-        gridBagConstraints.ipady = 19;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(35, 83, 0, 0);
-        jPanel14.add(jDateChooser1, gridBagConstraints);
-
-        jDateChooser2.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
-        jDateChooser2.setDate(new Date(jDateChooser1.getDate().getTime()+7*24*60*60*1000));
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 3;
-        gridBagConstraints.gridy = 7;
-        gridBagConstraints.gridwidth = 6;
-        gridBagConstraints.ipadx = 182;
-        gridBagConstraints.ipady = 9;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(43, 83, 0, 0);
-        jPanel14.add(jDateChooser2, gridBagConstraints);
-
-        jButton42.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jButton42.setForeground(new java.awt.Color(227, 11, 93));
-        jButton42.setText("FETCH");
-        jButton42.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton42ActionPerformed(evt);
-            }
-        });
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 9;
-        gridBagConstraints.gridy = 2;
-        gridBagConstraints.gridheight = 2;
-        gridBagConstraints.ipadx = 4;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(28, 28, 0, 231);
-        jPanel14.add(jButton42, gridBagConstraints);
-
-        jButton43.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jButton43.setForeground(new java.awt.Color(227, 11, 93));
-        jButton43.setText("FETCH");
-        jButton43.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton43ActionPerformed(evt);
-            }
-        });
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 9;
-        gridBagConstraints.gridy = 4;
-        gridBagConstraints.gridheight = 2;
-        gridBagConstraints.ipadx = 4;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(29, 28, 0, 231);
-        jPanel14.add(jButton43, gridBagConstraints);
 
         jButton64.setText("🢀 ");
         jButton64.addActionListener(new java.awt.event.ActionListener() {
@@ -2596,15 +2491,201 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
+        gridBagConstraints.ipady = 23;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(47, 70, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(6, 29, 0, 0);
         jPanel14.add(jButton64, gridBagConstraints);
+
+        jPanel37.setBackground(new java.awt.Color(0, 128, 128));
+        jPanel37.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(102, 0, 0), 4));
+        jPanel37.setLayout(new java.awt.GridBagLayout());
+
+        jLabel47.setFont(new java.awt.Font("Times New Roman", 1, 30)); // NOI18N
+        jLabel47.setForeground(new java.awt.Color(255, 223, 0));
+        jLabel47.setText("ISSUE BOOK");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 2;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.gridwidth = 2;
+        gridBagConstraints.ipadx = 10;
+        gridBagConstraints.ipady = 9;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(10, 32, 0, 0);
+        jPanel37.add(jLabel47, gridBagConstraints);
+
+        jLabel49.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jLabel49.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel49.setText("User ID");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.gridwidth = 2;
+        gridBagConstraints.gridheight = 3;
+        gridBagConstraints.ipadx = 50;
+        gridBagConstraints.ipady = 9;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(28, 56, 0, 0);
+        jPanel37.add(jLabel49, gridBagConstraints);
+
+        jTextField30.setFont(new java.awt.Font("Times New Roman", 0, 20)); // NOI18N
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 2;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.gridwidth = 3;
+        gridBagConstraints.ipadx = 188;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(29, 49, 0, 0);
+        jPanel37.add(jTextField30, gridBagConstraints);
+
+        jButton42.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jButton42.setForeground(new java.awt.Color(227, 11, 93));
+        jButton42.setText("FETCH");
+        jButton42.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton42ActionPerformed(evt);
+            }
+        });
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 6;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.ipadx = 15;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(29, 54, 0, 92);
+        jPanel37.add(jButton42, gridBagConstraints);
+
+        jLabel48.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jLabel48.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel48.setText("Book ID");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 4;
+        gridBagConstraints.gridwidth = 2;
+        gridBagConstraints.gridheight = 3;
+        gridBagConstraints.ipadx = 53;
+        gridBagConstraints.ipady = 9;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(52, 50, 0, 0);
+        jPanel37.add(jLabel48, gridBagConstraints);
+
+        jTextField31.setFont(new java.awt.Font("Times New Roman", 0, 20)); // NOI18N
+        jTextField31.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField31ActionPerformed(evt);
+            }
+        });
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 2;
+        gridBagConstraints.gridy = 4;
+        gridBagConstraints.gridwidth = 3;
+        gridBagConstraints.ipadx = 188;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(53, 49, 0, 0);
+        jPanel37.add(jTextField31, gridBagConstraints);
+
+        jButton43.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jButton43.setForeground(new java.awt.Color(227, 11, 93));
+        jButton43.setText("FETCH");
+        jButton43.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton43ActionPerformed(evt);
+            }
+        });
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 6;
+        gridBagConstraints.gridy = 4;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.ipadx = 15;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(53, 54, 0, 92);
+        jPanel37.add(jButton43, gridBagConstraints);
+
+        jLabel50.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jLabel50.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel50.setText("Issue Date");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 7;
+        gridBagConstraints.ipadx = 34;
+        gridBagConstraints.ipady = 17;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(46, 44, 0, 0);
+        jPanel37.add(jLabel50, gridBagConstraints);
+
+        jDateChooser1.setFont(new java.awt.Font("Times New Roman", 0, 20));
+        Date date = new Date();
+        jDateChooser1.setDate(date);
+        jDateChooser1.addPropertyChangeListener(new java.beans.PropertyChangeListener() {
+            public void propertyChange(java.beans.PropertyChangeEvent evt) {
+                jDateChooser1PropertyChange(evt);
+            }
+        });
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 2;
+        gridBagConstraints.gridy = 7;
+        gridBagConstraints.gridwidth = 4;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.ipadx = 182;
+        gridBagConstraints.ipady = 19;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(49, 49, 0, 0);
+        jPanel37.add(jDateChooser1, gridBagConstraints);
+
+        jLabel51.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jLabel51.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel51.setText("Return Date");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 9;
+        gridBagConstraints.ipadx = 19;
+        gridBagConstraints.ipady = 18;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(40, 44, 0, 0);
+        jPanel37.add(jLabel51, gridBagConstraints);
+
+        jDateChooser2.setFont(new java.awt.Font("Times New Roman", 0, 20));
+        jDateChooser2.setDate(new Date(jDateChooser1.getDate().getTime()+7*24*60*60*1000));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 2;
+        gridBagConstraints.gridy = 9;
+        gridBagConstraints.gridwidth = 4;
+        gridBagConstraints.ipadx = 182;
+        gridBagConstraints.ipady = 20;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(40, 49, 0, 0);
+        jPanel37.add(jDateChooser2, gridBagConstraints);
+
+        jButton23.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jButton23.setForeground(new java.awt.Color(227, 11, 93));
+        jButton23.setText("ISSUE");
+        jButton23.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton23ActionPerformed(evt);
+            }
+        });
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 2;
+        gridBagConstraints.gridy = 10;
+        gridBagConstraints.ipadx = 7;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(72, 32, 70, 0);
+        jPanel37.add(jButton23, gridBagConstraints);
+
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.ipadx = 6;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(44, 38, 127, 73);
+        jPanel14.add(jPanel37, gridBagConstraints);
 
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
-        gridBagConstraints.ipadx = -6;
+        gridBagConstraints.ipadx = 6;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(0, 0, 32, 0);
         jFrame13.getContentPane().add(jPanel14, gridBagConstraints);
 
         jFrame14.setResizable(false);
@@ -2613,159 +2694,16 @@ public class New_Login extends javax.swing.JFrame {
         jPanel15.setBackground(new java.awt.Color(0, 128, 128));
         jPanel15.setLayout(new java.awt.GridBagLayout());
 
-        jLabel52.setFont(new java.awt.Font("Segoe UI", 3, 30)); // NOI18N
-        jLabel52.setForeground(new java.awt.Color(255, 223, 0));
-        jLabel52.setText("RETURN BOOK");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
-        gridBagConstraints.gridy = 1;
-        gridBagConstraints.gridwidth = 6;
-        gridBagConstraints.ipadx = 16;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(34, 31, 0, 0);
-        jPanel15.add(jLabel52, gridBagConstraints);
-
-        jLabel53.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel53.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel53.setText("User ID");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 2;
-        gridBagConstraints.ipadx = 22;
-        gridBagConstraints.ipady = 6;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(46, 90, 0, 0);
-        jPanel15.add(jLabel53, gridBagConstraints);
-
-        jTextField34.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
-        gridBagConstraints.gridy = 2;
-        gridBagConstraints.gridwidth = 14;
-        gridBagConstraints.ipadx = 163;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(46, 57, 0, 0);
-        jPanel15.add(jTextField34, gridBagConstraints);
-
-        jButton17.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jButton17.setForeground(new java.awt.Color(227, 11, 93));
-        jButton17.setText("FIND");
-        jButton17.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton17ActionPerformed(evt);
-            }
-        });
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 23;
-        gridBagConstraints.gridy = 2;
-        gridBagConstraints.gridwidth = 16;
-        gridBagConstraints.gridheight = 2;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(46, 41, 0, 0);
-        jPanel15.add(jButton17, gridBagConstraints);
-
-        jLabel54.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel54.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel54.setText("Select Book To be Returned ");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 4;
-        gridBagConstraints.gridwidth = 3;
-        gridBagConstraints.gridheight = 2;
-        gridBagConstraints.ipady = 6;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(60, 90, 0, 0);
-        jPanel15.add(jLabel54, gridBagConstraints);
-
-        jComboBox3.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
-        jComboBox3.addItemListener(new java.awt.event.ItemListener() {
-            public void itemStateChanged(java.awt.event.ItemEvent evt) {
-                jComboBox3ItemStateChanged(evt);
-            }
-        });
-        jComboBox3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jComboBox3ActionPerformed(evt);
-            }
-        });
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 6;
-        gridBagConstraints.gridy = 4;
-        gridBagConstraints.gridwidth = 34;
-        gridBagConstraints.gridheight = 2;
-        gridBagConstraints.ipadx = 152;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(60, 29, 0, 0);
-        jPanel15.add(jComboBox3, gridBagConstraints);
-
-        jButton33.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jButton33.setForeground(new java.awt.Color(227, 11, 93));
-        jButton33.setText("Return");
-        jButton33.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton33ActionPerformed(evt);
-            }
-        });
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 3;
-        gridBagConstraints.gridy = 7;
-        gridBagConstraints.gridwidth = 7;
-        gridBagConstraints.ipadx = 19;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(33, 91, 212, 0);
-        jPanel15.add(jButton33, gridBagConstraints);
-
-        jRadioButton6.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jRadioButton6.setForeground(new java.awt.Color(255, 255, 255));
-        jRadioButton6.setText("Damage");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 6;
-        gridBagConstraints.gridwidth = 2;
-        gridBagConstraints.ipadx = 19;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(54, 151, 0, 0);
-        jPanel15.add(jRadioButton6, gridBagConstraints);
-
-        jRadioButton7.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jRadioButton7.setForeground(new java.awt.Color(255, 255, 255));
-        jRadioButton7.setText("Lost");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 3;
-        gridBagConstraints.gridy = 6;
-        gridBagConstraints.gridwidth = 4;
-        gridBagConstraints.ipadx = 47;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(54, 57, 0, 0);
-        jPanel15.add(jRadioButton7, gridBagConstraints);
-
-        jRadioButton8.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jRadioButton8.setForeground(new java.awt.Color(255, 255, 255));
-        jRadioButton8.setText("All Good");
-        jRadioButton8.setSelected(true);
-        jRadioButton8.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton8ActionPerformed(evt);
-            }
-        });
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 9;
-        gridBagConstraints.gridy = 6;
-        gridBagConstraints.gridwidth = 15;
-        gridBagConstraints.ipadx = 16;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(54, 9, 0, 0);
-        jPanel15.add(jRadioButton8, gridBagConstraints);
-
         jLabel88.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         jLabel88.setForeground(new java.awt.Color(255, 0, 0));
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 40;
-        gridBagConstraints.gridy = 4;
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 2;
+        gridBagConstraints.gridwidth = 2;
         gridBagConstraints.ipadx = 125;
         gridBagConstraints.ipady = 33;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(42, 18, 0, 70);
+        gridBagConstraints.insets = new java.awt.Insets(6, 718, 131, 45);
         jPanel15.add(jLabel88, gridBagConstraints);
 
         jButton65.setText("🢀 ");
@@ -2777,15 +2715,168 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
+        gridBagConstraints.ipady = 17;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(6, 0, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(23, 32, 0, 0);
         jPanel15.add(jButton65, gridBagConstraints);
+
+        jPanel38.setBackground(new java.awt.Color(0, 128, 128));
+        jPanel38.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(102, 0, 0), 4));
+        jPanel38.setLayout(new java.awt.GridBagLayout());
+
+        jLabel52.setFont(new java.awt.Font("Times New Roman", 1, 30)); // NOI18N
+        jLabel52.setForeground(new java.awt.Color(255, 223, 0));
+        jLabel52.setText("RETURN BOOK");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.gridwidth = 10;
+        gridBagConstraints.ipadx = 1;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(24, 39, 0, 0);
+        jPanel38.add(jLabel52, gridBagConstraints);
+
+        jLabel53.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jLabel53.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel53.setText("User ID");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.gridheight = 3;
+        gridBagConstraints.ipadx = 23;
+        gridBagConstraints.ipady = 9;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(45, 58, 0, 0);
+        jPanel38.add(jLabel53, gridBagConstraints);
+
+        jTextField34.setFont(new java.awt.Font("Times New Roman", 0, 20)); // NOI18N
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 5;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.gridwidth = 11;
+        gridBagConstraints.ipadx = 163;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(46, 33, 0, 0);
+        jPanel38.add(jTextField34, gridBagConstraints);
+
+        jButton17.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jButton17.setForeground(new java.awt.Color(227, 11, 93));
+        jButton17.setText("FIND");
+        jButton17.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton17ActionPerformed(evt);
+            }
+        });
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 16;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(46, 32, 0, 68);
+        jPanel38.add(jButton17, gridBagConstraints);
+
+        jLabel54.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jLabel54.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel54.setText("Select Book To be Returned ");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 4;
+        gridBagConstraints.gridwidth = 3;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.ipady = 9;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(64, 58, 0, 0);
+        jPanel38.add(jLabel54, gridBagConstraints);
+
+        jComboBox3.setFont(new java.awt.Font("Times New Roman", 0, 20)); // NOI18N
+        jComboBox3.addItemListener(new java.awt.event.ItemListener() {
+            public void itemStateChanged(java.awt.event.ItemEvent evt) {
+                jComboBox3ItemStateChanged(evt);
+            }
+        });
+        jComboBox3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBox3ActionPerformed(evt);
+            }
+        });
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 5;
+        gridBagConstraints.gridy = 4;
+        gridBagConstraints.gridwidth = 11;
+        gridBagConstraints.ipadx = 152;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(65, 36, 0, 0);
+        jPanel38.add(jComboBox3, gridBagConstraints);
+
+        jRadioButton6.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jRadioButton6.setForeground(new java.awt.Color(255, 255, 255));
+        jRadioButton6.setText("Damage");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 6;
+        gridBagConstraints.gridwidth = 2;
+        gridBagConstraints.ipadx = 5;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(83, 102, 0, 0);
+        jPanel38.add(jRadioButton6, gridBagConstraints);
+
+        jRadioButton7.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jRadioButton7.setForeground(new java.awt.Color(255, 255, 255));
+        jRadioButton7.setText("Lost");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 2;
+        gridBagConstraints.gridy = 6;
+        gridBagConstraints.gridwidth = 6;
+        gridBagConstraints.ipadx = 37;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(83, 79, 0, 0);
+        jPanel38.add(jRadioButton7, gridBagConstraints);
+
+        jRadioButton8.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jRadioButton8.setForeground(new java.awt.Color(255, 255, 255));
+        jRadioButton8.setText("All Good");
+        jRadioButton8.setSelected(true);
+        jRadioButton8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadioButton8ActionPerformed(evt);
+            }
+        });
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 15;
+        gridBagConstraints.gridy = 6;
+        gridBagConstraints.ipadx = 19;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(83, 25, 0, 0);
+        jPanel38.add(jRadioButton8, gridBagConstraints);
+
+        jButton33.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jButton33.setForeground(new java.awt.Color(227, 11, 93));
+        jButton33.setText("Return");
+        jButton33.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton33ActionPerformed(evt);
+            }
+        });
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 2;
+        gridBagConstraints.gridy = 7;
+        gridBagConstraints.gridwidth = 4;
+        gridBagConstraints.ipadx = 22;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(65, 46, 120, 0);
+        jPanel38.add(jButton33, gridBagConstraints);
+
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(39, 27, 0, 0);
+        jPanel15.add(jPanel38, gridBagConstraints);
 
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
-        gridBagConstraints.ipadx = 64;
-        gridBagConstraints.ipady = 206;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         jFrame14.getContentPane().add(jPanel15, gridBagConstraints);
 
@@ -2794,173 +2885,6 @@ public class New_Login extends javax.swing.JFrame {
 
         jPanel16.setBackground(new java.awt.Color(0, 128, 128));
         jPanel16.setLayout(new java.awt.GridBagLayout());
-
-        jLabel55.setFont(new java.awt.Font("Segoe UI", 3, 30)); // NOI18N
-        jLabel55.setForeground(new java.awt.Color(255, 223, 0));
-        jLabel55.setText("FINES");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 1;
-        gridBagConstraints.gridwidth = 2;
-        gridBagConstraints.ipadx = 22;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(104, 340, 0, 0);
-        jPanel16.add(jLabel55, gridBagConstraints);
-
-        jLabel56.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel56.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel56.setText("Lost Book Fine");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 2;
-        gridBagConstraints.ipadx = 50;
-        gridBagConstraints.ipady = 6;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(29, 172, 0, 0);
-        jPanel16.add(jLabel56, gridBagConstraints);
-
-        jLabel57.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel57.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel57.setText("Damage Book Fine");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 4;
-        gridBagConstraints.ipadx = 13;
-        gridBagConstraints.ipady = 6;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(55, 172, 0, 0);
-        jPanel16.add(jLabel57, gridBagConstraints);
-
-        jLabel58.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel58.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel58.setText("Late Book Fine ");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 6;
-        gridBagConstraints.ipadx = 44;
-        gridBagConstraints.ipady = 6;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(51, 172, 0, 0);
-        jPanel16.add(jLabel58, gridBagConstraints);
-
-        jTextField35.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
-        jTextField35.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField35ActionPerformed(evt);
-            }
-        });
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
-        gridBagConstraints.gridy = 2;
-        gridBagConstraints.gridwidth = 3;
-        gridBagConstraints.ipadx = 62;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(29, 46, 0, 0);
-        jPanel16.add(jTextField35, gridBagConstraints);
-
-        jTextField36.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
-        gridBagConstraints.gridy = 6;
-        gridBagConstraints.gridwidth = 3;
-        gridBagConstraints.ipadx = 62;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(51, 46, 0, 0);
-        jPanel16.add(jTextField36, gridBagConstraints);
-
-        jTextField37.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
-        gridBagConstraints.gridy = 4;
-        gridBagConstraints.gridwidth = 3;
-        gridBagConstraints.ipadx = 62;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(55, 46, 0, 0);
-        jPanel16.add(jTextField37, gridBagConstraints);
-
-        jLabel85.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel85.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel85.setText("%");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 5;
-        gridBagConstraints.gridy = 2;
-        gridBagConstraints.ipadx = 11;
-        gridBagConstraints.ipady = 6;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(29, 18, 0, 0);
-        jPanel16.add(jLabel85, gridBagConstraints);
-
-        jLabel86.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel86.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel86.setText("%");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 5;
-        gridBagConstraints.gridy = 4;
-        gridBagConstraints.ipadx = 11;
-        gridBagConstraints.ipady = 6;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(55, 18, 0, 0);
-        jPanel16.add(jLabel86, gridBagConstraints);
-
-        jLabel87.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel87.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel87.setText("Rs.");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 5;
-        gridBagConstraints.gridy = 6;
-        gridBagConstraints.ipadx = 2;
-        gridBagConstraints.ipady = 6;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(51, 18, 0, 0);
-        jPanel16.add(jLabel87, gridBagConstraints);
-
-        jButton34.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jButton34.setForeground(new java.awt.Color(227, 11, 93));
-        jButton34.setText("SET");
-        jButton34.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton34ActionPerformed(evt);
-            }
-        });
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 6;
-        gridBagConstraints.gridy = 2;
-        gridBagConstraints.gridheight = 2;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(29, 18, 0, 238);
-        jPanel16.add(jButton34, gridBagConstraints);
-
-        jButton44.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jButton44.setForeground(new java.awt.Color(227, 11, 93));
-        jButton44.setText("SET");
-        jButton44.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton44ActionPerformed(evt);
-            }
-        });
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 6;
-        gridBagConstraints.gridy = 4;
-        gridBagConstraints.gridheight = 2;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(55, 18, 0, 238);
-        jPanel16.add(jButton44, gridBagConstraints);
-
-        jButton47.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jButton47.setForeground(new java.awt.Color(227, 11, 93));
-        jButton47.setText("SET");
-        jButton47.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton47ActionPerformed(evt);
-            }
-        });
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 6;
-        gridBagConstraints.gridy = 6;
-        gridBagConstraints.gridheight = 2;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(51, 18, 375, 238);
-        jPanel16.add(jButton47, gridBagConstraints);
 
         jButton66.setText("🢀 ");
         jButton66.addActionListener(new java.awt.event.ActionListener() {
@@ -2971,15 +2895,193 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
+        gridBagConstraints.ipady = 24;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(6, 0, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(17, 22, 0, 0);
         jPanel16.add(jButton66, gridBagConstraints);
+
+        jPanel39.setBackground(new java.awt.Color(0, 128, 128));
+        jPanel39.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(102, 0, 0), 4));
+        jPanel39.setLayout(new java.awt.GridBagLayout());
+
+        jLabel55.setFont(new java.awt.Font("Times New Roman", 1, 30)); // NOI18N
+        jLabel55.setForeground(new java.awt.Color(255, 223, 0));
+        jLabel55.setText("FINES");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.ipadx = 22;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(16, 45, 0, 0);
+        jPanel39.add(jLabel55, gridBagConstraints);
+
+        jLabel56.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jLabel56.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel56.setText("Lost Book Fine");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.ipadx = 50;
+        gridBagConstraints.ipady = 6;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(52, 38, 0, 0);
+        jPanel39.add(jLabel56, gridBagConstraints);
+
+        jTextField35.setFont(new java.awt.Font("Times New Roman", 0, 20)); // NOI18N
+        jTextField35.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField35ActionPerformed(evt);
+            }
+        });
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.gridwidth = 2;
+        gridBagConstraints.ipadx = 62;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(52, 63, 0, 0);
+        jPanel39.add(jTextField35, gridBagConstraints);
+
+        jLabel85.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jLabel85.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel85.setText("%");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 3;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.ipadx = 11;
+        gridBagConstraints.ipady = 6;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(52, 33, 0, 0);
+        jPanel39.add(jLabel85, gridBagConstraints);
+
+        jButton34.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jButton34.setForeground(new java.awt.Color(227, 11, 93));
+        jButton34.setText("SET");
+        jButton34.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton34ActionPerformed(evt);
+            }
+        });
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 4;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(52, 44, 0, 121);
+        jPanel39.add(jButton34, gridBagConstraints);
+
+        jLabel57.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jLabel57.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel57.setText("Damage Book Fine");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 3;
+        gridBagConstraints.ipadx = 13;
+        gridBagConstraints.ipady = 6;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(79, 38, 0, 0);
+        jPanel39.add(jLabel57, gridBagConstraints);
+
+        jTextField37.setFont(new java.awt.Font("Times New Roman", 0, 20)); // NOI18N
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 3;
+        gridBagConstraints.gridwidth = 2;
+        gridBagConstraints.ipadx = 62;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(79, 63, 0, 0);
+        jPanel39.add(jTextField37, gridBagConstraints);
+
+        jLabel86.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jLabel86.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel86.setText("%");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 3;
+        gridBagConstraints.gridy = 3;
+        gridBagConstraints.ipadx = 11;
+        gridBagConstraints.ipady = 6;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(79, 33, 0, 0);
+        jPanel39.add(jLabel86, gridBagConstraints);
+
+        jButton44.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jButton44.setForeground(new java.awt.Color(227, 11, 93));
+        jButton44.setText("SET");
+        jButton44.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton44ActionPerformed(evt);
+            }
+        });
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 4;
+        gridBagConstraints.gridy = 3;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(79, 44, 0, 121);
+        jPanel39.add(jButton44, gridBagConstraints);
+
+        jLabel58.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jLabel58.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel58.setText("Late Book Fine ");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 5;
+        gridBagConstraints.ipadx = 44;
+        gridBagConstraints.ipady = 6;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(74, 38, 0, 0);
+        jPanel39.add(jLabel58, gridBagConstraints);
+
+        jTextField36.setFont(new java.awt.Font("Times New Roman", 0, 20)); // NOI18N
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 5;
+        gridBagConstraints.gridwidth = 2;
+        gridBagConstraints.ipadx = 62;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(74, 63, 0, 0);
+        jPanel39.add(jTextField36, gridBagConstraints);
+
+        jLabel87.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jLabel87.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel87.setText("Rs.");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 3;
+        gridBagConstraints.gridy = 5;
+        gridBagConstraints.ipadx = 2;
+        gridBagConstraints.ipady = 6;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(74, 33, 0, 0);
+        jPanel39.add(jLabel87, gridBagConstraints);
+
+        jButton47.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jButton47.setForeground(new java.awt.Color(227, 11, 93));
+        jButton47.setText("SET");
+        jButton47.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton47ActionPerformed(evt);
+            }
+        });
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 4;
+        gridBagConstraints.gridy = 5;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(74, 44, 109, 121);
+        jPanel39.add(jButton47, gridBagConstraints);
+
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(51, 28, 238, 98);
+        jPanel16.add(jPanel39, gridBagConstraints);
 
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(0, 0, 6, 0);
         jFrame15.getContentPane().add(jPanel16, gridBagConstraints);
 
         jFrame16.setResizable(false);
@@ -2987,225 +3089,6 @@ public class New_Login extends javax.swing.JFrame {
 
         jPanel17.setBackground(new java.awt.Color(0, 128, 128));
         jPanel17.setLayout(new java.awt.GridBagLayout());
-
-        jLabel59.setFont(new java.awt.Font("Segoe UI", 3, 30)); // NOI18N
-        jLabel59.setForeground(new java.awt.Color(255, 223, 0));
-        jLabel59.setText(" Manage Fines ");
-        jLabel59.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 0;
-        gridBagConstraints.gridwidth = 3;
-        gridBagConstraints.gridheight = 2;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(14, 237, 0, 0);
-        jPanel17.add(jLabel59, gridBagConstraints);
-
-        jLabel60.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel60.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel60.setText("User ID");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 2;
-        gridBagConstraints.ipadx = 75;
-        gridBagConstraints.ipady = 7;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(27, 174, 0, 0);
-        jPanel17.add(jLabel60, gridBagConstraints);
-
-        jTextField38.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
-        gridBagConstraints.gridy = 2;
-        gridBagConstraints.gridwidth = 5;
-        gridBagConstraints.ipadx = 97;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(28, 48, 0, 0);
-        jPanel17.add(jTextField38, gridBagConstraints);
-
-        jButton35.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jButton35.setForeground(new java.awt.Color(227, 11, 93));
-        jButton35.setText("Fetch");
-        jButton35.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton35ActionPerformed(evt);
-            }
-        });
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 7;
-        gridBagConstraints.gridy = 2;
-        gridBagConstraints.gridwidth = 13;
-        gridBagConstraints.gridheight = 2;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(28, 29, 0, 180);
-        jPanel17.add(jButton35, gridBagConstraints);
-
-        jLabel61.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel61.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel61.setText("Name");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 4;
-        gridBagConstraints.ipadx = 88;
-        gridBagConstraints.ipady = 9;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(28, 174, 0, 0);
-        jPanel17.add(jLabel61, gridBagConstraints);
-
-        jLabel62.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel62.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel62.setText("Father Name");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 5;
-        gridBagConstraints.ipadx = 22;
-        gridBagConstraints.ipady = 9;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(28, 174, 0, 0);
-        jPanel17.add(jLabel62, gridBagConstraints);
-
-        jLabel63.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel63.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel63.setText("Mobile No.");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 6;
-        gridBagConstraints.ipadx = 38;
-        gridBagConstraints.ipady = 9;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(31, 174, 0, 0);
-        jPanel17.add(jLabel63, gridBagConstraints);
-
-        jLabel64.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel64.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel64.setText("Total Fine");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 7;
-        gridBagConstraints.gridheight = 2;
-        gridBagConstraints.ipadx = 50;
-        gridBagConstraints.ipady = 9;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(30, 175, 0, 0);
-        jPanel17.add(jLabel64, gridBagConstraints);
-
-        jLabel65.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel65.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel65.setText("Status");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 11;
-        gridBagConstraints.gridheight = 2;
-        gridBagConstraints.ipadx = 85;
-        gridBagConstraints.ipady = 9;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(32, 175, 0, 0);
-        jPanel17.add(jLabel65, gridBagConstraints);
-
-        jComboBox4.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
-        jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Unpaid", "Paid" }));
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
-        gridBagConstraints.gridy = 11;
-        gridBagConstraints.gridwidth = 6;
-        gridBagConstraints.ipadx = 91;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(34, 48, 0, 0);
-        jPanel17.add(jComboBox4, gridBagConstraints);
-
-        jButton36.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jButton36.setForeground(new java.awt.Color(227, 11, 93));
-        jButton36.setText("Done");
-        jButton36.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton36ActionPerformed(evt);
-            }
-        });
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 14;
-        gridBagConstraints.gridwidth = 2;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(34, 295, 79, 0);
-        jPanel17.add(jButton36, gridBagConstraints);
-
-        jLabel66.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
-        gridBagConstraints.gridy = 4;
-        gridBagConstraints.gridwidth = 4;
-        gridBagConstraints.ipadx = 157;
-        gridBagConstraints.ipady = 36;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(28, 48, 0, 0);
-        jPanel17.add(jLabel66, gridBagConstraints);
-
-        jLabel67.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
-        gridBagConstraints.gridy = 5;
-        gridBagConstraints.gridwidth = 4;
-        gridBagConstraints.ipadx = 157;
-        gridBagConstraints.ipady = 36;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(28, 48, 0, 0);
-        jPanel17.add(jLabel67, gridBagConstraints);
-
-        jLabel68.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
-        gridBagConstraints.gridy = 6;
-        gridBagConstraints.gridwidth = 4;
-        gridBagConstraints.ipadx = 157;
-        gridBagConstraints.ipady = 36;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(31, 48, 0, 0);
-        jPanel17.add(jLabel68, gridBagConstraints);
-
-        jLabel69.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
-        gridBagConstraints.gridy = 7;
-        gridBagConstraints.gridwidth = 4;
-        gridBagConstraints.ipadx = 157;
-        gridBagConstraints.ipady = 33;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(30, 48, 0, 0);
-        jPanel17.add(jLabel69, gridBagConstraints);
-
-        jLabel70.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel70.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel70.setText("Paying");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 9;
-        gridBagConstraints.gridheight = 2;
-        gridBagConstraints.ipadx = 81;
-        gridBagConstraints.ipady = 10;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(30, 175, 0, 0);
-        jPanel17.add(jLabel70, gridBagConstraints);
-
-        jTextField32.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
-        gridBagConstraints.gridy = 9;
-        gridBagConstraints.gridwidth = 6;
-        gridBagConstraints.ipadx = 136;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(32, 48, 0, 0);
-        jPanel17.add(jTextField32, gridBagConstraints);
-
-        jLabel71.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
-        jLabel71.setForeground(new java.awt.Color(255, 0, 0));
-        jLabel71.setText("* Please keep Status unpaid unless Total fine doesn't become zero after Paying ");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 13;
-        gridBagConstraints.gridwidth = 12;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(30, 78, 0, 0);
-        jPanel17.add(jLabel71, gridBagConstraints);
 
         jButton67.setText("🢀 ");
         jButton67.addActionListener(new java.awt.event.ActionListener() {
@@ -3216,15 +3099,246 @@ public class New_Login extends javax.swing.JFrame {
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
+        gridBagConstraints.ipady = 17;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(6, 0, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(24, 31, 0, 0);
         jPanel17.add(jButton67, gridBagConstraints);
+
+        jPanel40.setBackground(new java.awt.Color(0, 128, 128));
+        jPanel40.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(102, 0, 0), 4));
+        jPanel40.setLayout(new java.awt.GridBagLayout());
+
+        jLabel59.setFont(new java.awt.Font("Segoe UI", 3, 30)); // NOI18N
+        jLabel59.setForeground(new java.awt.Color(255, 223, 0));
+        jLabel59.setText(" Manage Fines ");
+        jLabel59.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.gridwidth = 3;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(14, 239, 0, 0);
+        jPanel40.add(jLabel59, gridBagConstraints);
+
+        jLabel60.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jLabel60.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel60.setText("User ID");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.gridheight = 3;
+        gridBagConstraints.ipadx = 76;
+        gridBagConstraints.ipady = 10;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(16, 136, 0, 0);
+        jPanel40.add(jLabel60, gridBagConstraints);
+
+        jTextField38.setFont(new java.awt.Font("Times New Roman", 0, 20)); // NOI18N
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 2;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.gridwidth = 5;
+        gridBagConstraints.ipadx = 97;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(16, 0, 0, 0);
+        jPanel40.add(jTextField38, gridBagConstraints);
+
+        jButton35.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jButton35.setForeground(new java.awt.Color(227, 11, 93));
+        jButton35.setText("Fetch");
+        jButton35.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton35ActionPerformed(evt);
+            }
+        });
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 8;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(16, 31, 0, 0);
+        jPanel40.add(jButton35, gridBagConstraints);
+
+        jLabel61.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jLabel61.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel61.setText("Name");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 4;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.ipadx = 94;
+        gridBagConstraints.ipady = 12;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(33, 136, 0, 0);
+        jPanel40.add(jLabel61, gridBagConstraints);
+
+        jLabel66.setFont(new java.awt.Font("Times New Roman", 0, 20)); // NOI18N
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 2;
+        gridBagConstraints.gridy = 4;
+        gridBagConstraints.gridwidth = 4;
+        gridBagConstraints.ipadx = 157;
+        gridBagConstraints.ipady = 36;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(12, 0, 0, 0);
+        jPanel40.add(jLabel66, gridBagConstraints);
+
+        jLabel62.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jLabel62.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel62.setText("Father Name");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 6;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.ipadx = 32;
+        gridBagConstraints.ipady = 12;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(32, 136, 0, 0);
+        jPanel40.add(jLabel62, gridBagConstraints);
+
+        jLabel67.setFont(new java.awt.Font("Times New Roman", 0, 20)); // NOI18N
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 2;
+        gridBagConstraints.gridy = 6;
+        gridBagConstraints.gridwidth = 4;
+        gridBagConstraints.ipadx = 157;
+        gridBagConstraints.ipady = 36;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(15, 0, 0, 0);
+        jPanel40.add(jLabel67, gridBagConstraints);
+
+        jLabel63.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jLabel63.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel63.setText("Mobile No.");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 8;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.ipadx = 50;
+        gridBagConstraints.ipady = 12;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(38, 136, 0, 0);
+        jPanel40.add(jLabel63, gridBagConstraints);
+
+        jLabel68.setFont(new java.awt.Font("Times New Roman", 0, 20)); // NOI18N
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 2;
+        gridBagConstraints.gridy = 8;
+        gridBagConstraints.gridwidth = 4;
+        gridBagConstraints.ipadx = 157;
+        gridBagConstraints.ipady = 36;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(24, 0, 0, 0);
+        jPanel40.add(jLabel68, gridBagConstraints);
+
+        jLabel64.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jLabel64.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel64.setText("Total Fine");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 10;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.ipadx = 56;
+        gridBagConstraints.ipady = 12;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(34, 137, 0, 0);
+        jPanel40.add(jLabel64, gridBagConstraints);
+
+        jLabel69.setFont(new java.awt.Font("Times New Roman", 0, 20)); // NOI18N
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 2;
+        gridBagConstraints.gridy = 10;
+        gridBagConstraints.gridwidth = 4;
+        gridBagConstraints.ipadx = 157;
+        gridBagConstraints.ipady = 33;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(20, 0, 0, 0);
+        jPanel40.add(jLabel69, gridBagConstraints);
+
+        jLabel70.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jLabel70.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel70.setText("Paying");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 12;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.ipadx = 84;
+        gridBagConstraints.ipady = 13;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(38, 137, 0, 0);
+        jPanel40.add(jLabel70, gridBagConstraints);
+
+        jTextField32.setFont(new java.awt.Font("Times New Roman", 0, 20)); // NOI18N
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 12;
+        gridBagConstraints.gridwidth = 7;
+        gridBagConstraints.ipadx = 136;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(41, 79, 0, 0);
+        jPanel40.add(jTextField32, gridBagConstraints);
+
+        jLabel65.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jLabel65.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel65.setText("Status");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 14;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.ipadx = 89;
+        gridBagConstraints.ipady = 12;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(38, 137, 0, 0);
+        jPanel40.add(jLabel65, gridBagConstraints);
+
+        jComboBox4.setFont(new java.awt.Font("Times New Roman", 0, 20)); // NOI18N
+        jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Unpaid", "Paid" }));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 14;
+        gridBagConstraints.gridwidth = 7;
+        gridBagConstraints.ipadx = 100;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(41, 79, 0, 0);
+        jPanel40.add(jComboBox4, gridBagConstraints);
+
+        jLabel71.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
+        jLabel71.setForeground(new java.awt.Color(255, 0, 0));
+        jLabel71.setText("* Please keep Status unpaid unless Total fine doesn't become zero after Paying ");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 16;
+        gridBagConstraints.gridwidth = 10;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(45, 100, 0, 31);
+        jPanel40.add(jLabel71, gridBagConstraints);
+
+        jButton36.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jButton36.setForeground(new java.awt.Color(227, 11, 93));
+        jButton36.setText("Done");
+        jButton36.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton36ActionPerformed(evt);
+            }
+        });
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 17;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(34, 10, 32, 0);
+        jPanel40.add(jButton36, gridBagConstraints);
+
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(24, 38, 128, 207);
+        jPanel17.add(jPanel40, gridBagConstraints);
 
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
-        gridBagConstraints.ipadx = 174;
-        gridBagConstraints.ipady = 73;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         jFrame16.getContentPane().add(jPanel17, gridBagConstraints);
 
@@ -3835,7 +3949,7 @@ public class New_Login extends javax.swing.JFrame {
         jPanel24.add(jButton75, gridBagConstraints);
 
         jPanel32.setBackground(new java.awt.Color(0, 123, 123));
-        jPanel32.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 4));
+        jPanel32.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(102, 0, 0), 4));
         jPanel32.setLayout(new java.awt.GridBagLayout());
 
         jLabel89.setFont(new java.awt.Font("Times New Roman", 1, 30)); // NOI18N
@@ -5622,7 +5736,15 @@ public class New_Login extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel30;
     private javax.swing.JPanel jPanel31;
     private javax.swing.JPanel jPanel32;
+    private javax.swing.JPanel jPanel33;
+    private javax.swing.JPanel jPanel34;
+    private javax.swing.JPanel jPanel35;
+    private javax.swing.JPanel jPanel36;
+    private javax.swing.JPanel jPanel37;
+    private javax.swing.JPanel jPanel38;
+    private javax.swing.JPanel jPanel39;
     private javax.swing.JPanel jPanel4;
+    private javax.swing.JPanel jPanel40;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
